@@ -37,6 +37,32 @@ originalTweets.forEach((tweet) => {
   }
   const screenName = get(tweet, 'user.legacy.screenName');
   const tweetUrl = `https://x.com/${screenName}/status/${get(tweet, 'raw.result.legacy.idStr')}`;
+  const isQuoteStatus = get(tweet, 'raw.result.legacy.isQuoteStatus', false);
+
+  // 获取引用推文内容 (使用 tweet.quoted 路径)
+  const quotedStatus = isQuoteStatus
+    ? {
+        fullText: get(tweet, 'quoted.tweet.legacy.fullText', ''),
+        tweetUrl: get(tweet, 'quoted.tweet.legacy.quotedStatusPermalink.expanded', ''),
+        userName: get(tweet, 'quoted.user.legacy.name', ''),
+        screenName: get(tweet, 'quoted.user.legacy.screenName', ''),
+        profileImageUrl: get(tweet, 'quoted.user.legacy.profileImageUrlHttps', ''),
+        images: get(tweet, 'quoted.tweet.legacy.extendedEntities.media', [])
+          .filter((media: any) => media.type === 'photo')
+          .map((media: any) => media.mediaUrlHttps),
+        videos: get(tweet, 'quoted.tweet.legacy.extendedEntities.media', [])
+          .filter((media: any) => media.type === 'video' || media.type === 'animated_gif')
+          .map((media: any) => {
+            const variants = get(media, 'videoInfo.variants', []);
+            const bestQuality = variants
+              .filter((v: any) => v.contentType === 'video/mp4')
+              .sort((a: any, b: any) => (b.bitrate || 0) - (a.bitrate || 0))[0];
+            return bestQuality?.url;
+          })
+          .filter(Boolean),
+      }
+    : null;
+
   // 提取用户信息
   const user = {
     screenName: get(tweet, 'user.legacy.screenName'),
@@ -73,6 +99,7 @@ originalTweets.forEach((tweet) => {
     fullText,
     createdAt,
     createdAtFormatted,
+    quotedStatus,
   });
 });
 

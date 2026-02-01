@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X 推文时间线</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+        min-height: 100vh;
+        color: #e4e4e4;
+      }
+
+      .header {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        padding: 20px 40px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .header h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        background: linear-gradient(90deg, #00d4ff, #7c3aed);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .date-picker {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .date-picker input {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        padding: 10px 15px;
+        color: #fff;
+        font-size: 14px;
+        outline: none;
+        transition: all 0.3s ease;
+      }
+
+      .date-picker input:focus {
+        border-color: #00d4ff;
+        box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+      }
+
+      .date-picker select {
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 8px;
+        padding: 10px 15px;
+        color: #fff;
+        font-size: 14px;
+        outline: none;
+        cursor: pointer;
+        min-width: 180px;
+      }
+
+      .date-picker select option {
+        background: #1a1a2e;
+        color: #fff;
+      }
+
+      .date-picker button {
+        background: linear-gradient(135deg, #00d4ff, #7c3aed);
+        border: none;
+        border-radius: 8px;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .date-picker button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+      }
+
+      .date-picker button.secondary {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .date-picker button.active {
+        background: linear-gradient(135deg, #10b981, #059669);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px 20px;
+      }
+
+      .loading {
+        text-align: center;
+        padding: 60px;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.6);
+      }
+
+      .spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        border-top-color: #00d4ff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .user-section {
+        margin-bottom: 40px;
+        animation: fadeInUp 0.5s ease;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .user-header {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 16px;
+        margin-bottom: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        transition: all 0.3s ease;
+      }
+
+      .user-header:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(255, 255, 255, 0.15);
+      }
+
+      .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .user-info {
+        flex: 1;
+      }
+
+      .user-name {
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 4px;
+      }
+
+      .user-screen-name {
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .user-stats {
+        display: flex;
+        gap: 15px;
+        margin-top: 8px;
+      }
+
+      .stat {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+      .stat span {
+        color: #00d4ff;
+        font-weight: 500;
+      }
+
+      .tweets-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-left: 20px;
+      }
+
+      .tweet-card {
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 12px;
+        padding: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .tweet-card::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        background: linear-gradient(180deg, #00d4ff, #7c3aed);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+
+      .tweet-card:hover {
+        background: rgba(255, 255, 255, 0.05);
+        transform: translateX(5px);
+      }
+
+      .tweet-card:hover::before {
+        opacity: 1;
+      }
+
+      .tweet-content {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #e4e4e4;
+        margin-bottom: 12px;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+
+      .tweet-time {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.4);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .tweet-time::before {
+        content: '🕐';
+      }
+
+      .tweet-images {
+        display: flex;
+        gap: 10px;
+        margin-top: 12px;
+        flex-wrap: wrap;
+      }
+
+      .tweet-images img {
+        max-width: 200px;
+        max-height: 150px;
+        border-radius: 8px;
+        object-fit: cover;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+
+      .tweet-images img:hover {
+        transform: scale(1.05);
+      }
+
+      .tweet-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        margin-top: 10px;
+        padding: 8px 12px;
+        background: rgba(0, 212, 255, 0.1);
+        border: 1px solid rgba(0, 212, 255, 0.3);
+        border-radius: 6px;
+        color: #00d4ff;
+        text-decoration: none;
+        font-size: 12px;
+        transition: all 0.3s ease;
+      }
+
+      .tweet-link:hover {
+        background: rgba(0, 212, 255, 0.2);
+      }
+
+      .empty-state {
+        text-align: center;
+        padding: 60px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .empty-state-icon {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      .error {
+        background: rgba(255, 82, 82, 0.1);
+        border: 1px solid rgba(255, 82, 82, 0.3);
+        border-radius: 12px;
+        padding: 20px;
+        text-align: center;
+        color: #ff5252;
+      }
+
+      /* 引用推文样式 */
+      .quoted-tweet {
+        margin-top: 12px;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        border-left: 3px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .quoted-user {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 8px;
+      }
+
+      .quoted-avatar {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .quoted-name {
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff;
+      }
+
+      .quoted-screen {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .quoted-content {
+        font-size: 13px;
+        color: #c4c4c4;
+        line-height: 1.5;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+
+      /* Grid 视图样式 */
+      .view-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      .grid-item {
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 12px;
+        padding: 20px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        transition: all 0.3s ease;
+        animation: fadeInUp 0.5s ease;
+      }
+
+      .grid-item:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: rgba(0, 212, 255, 0.3);
+      }
+
+      .grid-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .grid-avatar {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .grid-user-info {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .grid-user-name {
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .grid-screen-name {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.4);
+      }
+
+      .grid-tweets {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .grid-tweet {
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 8px;
+        border-left: 2px solid rgba(0, 212, 255, 0.3);
+      }
+
+      .grid-tweet-content {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #c4c4c4;
+        margin-bottom: 8px;
+        white-space: pre-wrap;
+        word-break: break-word;
+        max-height: 60px;
+        overflow: hidden;
+      }
+
+      .grid-tweet-meta {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 11px;
+        color: rgba(255, 255, 255, 0.3);
+      }
+
+      .grid-link {
+        color: #00d4ff;
+        text-decoration: none;
+      }
+
+      @media (max-width: 768px) {
+        .view-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .user-header {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .user-stats {
+          justify-content: center;
+        }
+
+        .tweets-list {
+          padding-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="date-picker">
+        <input type="date" id="dateInput" />
+        <select id="userSelect">
+          <option value="">所有用户</option>
+        </select>
+        <!-- <button onclick="loadData()">加载数据</button> -->
+        <button onclick="loadToday()" class="secondary">今天</button>
+        <button onclick="setView('list')" id="btnList" class="active">列表</button>
+        <button onclick="setView('grid')" id="btnGrid" class="secondary">网格</button>
+      </div>
+    </div>
+
+    <div class="container" id="container">
+      <div class="loading">
+        <div class="spinner"></div>
+        加载中...
+      </div>
+    </div>
+
+    <script>
+      const baseUrl = 'https://raw.githubusercontent.com/Hslven/x-kit/main/tweets';
+      let currentData = [];
+      let currentView = 'grid';
+
+      // 初始化日期为今天
+      document.getElementById('dateInput').valueAsDate = new Date();
+      loadToday();
+      setView('grid');
+
+      function loadToday() {
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('dateInput').value = today;
+        loadData();
+      }
+
+      async function loadData() {
+        const date = document.getElementById('dateInput').value;
+        if (!date) {
+          showError('请选择日期');
+          return;
+        }
+
+        const container = document.getElementById('container');
+        container.innerHTML = '<div class="loading"><div class="spinner"></div>加载中...</div>';
+
+        try {
+          const response = await fetch(`${baseUrl}/${date}.json`);
+          if (!response.ok) {
+            throw new Error('未找到该日期的数据');
+          }
+          const data = await response.json();
+          currentData = data;
+          updateUserSelect(data);
+          renderData();
+        } catch (error) {
+          showError(error.message);
+        }
+      }
+
+      function updateUserSelect(data) {
+        const select = document.getElementById('userSelect');
+        const currentValue = select.value;
+
+        // 保留第一个选项
+        select.innerHTML = '<option value="">所有用户</option>';
+
+        // 获取所有用户
+        const users = new Map();
+        data.forEach((tweet) => {
+          const screenName = tweet.user?.screenName || '未知用户';
+          if (!users.has(screenName)) {
+            users.set(screenName, tweet.user);
+          }
+        });
+
+        // 按推文数量排序
+        const userCounts = {};
+        data.forEach((tweet) => {
+          const sn = tweet.user?.screenName || '未知用户';
+          userCounts[sn] = (userCounts[sn] || 0) + 1;
+        });
+
+        Array.from(users.entries())
+          .sort((a, b) => (userCounts[b[0]] || 0) - (userCounts[a[0]] || 0))
+          .forEach(([screenName, user]) => {
+            const option = document.createElement('option');
+            option.value = screenName;
+            option.textContent = `${user?.name || screenName} (@${screenName}) - ${userCounts[screenName]}条`;
+            select.appendChild(option);
+          });
+
+        // 恢复选择或默认第一个
+        if (currentValue && Array.from(select.options).some((o) => o.value === currentValue)) {
+          select.value = currentValue;
+        }
+      }
+
+      function setView(view) {
+        currentView = view;
+        document.getElementById('btnList').className = view === 'list' ? 'active' : 'secondary';
+        document.getElementById('btnGrid').className = view === 'grid' ? 'active' : 'secondary';
+        renderData();
+      }
+
+      function renderData() {
+        const container = document.getElementById('container');
+        const selectedUser = document.getElementById('userSelect').value;
+
+        // 过滤数据
+        let data = currentData;
+        if (selectedUser) {
+          data = currentData.filter((t) => (t.user?.screenName || '未知用户') === selectedUser);
+        }
+
+        if (!data || data.length === 0) {
+          container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">📭</div>
+            <p>该日期没有推文数据</p>
+          </div>
+        `;
+          return;
+        }
+
+        // 按用户分组
+        const userTweets = {};
+        data.forEach((tweet) => {
+          const screenName = tweet.user?.screenName || '未知用户';
+          if (!userTweets[screenName]) {
+            userTweets[screenName] = {
+              user: tweet.user,
+              tweets: [],
+            };
+          }
+          userTweets[screenName].tweets.push(tweet);
+        });
+
+        // 按推文数量排序用户
+        const sortedUsers = Object.entries(userTweets).sort((a, b) => b[1].tweets.length - a[1].tweets.length);
+
+        if (currentView === 'grid') {
+          renderGridView(sortedUsers, container);
+        } else {
+          renderListView(sortedUsers, container);
+        }
+      }
+
+      function renderListView(sortedUsers, container) {
+        let html = '';
+        sortedUsers.forEach(([screenName, { user, tweets }]) => {
+          const avatar = user?.profileImageUrl || '';
+          const name = user?.name || screenName;
+          const followersCount = user?.followersCount || 0;
+
+          html += `
+          <div class="user-section">
+            <div class="user-header">
+              <img class="avatar" src="${avatar}" alt="${name}" onerror="this.style.display='none'">
+              <div class="user-info">
+                <div class="user-name">${escapeHtml(name)}</div>
+                <div class="user-screen-name">@${escapeHtml(screenName)}</div>
+                <div class="user-stats">
+                  <div class="stat">粉丝 <span>${formatNumber(followersCount)}</span></div>
+                  <div class="stat">推文 <span>${tweets.length}</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="tweets-list">
+              ${tweets.map((tweet) => renderTweet(tweet)).join('')}
+            </div>
+          </div>
+        `;
+        });
+        container.innerHTML = html;
+      }
+
+      function renderGridView(sortedUsers, container) {
+        let html = '<div class="view-grid">';
+        sortedUsers.forEach(([screenName, { user, tweets }]) => {
+          const avatar = user?.profileImageUrl || '';
+          const name = user?.name || screenName;
+
+          html += `
+          <div class="grid-item">
+            <div class="grid-header">
+              <img class="grid-avatar" src="${avatar}" alt="${name}" onerror="this.style.display='none'">
+              <div class="grid-user-info">
+                <div class="grid-user-name">${escapeHtml(name)}</div>
+                <div class="grid-screen-name">@${escapeHtml(screenName)}</div>
+              </div>
+            </div>
+            <div class="grid-tweets">
+              ${tweets
+                .map(
+                  (tweet) => `
+                <div class="grid-tweet">
+                  <div class="grid-tweet-content">${escapeHtml(tweet.fullText || '')}</div>
+                  <div class="grid-tweet-meta">
+                    <span>${tweet.createdAtFormatted || ''}</span>
+                    <a href="${tweet.tweetUrl}" target="_blank" class="grid-link">查看 →</a>
+                  </div>
+                </div>
+              `,
+                )
+                .join('')}
+            </div>
+          </div>
+        `;
+        });
+        html += '</div>';
+        container.innerHTML = html;
+      }
+
+      function renderTweet(tweet) {
+        const images = tweet.images || [];
+        const videos = tweet.videos || [];
+        const allMedia = [...images, ...videos];
+        // 渲染引用推文
+        const quotedStatus = tweet.quotedStatus;
+        const quotedHtml = quotedStatus
+          ? `
+          <div class="quoted-tweet">
+            <div class="quoted-user">
+              <img class="quoted-avatar" src="${quotedStatus.profileImageUrl || ''}" alt="" onerror="this.style.display='none'">
+              <span class="quoted-name">${escapeHtml(quotedStatus.userName || '')}</span>
+              <span class="quoted-screen">@${escapeHtml(quotedStatus.screenName || '')}</span>
+            </div>
+            <div class="quoted-content">${escapeHtml(quotedStatus.fullText || '')}</div>
+            ${
+              quotedStatus.images?.length > 0 || quotedStatus.videos?.length > 0
+                ? `<div class="tweet-images">${quotedStatus.images?.map((url) => `<img src="${url}" alt="图片" onerror="this.style.display='none'">`).join('')}${quotedStatus.videos?.map((url) => `<video src="${url}" controls style="max-width:200px;border-radius:8px;margin:5px;"></video>`).join('')}</div>`
+                : ''
+            }
+          </div>
+        `
+          : '';
+
+        return `
+        <div class="tweet-card">
+          <div class="tweet-content">${escapeHtml(tweet.fullText || '')}</div>
+          ${quotedHtml}
+          ${
+            allMedia.length > 0
+              ? `
+            <div class="tweet-images">
+              ${allMedia.map((url) => `<img src="${url}" alt="图片" onerror="this.style.display='none'">`).join('')}
+            </div>
+          `
+              : ''
+          }
+          <div class="tweet-time">${tweet.createdAtFormatted || tweet.createdAt || ''}</div>
+          <a href="${tweet.tweetUrl}" target="_blank" class="tweet-link">查看原文 →</a>
+        </div>
+      `;
+      }
+
+      function showError(message) {
+        const container = document.getElementById('container');
+        container.innerHTML = `
+        <div class="error">
+          <p>⚠️ ${message}</p>
+        </div>
+      `;
+      }
+
+      function escapeHtml(text) {
+        if (!text) return '';
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      function formatNumber(num) {
+        if (num >= 1000000) {
+          return (num / 1000000).toFixed(1) + 'M';
+        }
+        if (num >= 1000) {
+          return (num / 1000).toFixed(1) + 'K';
+        }
+        return num.toString();
+      }
+
+      // 用户选择变化时重新渲染
+      document.getElementById('userSelect').addEventListener('change', renderData);
+
+      // 日期选择变化时自动加载
+      document.getElementById('dateInput').addEventListener('change', loadData);
+    </script>
+  </body>
+</html>

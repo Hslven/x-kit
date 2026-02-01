@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>smallGame</title>
+    <style>
+      body {
+        background-color: #3c3c3c;
+      }
+      #board {
+        margin: 10% auto 0;
+        background-color: rgb(31, 31, 31);
+      }
+      td {
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: darkcyan;
+      }
+      .content {
+        position: relative;
+      }
+
+      .highlight {
+        background-color: blanchedalmond;
+      }
+      .description {
+        width: 20%;
+        position: absolute;
+        color: aliceblue;
+        left: 15%;
+        font-size: 1rem;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #3c3c3c;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="description">
+        <code>
+          这个游戏是一个两人对战的游戏，玩家1使用😂，玩家2使用🤬。
+          游戏的目标是先连成四个自己的符号的玩家获胜。
+          玩家可以在任意未被占用的列中放入自己的符号，
+          符号会自动落到该列的最低空位。
+        </code>
+        <br />
+        <div style="width: 100%; text-align: center">
+          <input
+            type="button"
+            value="我应该明白了!"
+            onclick="document.querySelector('.description').style.display = 'none'"
+          />
+        </div>
+      </div>
+      <table id="board"></table>
+    </div>
+    <script>
+      var board = [];
+      const player1 = '😂';
+      const player2 = '🤬';
+      const rowC = [6, 7];
+
+      var current_player = player1;
+
+      for (var i = 0; i < rowC[0]; i++) {
+        var row = [];
+        for (var j = 0; j < rowC[1]; j++) {
+          row.push(' ');
+        }
+        board.push(row);
+      }
+      function drawBoard() {
+        var table = document.getElementById('board');
+        table.innerHTML = '';
+        for (var i = 0; i < i < rowC[0]; i++) {
+          var tr = document.createElement('tr');
+          for (var j = 0; j < rowC[1]; j++) {
+            var td = document.createElement('td');
+            td.textContent = board[i][j];
+            if (board[i][j] == ' ' && canPlacePiece(i, j)) {
+              td.classList.add('highlight');
+            }
+            td.addEventListener(
+              'click',
+              (function (i, j) {
+                return function () {
+                  if (board[i][j] == ' ' && canPlacePiece(i, j)) {
+                    board[i][j] = current_player;
+
+                    if (checkWin(current_player)) {
+                      return alert('Player ' + current_player + ' wins!');
+                    }
+                    current_player =
+                      current_player == player2 ? player1 : player2;
+                    drawBoard();
+                  } else {
+                    return;
+                    // alert('Cannot place piece here!');
+                  }
+                };
+              })(i, j)
+            );
+            tr.appendChild(td);
+          }
+          table.appendChild(tr);
+        }
+      }
+
+      function checkWin(player) {
+        // Check rows
+        for (var i = 0; i < 6; i++) {
+          for (var j = 0; j < 4; j++) {
+            if (
+              board[i][j] == player &&
+              board[i][j + 1] == player &&
+              board[i][j + 2] == player &&
+              board[i][j + 3] == player
+            ) {
+              return true;
+            }
+          }
+        }
+
+        // Check columns
+        for (var j = 0; j < 7; j++) {
+          for (var i = 0; i < 3; i++) {
+            if (
+              board[i][j] == player &&
+              board[i + 1][j] == player &&
+              board[i + 2][j] == player &&
+              board[i + 3][j] == player
+            ) {
+              return true;
+            }
+          }
+        }
+
+        // Check diagonals
+        for (var i = 0; i < 3; i++) {
+          for (var j = 0; j < 4; j++) {
+            if (
+              board[i][j] == player &&
+              board[i + 1][j + 1] == player &&
+              board[i + 2][j + 2] == player &&
+              board[i + 3][j + 3] == player
+            ) {
+              return true;
+            }
+            if (
+              board[i][j + 3] == player &&
+              board[i + 1][j + 2] == player &&
+              board[i + 2][j + 1] == player &&
+              board[i + 3][j] == player
+            ) {
+              return true;
+            }
+          }
+        }
+
+        return false;
+      }
+
+      function canPlacePiece(i, j) {
+        // If it's the bottom row, we can always place a piece
+        if (i == 5) {
+          return true;
+        }
+
+        // If the cell below is not empty, we can place a piece
+        if (board[i + 1][j] != ' ') {
+          return true;
+        }
+
+        // Otherwise, we can't place a piece
+        return false;
+      }
+      drawBoard();
+    </script>
+  </body>
+</html>
