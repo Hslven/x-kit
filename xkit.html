@@ -104,7 +104,6 @@
       }
 
       .container {
-        max-width: 1200px;
         margin: 0 auto;
         padding: 30px 20px;
       }
@@ -422,8 +421,11 @@
       }
 
       .grid-tweets {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
+        gap: 10px; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
       }
 
@@ -456,6 +458,16 @@
       .grid-link {
         color: #00d4ff;
         text-decoration: none;
+      }
+
+      .grid-quoted {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.5);
+        margin: 8px 0;
+        padding: 6px 8px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 4px;
+        border-left: 2px solid rgba(0, 212, 255, 0.3);
       }
 
       @media (max-width: 768px) {
@@ -673,17 +685,22 @@
             </div>
             <div class="grid-tweets">
               ${tweets
-                .map(
-                  (tweet) => `
+                .map((tweet) => {
+                  const quotedStatus = tweet.quotedStatus;
+                  const quotedHtml = quotedStatus
+                    ? `<div class="grid-quoted">↳ @${escapeHtml(quotedStatus.screenName || '')}: ${escapeHtml((quotedStatus.fullText || '').substring(0, 200))}${quotedStatus.fullText?.length > 50 ? '...' : ''}</div>`
+                    : '';
+                  return `
                 <div class="grid-tweet">
                   <div class="grid-tweet-content">${escapeHtml(tweet.fullText || '')}</div>
+                  ${quotedHtml}
                   <div class="grid-tweet-meta">
                     <span>${tweet.createdAtFormatted || ''}</span>
                     <a href="${tweet.tweetUrl}" target="_blank" class="grid-link">查看 →</a>
                   </div>
                 </div>
-              `,
-                )
+              `;
+                })
                 .join('')}
             </div>
           </div>
