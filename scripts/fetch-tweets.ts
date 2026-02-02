@@ -31,8 +31,12 @@ originalTweets.forEach((tweet) => {
   const createdAt = get(tweet, 'raw.result.legacy.createdAt');
   // 转换为上海时区
   const createdAtFormatted = new Date(createdAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' });
-  // return if more than 1 days
-  if (dayjs().diff(dayjs(createdAt), 'day') > 1) {
+
+  const createDate = new Date(createdAt).getDate();
+  const nowDate = new Date().getDate();
+  const diffDate = nowDate - createDate;
+  console.log('[ createDate ] >', createDate, nowDate, diffDate);
+  if (diffDate > 1 || diffDate < 0) {
     return;
   }
   const screenName = get(tweet, 'user.legacy.screenName');
