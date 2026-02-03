@@ -35,7 +35,6 @@ originalTweets.forEach((tweet) => {
   const createDate = new Date(createdAt).getDate();
   const nowDate = new Date().getDate();
   const diffDate = nowDate - createDate;
-  console.log('[ createDate ] >', createDate, nowDate, diffDate);
   if (diffDate > 1 || diffDate < 0) {
     return;
   }

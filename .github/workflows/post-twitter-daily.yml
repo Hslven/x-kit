@@ -2,8 +2,8 @@ name: Post Twitter Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天运行
-  workflow_dispatch:      # 允许手动触发
+    - cron: '0 0 * * *' # 每天运行
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   update-data:
@@ -11,26 +11,26 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GH_TOKEN }}  # 使用你设置的 secret
-          
+          token: ${{ secrets.GH_TOKEN }} # 使用你设置的 secret
+
       - name: Setup Git
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-          
+
       - name: Install dependencies
         run: bun install
-        
+
       - name: Run fetch script
         env:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
-        run: bun run scripts/post-tweet.ts
-        
+        run: bun run scripts/fetch-tweets.ts
+
       - name: Commit and push changes
         run: |
           git add .
