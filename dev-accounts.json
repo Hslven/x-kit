@@ -1,9 +1,44 @@
 [
   {
-    "username": "Elon Musk",
+    "username": "elonmusk",
     "twitter_url": "https://x.com/elonmusk",
-    "description": "马斯克秒速",
-    "tags": ["马斯克标签"],
+    "description": "Elon Musk",
+    "tags": ["科技", "商业"],
     "id": "44196397"
+  },
+  {
+    "username": "nytimes",
+    "twitter_url": "https://x.com/nytimes",
+    "description": "The New York Times",
+    "tags": ["新闻"],
+    "id": "52896925"
+  },
+  {
+    "username": "forbes",
+    "twitter_url": "https://x.com/forbes",
+    "description": "Forbes",
+    "tags": ["商业"],
+    "id": "47478539"
+  },
+  {
+    "username": "realDonaldTrump",
+    "twitter_url": "https://x.com/realDonaldTrump",
+    "description": "Donald J. Trump",
+    "tags": ["政治"],
+    "id": "25073877"
+  },
+  {
+    "username": "Nature",
+    "twitter_url": "https://x.com/Nature",
+    "description": "Nature 期刊",
+    "tags": ["科学"],
+    "id": "30521674"
+  },
+  {
+    "username": "ScienceMag",
+    "twitter_url": "https://x.com/ScienceMag",
+    "description": "Science 期刊",
+    "tags": ["科学"],
+    "id": "20731319"
   }
 ]

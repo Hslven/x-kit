@@ -1,0 +1,410 @@
+<!doctype html>
+<html class="dark" lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>X Monitor Dashboard</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#1ea0f1",
+            "background-light": "#f5f7f8",
+            "background-dark": "#101b22",
+          },
+          fontFamily: {
+            display: ["Inter"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+            lg: "1rem",
+            xl: "1.5rem",
+            full: "9999px",
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+    .pulse-green {
+      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+      70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
+      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    }
+    .loading-spinner {
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-top-color: #1ea0f1;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+  <div class="flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/20 px-4 py-3 md:px-10">
+      <div class="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-6 w-full md:w-auto">
+          <div class="flex items-center gap-2">
+            <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
+              <span class="material-symbols-outlined text-white text-xl">monitoring</span>
+            </div>
+            <h1 class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100">X Monitor</h1>
+          </div>
+          <div class="hidden lg:flex items-center bg-primary/10 dark:bg-primary/5 rounded-xl px-2 py-1">
+            <button class="px-3 py-1.5 rounded-lg bg-primary text-white text-sm font-semibold">Dashboard</button>
+            <button class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 text-sm font-semibold hover:bg-primary/20">Analytics</button>
+          </div>
+        </div>
+
+        <!-- Search & Filters -->
+        <div class="flex flex-1 items-center justify-center max-w-xl w-full">
+          <div class="relative w-full group">
+            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-primary transition-colors">search</span>
+            <select id="userSelect" class="w-full bg-primary/5 border border-primary/20 rounded-xl pl-10 pr-4 py-2 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-slate-500">
+              <option value="">所有用户</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 w-full md:w-auto justify-end">
+          <input type="date" id="dateInput" class="flex items-center gap-2 bg-primary/10 hover:bg-primary/20 dark:bg-primary/10 dark:hover:bg-primary/20 text-primary px-3 py-2 rounded-xl transition-colors text-sm font-medium" />
+          <button class="p-2 rounded-xl bg-slate-200 dark:bg-primary/10 text-slate-700 dark:text-slate-200 hover:bg-primary/20">
+            <span class="material-symbols-outlined">calendar_today</span>
+          </button>
+          <div class="h-8 w-[1px] bg-primary/20 mx-1"></div>
+          <div class="flex items-center gap-2">
+            <span class="size-2.5 rounded-full bg-green-500 pulse-green"></span>
+            <span class="text-sm font-medium text-slate-500">Live</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-[1400px] mx-auto w-full px-4 md:px-10 py-6 space-y-8">
+      <!-- AI Summary Section -->
+      <section class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary/20 via-background-dark to-background-dark border border-primary/30 p-6 shadow-xl">
+        <div class="absolute top-0 right-0 p-8 opacity-10">
+          <span class="material-symbols-outlined text-9xl text-primary">psychology</span>
+        </div>
+        <div class="relative z-10 flex flex-col md:flex-row gap-6 items-start">
+          <div class="bg-primary/20 p-3 rounded-2xl border border-primary/40 text-primary">
+            <span class="material-symbols-outlined text-3xl">auto_awesome</span>
+          </div>
+          <div class="flex-1 space-y-4">
+            <div class="flex items-center gap-3">
+              <h2 class="text-xl font-bold text-slate-900 dark:text-white">AI Smart Summary</h2>
+              <span class="px-2 py-0.5 rounded-full bg-primary/20 text-primary text-[10px] font-bold uppercase tracking-wider border border-primary/30">Intelligence Live</span>
+            </div>
+            <p id="aiSummary" class="text-slate-700 dark:text-slate-300 leading-relaxed text-lg max-w-4xl">
+              加载中今日推文数据...
+            </p>
+            <div class="flex flex-wrap gap-2 pt-2" id="trendingTags"></div>
+          </div>
+          <div class="flex items-center gap-4 shrink-0">
+            <div class="text-center">
+              <div id="totalTweets" class="text-3xl font-bold text-primary">0</div>
+              <div class="text-xs text-slate-500">推文数</div>
+            </div>
+            <div class="h-12 w-[1px] bg-primary/20"></div>
+            <div class="text-center">
+              <div id="totalUsers" class="text-3xl font-bold text-primary">0</div>
+              <div class="text-xs text-slate-500">用户数</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Loading -->
+      <div id="loading" class="flex flex-col items-center justify-center py-20">
+        <div class="loading-spinner w-10 h-10 mb-4"></div>
+        <p class="text-slate-500">加载中...</p>
+      </div>
+
+      <!-- Error -->
+      <div id="error" class="hidden p-4 rounded-xl bg-red-500/10 border border-red-500/30">
+        <p id="errorMsg" class="text-red-500 text-sm"></p>
+      </div>
+
+      <!-- Empty -->
+      <div id="empty" class="hidden text-center py-20">
+        <span class="material-symbols-outlined text-6xl text-slate-400 mb-4">inbox</span>
+        <p class="text-slate-500">该日期没有推文数据</p>
+      </div>
+
+      <!-- Main Content: User Grid -->
+      <div id="tweetsContainer" class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 hidden"></div>
+    </main>
+  </div>
+
+  <script>
+    const baseUrl = "https://raw.githubusercontent.com/Hslven/x-kit/main/tweets";
+    let currentData = [];
+
+    // Initialize
+    document.getElementById("dateInput").valueAsDate = new Date();
+    loadToday();
+
+    function loadToday() {
+      const today = new Date().toISOString().split("T")[0];
+      document.getElementById("dateInput").value = today;
+      loadData();
+    }
+
+    async function loadData() {
+      const date = document.getElementById("dateInput").value;
+      if (!date) return;
+
+      showLoading();
+
+      try {
+        const response = await fetch(`${baseUrl}/${date}.json`);
+        if (!response.ok) {
+          throw new Error("未找到该日期的数据");
+        }
+        const data = await response.json();
+        currentData = data;
+        updateUserSelect(data);
+        generateAISummary(data);
+        renderData();
+      } catch (error) {
+        showError(error.message);
+      }
+    }
+
+    function showLoading() {
+      document.getElementById("loading").classList.remove("hidden");
+      document.getElementById("error").classList.add("hidden");
+      document.getElementById("empty").classList.add("hidden");
+      document.getElementById("tweetsContainer").classList.add("hidden");
+    }
+
+    function showError(msg) {
+      document.getElementById("loading").classList.add("hidden");
+      document.getElementById("error").classList.remove("hidden");
+      document.getElementById("empty").classList.add("hidden");
+      document.getElementById("tweetsContainer").classList.add("hidden");
+      document.getElementById("errorMsg").textContent = msg;
+    }
+
+    function showEmpty() {
+      document.getElementById("loading").classList.add("hidden");
+      document.getElementById("error").classList.add("hidden");
+      document.getElementById("empty").classList.remove("hidden");
+      document.getElementById("tweetsContainer").classList.add("hidden");
+    }
+
+    function showTweets() {
+      document.getElementById("loading").classList.add("hidden");
+      document.getElementById("error").classList.add("hidden");
+      document.getElementById("empty").classList.add("hidden");
+      document.getElementById("tweetsContainer").classList.remove("hidden");
+    }
+
+    function updateUserSelect(data) {
+      const select = document.getElementById("userSelect");
+      const users = new Map();
+      data.forEach((tweet) => {
+        const screenName = tweet.user?.screenName || "未知用户";
+        if (!users.has(screenName)) {
+          users.set(screenName, tweet.user);
+        }
+      });
+
+      select.innerHTML = '<option value="">所有用户</option>';
+      users.forEach((user, screenName) => {
+        const option = document.createElement("option");
+        option.value = screenName;
+        option.textContent = `${user?.name || screenName} (@${screenName})`;
+        select.appendChild(option);
+      });
+    }
+
+    // MiniMax API 配置
+    const MINIMAX_API_KEY = "sk-cp-NChgddmXHoDasiCB-UWV0SH13O60L6kCU3uVTaTAYt6t0JIeRlg_K9AX62mDdIUbhzpzuNsqSN5EZB2NAOl9W0SnXxs3ky0c8u2iBWRgLeaU1-xemtkXwB4";
+    const MINIMAX_API_URL = "https://api.minimaxi.com/anthropic/v1/messages";
+
+    async function generateAISummary(data) {
+      const totalTweets = data.length;
+      const users = new Set(data.map((t) => t.user?.screenName).filter(Boolean));
+      const totalUsers = users.size;
+
+      document.getElementById("totalTweets").textContent = totalTweets;
+      document.getElementById("totalUsers").textContent = totalUsers;
+
+      // 提取推文文本
+      const tweetTexts = data.slice(0, 10).map((t, i) => {
+        const user = t.user?.screenName || "未知";
+        const text = t.fullText || "";
+        return `${i + 1}. @${user}: ${text}`;
+      }).join("\n\n");
+
+      // 调用 MiniMax API
+      try {
+        document.getElementById("aiSummary").textContent = "🤖 AI 正在分析推文...";
+
+        const response = await fetch(MINIMAX_API_URL, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${MINIMAX_API_KEY}`,
+            "Content-Type": "application/json",
+            "anthropic-version": "2023-06-01"
+          },
+          body: JSON.stringify({
+            model: "MiniMax-M2.5",
+            max_tokens: 1024,
+            system: `你是一个专业的社交媒体数据分析助手。
+请分析用户提供的推文数据，然后用中文总结：
+1. 主要话题和趋势
+2. 关键人物或账号
+3. 情感倾向（正面/中性/负面）
+4. 重要事件或新闻
+
+请用简洁的中文回答，最多150字。`,
+            messages: [
+              {role: "user", content: [{"type": "text", "text": `请分析以下推文数据：\n\n${tweetTexts}\n\n（共 ${totalTweets} 条推文，来自 ${totalUsers} 个账号）`}]}
+            ]
+          })
+        });
+
+        const result = await response.json();
+
+        if (result.content && result.content.length > 0) {
+          // 提取 text 类型的内容
+          const textContent = result.content.find(c => c.type === "text");
+          if (textContent) {
+            document.getElementById("aiSummary").textContent = textContent.text;
+          } else {
+            document.getElementById("aiSummary").textContent = "AI 分析完成";
+          }
+        } else {
+          document.getElementById("aiSummary").textContent = "分析完成";
+        }
+      } catch (error) {
+        console.error("AI Summary Error:", error);
+        document.getElementById("aiSummary").textContent = `今日共 ${totalTweets} 条推文，来自 ${totalUsers} 个账号。`;
+      }
+
+      // 生成话题标签
+      const allText = data.map((t) => t.fullText || "").join(" ");
+      const keywords = [
+        "AI", "Tech", "Crypto", "Bitcoin", "ETH", "Elon", "Trump", "Meme", "DeFi",
+        "NFT", "Web3", "Meta", "Google", "Apple", "Microsoft", "OpenAI", "ChatGPT",
+        "NVIDIA", "GPU", "芯片", "推特", "X", "SpaceX", "Tesla", "Neuralink"
+      ];
+      const foundKeywords = keywords.filter(k => allText.toLowerCase().includes(k.toLowerCase())).slice(0, 5);
+
+      const tagsContainer = document.getElementById("trendingTags");
+      tagsContainer.innerHTML = foundKeywords.map(k =>
+        `<span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-primary/10 text-xs font-medium border border-primary/10">Trending: ${k}</span>`
+      ).join("");
+    }
+
+    function renderData() {
+      const container = document.getElementById("tweetsContainer");
+      const selectedUser = document.getElementById("userSelect").value;
+
+      let data = currentData;
+      if (selectedUser) {
+        data = currentData.filter(t => (t.user?.screenName || "未知用户") === selectedUser);
+      }
+
+      if (!data || data.length === 0) {
+        showEmpty();
+        return;
+      }
+
+      showTweets();
+
+      // Group by user
+      const userTweets = {};
+      data.forEach(tweet => {
+        const screenName = tweet.user?.screenName || "未知用户";
+        if (!userTweets[screenName]) {
+          userTweets[screenName] = { user: tweet.user, tweets: [] };
+        }
+        userTweets[screenName].tweets.push(tweet);
+      });
+
+      let html = "";
+      Object.entries(userTweets).forEach(([screenName, { user, tweets }]) => {
+        const avatar = user?.profileImageUrl || "";
+        const name = user?.name || screenName;
+        const followersCount = user?.followersCount || 0;
+
+        html += `
+          <div class="flex flex-col bg-slate-100 dark:bg-background-dark border border-primary/10 rounded-2xl overflow-hidden hover:border-primary/40 transition-all group">
+            <div class="p-5 border-b border-primary/10 flex items-center justify-between bg-primary/5">
+              <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full border-2 border-primary/30 overflow-hidden">
+                  <img class="w-full h-full object-cover" src="${avatar}" onerror="this.style.display='none'">
+                </div>
+                <div>
+                  <div class="flex items-center gap-1">
+                    <h3 class="font-bold text-lg">${escapeHtml(name)}</h3>
+                    <span class="material-symbols-outlined text-primary text-[18px] fill-current">verified</span>
+                  </div>
+                  <p class="text-xs text-slate-500 font-medium">@${escapeHtml(screenName)} • ${formatNumber(followersCount)} Followers</p>
+                </div>
+              </div>
+              <button class="p-2 hover:bg-primary/20 rounded-lg text-primary transition-colors">
+                <span class="material-symbols-outlined">more_horiz</span>
+              </button>
+            </div>
+            <div class="p-4 space-y-4 flex-1">
+              ${tweets.slice(0, 3).map(tweet => `
+                <div class="space-y-2 pb-4 ${tweet !== tweets.slice(0, 3)[tweets.slice(0, 3).length - 1] ? 'border-b border-primary/5' : ''}">
+                  <p class="text-sm leading-relaxed dark:text-slate-200">${escapeHtml(tweet.fullText || "")}</p>
+                  <div class="flex items-center justify-between text-[11px] text-slate-500 font-medium">
+                    <span>${tweet.createdAtFormatted || ""}</span>
+                    <a class="text-primary hover:underline flex items-center gap-1" href="${tweet.tweetUrl}" target="_blank">View Original <span class="material-symbols-outlined text-[12px]">open_in_new</span></a>
+                  </div>
+                </div>
+              `).join("")}
+              ${tweets.length > 3 ? `<p class="text-slate-500 text-xs">+${tweets.length - 3} 条更多</p>` : ""}
+            </div>
+            <div class="p-4 bg-primary/5 group-hover:bg-primary/10 transition-colors">
+              <button class="w-full py-2 text-xs font-bold text-primary uppercase tracking-widest hover:bg-primary/10 rounded-lg transition-all">View All Activity</button>
+            </div>
+          </div>
+        `;
+      });
+
+      container.innerHTML = html;
+    }
+
+    function escapeHtml(text) {
+      if (!text) return "";
+      const div = document.createElement("div");
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function formatNumber(num) {
+      if (!num) return "0";
+      if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
+      if (num >= 1000) return (num / 1000).toFixed(1) + "K";
+      return num.toString();
+    }
+
+    // Event listeners
+    document.getElementById("userSelect").addEventListener("change", renderData);
+    document.getElementById("dateInput").addEventListener("change", loadData);
+  </script>
+</body>
+</html>

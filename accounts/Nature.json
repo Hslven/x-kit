@@ -1,0 +1,120 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "16"
+  },
+  "id": "VXNlcjoxNTg2Mjg5MQ==",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": true,
+    "canMediaTag": false,
+    "createdAt": "Fri Aug 15 13:39:58 +0000 2008",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+    "entities": {
+      "description": {
+        "urls": [
+          {
+            "display_url": "go.nature.com/naturebriefing",
+            "expanded_url": "http://go.nature.com/naturebriefing",
+            "indices": [
+              123,
+              146
+            ],
+            "url": "https://t.co/wGmQlQ8a4D"
+          }
+        ]
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "nature.com",
+            "expanded_url": "http://www.nature.com",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/r17cjcVLWg"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 2068,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 2594002,
+    "following": false,
+    "friendsCount": 3228,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 20738,
+    "location": "Worldwide",
+    "mediaCount": 21321,
+    "muting": false,
+    "name": "nature",
+    "normalFollowersCount": 2594002,
+    "notifications": false,
+    "pinnedTweetIdsStr": [],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/15862891/1621000867",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "Nature",
+    "statusesCount": 85118,
+    "translatorType": "none",
+    "url": "https://t.co/r17cjcVLWg",
+    "verified": false,
+    "wantRetweets": false,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "professional": {
+    "category": [
+      {
+        "iconName": "IconBriefcaseStroke",
+        "id": 580,
+        "name": "Media & News Company"
+      }
+    ],
+    "professionalType": "Business",
+    "restId": "1801529551220072661"
+  },
+  "profileImageShape": "Circle",
+  "restId": "15862891",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1329231675176"
+    }
+  }
+}

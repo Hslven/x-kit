@@ -1,0 +1,102 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "142"
+  },
+  "id": "VXNlcjoyNTA3Mzg3Nw==",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": false,
+    "createdAt": "Wed Mar 18 13:46:38 +0000 2009",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "45th & 47th President of the United States of America🇺🇸",
+    "entities": {
+      "description": {
+        "urls": []
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "DonaldJTrump.com",
+            "expanded_url": "http://DonaldJTrump.com",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/mjKdTvQzae"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 0,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 110621561,
+    "following": false,
+    "friendsCount": 53,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 129821,
+    "location": "",
+    "mediaCount": 5383,
+    "muting": false,
+    "name": "Donald J. Trump",
+    "normalFollowersCount": 110621561,
+    "notifications": false,
+    "pinnedTweetIdsStr": [
+      "2028505632123326484"
+    ],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/25073877/1604214583",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "realDonaldTrump",
+    "statusesCount": 59829,
+    "translatorType": "regular",
+    "url": "https://t.co/mjKdTvQzae",
+    "verified": false,
+    "verifiedType": "Government",
+    "wantRetweets": false,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "25073877",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 91,
+            "ref": {
+              "url": "https://help.twitter.com/en/rules-and-policies/profile-labels",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 101
+          }
+        ],
+        "text": "This account is verified because it is a government or multilateral organization account.  Learn more"
+      },
+      "verifiedSinceMsec": "1260041650677"
+    }
+  }
+}

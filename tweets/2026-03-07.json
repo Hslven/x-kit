@@ -1,11 +1,731 @@
 [
   {
     "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCznjnUboAAgSTU.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030252274766008462",
+    "fullText": "How Tyler, The Creator Turned His Cult Fanbase Into Supreme Success https://t.co/dkliBWsAMF (Photo: Frederic J. Brown via Getty Images) https://t.co/EfIusP9xXV",
+    "createdAt": "Sat Mar 07 12:00:37 +0000 2026",
+    "createdAtFormatted": "2026/3/7 20:00:37",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Nature",
+      "name": "nature",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+      "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+      "followersCount": 2594003,
+      "friendsCount": 3228,
+      "location": "Worldwide"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Nature/status/2030244318699475406",
+    "fullText": "Fluorescent proteins with a quantum upgrade could offer unprecedented views inside cells - the next big thing in biology? \n\nhttps://t.co/oeyjRKBJN5",
+    "createdAt": "Sat Mar 07 11:29:00 +0000 2026",
+    "createdAtFormatted": "2026/3/7 19:29:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCzZ0jYaYAAJWHu.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030237121240543368",
+    "fullText": "Forbes House of the Week: New England Renewal https://t.co/D2V9XT3RDb 📸: Robert Benson https://t.co/DC6OSKMgnu",
+    "createdAt": "Sat Mar 07 11:00:24 +0000 2026",
+    "createdAtFormatted": "2026/3/7 19:00:24",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030222049860595951",
+    "fullText": "VIDEO: I Hacked My CEO’s Email To Prove A Point And It Created A $1 Billion Business https://t.co/kKpgrb8e9l",
+    "createdAt": "Sat Mar 07 10:00:31 +0000 2026",
+    "createdAtFormatted": "2026/3/7 18:00:31",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Nature",
+      "name": "nature",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+      "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+      "followersCount": 2594003,
+      "friendsCount": 3228,
+      "location": "Worldwide"
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2030212107136868353/vid/avc1/1066x600/0zMc5no7gbLpm0wH.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/Nature/status/2030212133355446527",
+    "fullText": "Coral life inside out, cosmic anomalies, and iguana patrol.\n\nCheck out this month's sharpest science images, chosen by the Nature photo team: https://t.co/ZlnmlkhR2x https://t.co/hNaC4Fn3l9 https://t.co/BSNUEZ74P1",
+    "createdAt": "Sat Mar 07 09:21:06 +0000 2026",
+    "createdAtFormatted": "2026/3/7 17:21:06",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCy-W_5bEAA6DcL.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030206958675112146",
+    "fullText": "Need a spring break? So do nearly 200 million other travelers. According to a study released by Airlines for America on Feb. 24, a record breaking travel season is predicted to begin this spring. \n\nRead more: https://t.co/bTIjbQWO1O Photo: Getty Images https://t.co/In2amkKksb",
+    "createdAt": "Sat Mar 07 09:00:33 +0000 2026",
+    "createdAtFormatted": "2026/3/7 17:00:33",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2029486474282852352/vid/avc1/2160x3840/3K7i3tYvneKPG84a.mp4?tag=21"
+    ],
+    "tweetUrl": "https://x.com/elonmusk/status/2030202960773317019",
+    "fullText": "https://t.co/ENOdjSaIRl",
+    "createdAt": "Sat Mar 07 08:44:39 +0000 2026",
+    "createdAtFormatted": "2026/3/7 16:44:39",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030202550259962338",
+    "fullText": "True",
+    "createdAt": "Sat Mar 07 08:43:01 +0000 2026",
+    "createdAtFormatted": "2026/3/7 16:43:01",
+    "quotedStatus": {
+      "fullText": "Tucker: \"Every other group in the world has a right to its own homeland except White people? What? Explain how that makes sense.”\n\nWhite people deserve a homeland. https://t.co/vMGGMLkdKR",
+      "tweetUrl": "",
+      "userName": "iamyesyouareno",
+      "screenName": "iamyesyouareno",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2006676408689422337/9PkSopdh_normal.jpg",
+      "images": [],
+      "videos": [
+        "https://video.twimg.com/amplify_video/2030004870271373312/vid/avc1/1280x720/qpV1y13zGbiH9Cxw.mp4?tag=21"
+      ]
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2029980671582806016/vid/avc1/1280x720/uXq-3I_WuS8gMwFw.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/elonmusk/status/2030202126282973682",
+    "fullText": "Starship V3 first flight in about 4 weeks\n https://t.co/wvCkw5mjH0",
+    "createdAt": "Sat Mar 07 08:41:20 +0000 2026",
+    "createdAtFormatted": "2026/3/7 16:41:20",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030197628005122329",
+    "fullText": "Tesla battery cell production is getting good",
+    "createdAt": "Sat Mar 07 08:23:28 +0000 2026",
+    "createdAtFormatted": "2026/3/7 16:23:28",
+    "quotedStatus": {
+      "fullText": "BREAKING 🚨 @Tesla HAS ENGINEERED A SYNCHRONIZED MULTI-ROLL CALENDERING MACHINE THAT USES DIFFERENTIAL ROLLER SPEEDS TO EFFORTLESSLY TURN DELICATE DRY POWDERS INTO CONTINUOUS BATTERY ELECTRODES 🔋\n\nFor years, mastering the \"dry battery electrode\" has been the holy grail of https://t.co/oDaEiX1n3p",
+      "tweetUrl": "",
+      "userName": "Ming",
+      "screenName": "tslaming",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1995661624926240768/E8Y0GjbZ_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCyo6HqaUAAWqHP.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCywntlaUAAADdS.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030191848376127792",
+    "fullText": "This Entrepreneur Spends Her Days Dreaming Up Decadent Cookie Recipes. How A Frightening Diagnosis Sparked Her Million-Dollar Business. https://t.co/bWRYycz0NI (📸: Sweet Addison's) https://t.co/ctaJXgrIK2",
+    "createdAt": "Sat Mar 07 08:00:30 +0000 2026",
+    "createdAtFormatted": "2026/3/7 16:00:30",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030187552997552253",
+    "fullText": "Grok Imagine gets better almost every day",
+    "createdAt": "Sat Mar 07 07:43:26 +0000 2026",
+    "createdAtFormatted": "2026/3/7 15:43:26",
+    "quotedStatus": {
+      "fullText": "Grok Imagine Video is straight-up owning the Artificial Analysis Image-to-Video Arena leaderboard right now with that beastly 1,336 ELO score\n\nSource: @xDaily https://t.co/Yt9htrBSIV",
+      "tweetUrl": "https://twitter.com/elonmusk/status/2029627385784713310",
+      "userName": "Mario Nawfal",
+      "screenName": "MarioNawfal",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1938244629071015936/UwtzYY-R_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCx61aLXkAAtjKF.png"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2030140480449835008/vid/avc1/464x688/IIaVnK9I2g-1f-hO.mp4?tag=24"
+    ],
+    "tweetUrl": "https://x.com/elonmusk/status/2030180433929846823",
+    "fullText": "https://t.co/HxOa8Pp5My",
+    "createdAt": "Sat Mar 07 07:15:09 +0000 2026",
+    "createdAtFormatted": "2026/3/7 15:15:09",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2029883728231809024/vid/avc1/464x688/nulg0ccZOdYOGWIa.mp4?tag=24"
+    ],
+    "tweetUrl": "https://x.com/elonmusk/status/2030179776141394376",
+    "fullText": "https://t.co/LfOYvCZFWn",
+    "createdAt": "Sat Mar 07 07:12:32 +0000 2026",
+    "createdAtFormatted": "2026/3/7 15:12:32",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030177277409906928",
+    "fullText": "19 years ago",
+    "createdAt": "Sat Mar 07 07:02:36 +0000 2026",
+    "createdAtFormatted": "2026/3/7 15:02:36",
+    "quotedStatus": {
+      "fullText": "Young Elon laying out his life's mission:\n\n- Help build the internet \n- Transition the world away from oil to clean energy \n- Make life multi-planetary (still working on it, but pretty damn close)\n\nElon basically scripted the last 25 years of human progress in one interview. https://t.co/ZzxNWwnonA",
+      "tweetUrl": "",
+      "userName": "Mario Nawfal",
+      "screenName": "MarioNawfal",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1938244629071015936/UwtzYY-R_normal.jpg",
+      "images": [],
+      "videos": [
+        "https://video.twimg.com/amplify_video/2030162828641107968/vid/avc1/360x640/i58GNkcBf_I0z8uD.mp4?tag=21"
+      ]
+    }
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCyi48OaIAANMJX.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030176703134539866",
+    "fullText": "10 Bourbons That Prove Great Whiskey Doesn’t Have To Be Expensive https://t.co/6UVriAwkXK (Photo: Getty Images) https://t.co/fJLNbH084A",
+    "createdAt": "Sat Mar 07 07:00:19 +0000 2026",
+    "createdAtFormatted": "2026/3/7 15:00:19",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030175460819394593",
+    "fullText": "Yes",
+    "createdAt": "Sat Mar 07 06:55:23 +0000 2026",
+    "createdAtFormatted": "2026/3/7 14:55:23",
+    "quotedStatus": {
+      "fullText": "You don't get social peace unless you're willing to permanently incarcerate -- or eliminate -- the worst 1% of society.",
+      "tweetUrl": "https://twitter.com/Will_Tanner_1/status/2029735213731905702",
+      "userName": "Peter St Onge, Ph.D.",
+      "screenName": "profstonge",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1738594872125161472/oHWOsCs5_normal.jpg",
+      "images": [],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030168071701418032",
+    "fullText": "Cool milestone",
+    "createdAt": "Sat Mar 07 06:26:01 +0000 2026",
+    "createdAtFormatted": "2026/3/7 14:26:01",
+    "quotedStatus": {
+      "fullText": "Yesterday, Tesla surpassed the Volkswagen Group in quarterly sales in Norway. 🇳🇴\n\nThe core of VW Group includes the brands Volkswagen, Škoda, Audi, SEAT/Cupra, and Porsche. https://t.co/oDnPscvqWB",
+      "tweetUrl": "",
+      "userName": "Roland Pircher",
+      "screenName": "piloly",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1617665386844921857/rH2cWqIy_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCuSBgGWkAAHocD.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030167535782649989",
+    "fullText": "Just press the switch",
+    "createdAt": "Sat Mar 07 06:23:53 +0000 2026",
+    "createdAtFormatted": "2026/3/7 14:23:53",
+    "quotedStatus": {
+      "fullText": "https://t.co/oHDYM4pUTt",
+      "tweetUrl": "https://twitter.com/arthurmacwaters/status/2030149105415332303",
+      "userName": "Elon Musk",
+      "screenName": "elonmusk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCyNTKkaUAA9kU9.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030165346280497164",
+    "fullText": "Tesla Diner food is great",
+    "createdAt": "Sat Mar 07 06:15:11 +0000 2026",
+    "createdAtFormatted": "2026/3/7 14:15:11",
+    "quotedStatus": {
+      "fullText": "Bite me https://t.co/91dBcFg4j2",
+      "tweetUrl": "",
+      "userName": "Tesla North America",
+      "screenName": "tesla_na",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1681000114607857665/FLyxuLUB_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCmuXWFb0AAH7xL.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCyVKI6aUAEXnyR.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030161563878052300",
+    "fullText": "The Best Spring Break Destinations For Families Ready To Unwind https://t.co/QB3IsQesSp via @ForbesVetted (📸: Mauna Kea Beach Hotel) https://t.co/DJwTqTGq3V",
+    "createdAt": "Sat Mar 07 06:00:10 +0000 2026",
+    "createdAtFormatted": "2026/3/7 14:00:10",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030160147323211806",
+    "fullText": "Cool",
+    "createdAt": "Sat Mar 07 05:54:32 +0000 2026",
+    "createdAtFormatted": "2026/3/7 13:54:32",
+    "quotedStatus": {
+      "fullText": "You can now have a personal AI agent team working for you directly on https://t.co/t0EmNNSSRj and it’s unlike anything you’ve seen before\n\nGrok 4.20 Beta comes with a native 4-agent system built in, plus a massive 16-agent swarm if you're on the SuperGrok Heavy plan\n\nYou can https://t.co/YOuaI34xxs",
+      "tweetUrl": "",
+      "userName": "X Freeze",
+      "screenName": "XFreeze",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1876785200010539008/2_HFJjq9_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCyNyhcaUAAhtly.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030159969631572171",
+    "fullText": "Claude is woke and their logo looks like an anal sphincter 😂",
+    "createdAt": "Sat Mar 07 05:53:49 +0000 2026",
+    "createdAtFormatted": "2026/3/7 13:53:49",
+    "quotedStatus": {
+      "fullText": "Anthropic’s Claude says Charlie Kirk wasn’t a good person, but convicted criminal George Floyd was.\n\nClaude is woke https://t.co/N0HScIyNmq",
+      "tweetUrl": "",
+      "userName": "Taya",
+      "screenName": "travelingflying",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1991349232649768960/48TAjkOk_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCvhKgcaUAQZJjQ.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030159267689632121",
+    "fullText": "Only Grok speaks the truth. \n\nOnly truthful AI is safe. \n\nOnly truth understands the universe.",
+    "createdAt": "Sat Mar 07 05:51:02 +0000 2026",
+    "createdAtFormatted": "2026/3/7 13:51:02",
+    "quotedStatus": {
+      "fullText": "https://t.co/HAwXsH7QLA",
+      "tweetUrl": "",
+      "userName": "The Rabbit Hole",
+      "screenName": "TheRabbitHole",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1522017422550528001/6AceRKJQ_normal.png",
+      "images": [],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCyNTKkaUAA9kU9.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030152895149265404",
+    "fullText": "https://t.co/oHDYM4pUTt",
+    "createdAt": "Sat Mar 07 05:25:43 +0000 2026",
+    "createdAtFormatted": "2026/3/7 13:25:43",
+    "quotedStatus": {
+      "fullText": "Crime is not random\n\nOnly 0.2% of people ever commit murder, yet **67% of all murders**are committed by people with prior arrests \n\nWhen the crime-inclined people are stopped, the crime stops.\n\nYou can literally just fix crime by not tolerating people who show a history of being https://t.co/3Lfl2E4TQ3",
+      "tweetUrl": "https://twitter.com/elonmusk/status/2030147227864441176",
+      "userName": "Arthur MacWaters",
+      "screenName": "ArthurMacwaters",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCyJ2cXbQAAcl9-.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030152245359390862",
+    "fullText": "Cybertruck is awesome",
+    "createdAt": "Sat Mar 07 05:23:08 +0000 2026",
+    "createdAtFormatted": "2026/3/7 13:23:08",
+    "quotedStatus": {
+      "fullText": "Boardslide the whip https://t.co/JJCtNqSUCf",
+      "tweetUrl": "",
+      "userName": "Cybertruck",
+      "screenName": "cybertruck",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1729225579277209600/DNnvovEG_normal.jpg",
+      "images": [],
+      "videos": [
+        "https://video.twimg.com/amplify_video/2029978570773368832/vid/avc1/1920x1080/eAEgFmA0_yZfgbDp.mp4?tag=21"
+      ]
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030147227864441176",
+    "fullText": "Yes",
+    "createdAt": "Sat Mar 07 05:03:12 +0000 2026",
+    "createdAtFormatted": "2026/3/7 13:03:12",
+    "quotedStatus": {
+      "fullText": "Let me get this straight:\n\n&gt; literally 60+% of people in prison have already been arrested more than 3x already \n\n&gt; data very obviously shows that violent criminals will commit repeat offenses\n\n&gt; soft on crime DAs and judges are truly co-signing future death and destruction when https://t.co/p6dmaZ5dh9",
+      "tweetUrl": "https://twitter.com/garrytan/status/2030102199129485563",
+      "userName": "Arthur MacWaters",
+      "screenName": "ArthurMacwaters",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1921033752140279808/TgndOxdb_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HCxo1mxaoAACTEL.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030146429025649009",
+    "fullText": "4 New Five-Star Chefs Reveal Their Must-Try Dishes  https://t.co/EMGQyK8Qqc",
+    "createdAt": "Sat Mar 07 05:00:01 +0000 2026",
+    "createdAtFormatted": "2026/3/7 13:00:01",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCx5sItbIAAMXWk.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030131358958506101",
+    "fullText": "In 2026, micro-side hustles are becoming a defining feature of the modern work culture, offering benefits over conventional side hustles. Here's what to know: https://t.co/ScxjRjI6Il (Photo: Getty Images) https://t.co/jZSwhzmSVW",
+    "createdAt": "Sat Mar 07 04:00:08 +0000 2026",
+    "createdAtFormatted": "2026/3/7 12:00:08",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53017498,
+      "friendsCount": 842,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2030116263100309809",
+    "fullText": "Breaking News: Tornadoes left at least four people dead and 12 injured in Michigan as severe storms hit the central U.S. https://t.co/3FHIfIkFYd",
+    "createdAt": "Sat Mar 07 03:00:09 +0000 2026",
+    "createdAtFormatted": "2026/3/7 11:00:09",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030116255664066628",
+    "fullText": "The Top 10 Cars And Trucks For 2026, According To Consumer Reports https://t.co/Ib84eP2Dxf",
+    "createdAt": "Sat Mar 07 03:00:07 +0000 2026",
+    "createdAtFormatted": "2026/3/7 11:00:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236090031,
       "friendsCount": 1292,
       "location": ""
     },
@@ -35,7 +755,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236090031,
       "friendsCount": 1292,
       "location": ""
     },
@@ -59,11 +779,127 @@
   },
   {
     "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCxJoJwbMAE2F3H.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030078490649973067",
+    "fullText": "America’s Only Quadruple Five-Star Resort, How To Stay In Karl Lagerfeld’s Former Paris Office, And More Travel News https://t.co/muuXRdY024 (📸: Beach Club at The Boca Raton) https://t.co/a8fJ0bsMiq",
+    "createdAt": "Sat Mar 07 00:30:03 +0000 2026",
+    "createdAtFormatted": "2026/3/7 08:30:03",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCxGL7-aUAEEEWQ.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030074706234331246",
+    "fullText": "Anthropic’s Claude is surging in app downloads and traffic, according to data from Similarweb shared with Forbes, amid fallout over President Donald Trump and the Defense Department cutting ties with what Trump slammed as a “radical left, woke” AI company.\nRead more: https://t.co/5FS2jgyuKH",
+    "createdAt": "Sat Mar 07 00:15:01 +0000 2026",
+    "createdAtFormatted": "2026/3/7 08:15:01",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53017498,
+      "friendsCount": 842,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2030065421433397742",
+    "fullText": "Breaking News: A federal jury found a Pakistani man guilty of plotting with the Iranian government to kill U.S. politicians, including President Trump. https://t.co/mltTB58c97",
+    "createdAt": "Fri Mar 06 23:38:07 +0000 2026",
+    "createdAtFormatted": "2026/3/7 07:38:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53017498,
+      "friendsCount": 842,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2030058825286406240",
+    "fullText": "Breaking News: Dr. Vinay Prasad, a polarizing figure at the FDA who oversaw vaccines, is leaving the agency. As the chief science and medical officer, he made several controversial decisions, such as overruling career scientists on some vaccine approvals. https://t.co/mDR3MxVb4U",
+    "createdAt": "Fri Mar 06 23:11:55 +0000 2026",
+    "createdAtFormatted": "2026/3/7 07:11:55",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCw1BtVaUAIYsze.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030055886279037223",
+    "fullText": "How Higher Oil Prices Are Rippling Through Household Budgets https://t.co/dXQcL9Q6gx (Photo: Getty Images) https://t.co/D4eP0rpNhH",
+    "createdAt": "Fri Mar 06 23:00:14 +0000 2026",
+    "createdAtFormatted": "2026/3/7 07:00:14",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwxlwCbYAAITrX.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030052060226539527",
+    "fullText": "Oil benchmarks hit $90 a barrel Friday, highs not seen since October 2023, almost a week after the U.S. and Israel began striking Iran, and as Qatar warned prices could reach $150 this month if the conflict continues.\nRead more: https://t.co/ihcw7y2fmj\nPhoto: AFP via Getty Images https://t.co/komxgshRsN",
+    "createdAt": "Fri Mar 06 22:45:02 +0000 2026",
+    "createdAtFormatted": "2026/3/7 06:45:02",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236090031,
       "friendsCount": 1292,
       "location": ""
     },
@@ -87,11 +923,187 @@
   },
   {
     "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwnTH1aEAAqKgr.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030040819261133151",
+    "fullText": "America's wealth map is shifting as buyers reprioritize how, and where, they want to live. Here are four cities they're buying second homes in this year: https://t.co/sl24ePurdo (📸: Nick Cann Photography) https://t.co/e0vA3HSwLC",
+    "createdAt": "Fri Mar 06 22:00:22 +0000 2026",
+    "createdAtFormatted": "2026/3/7 06:00:22",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwgcgFXYAATSkg.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030033207375142963",
+    "fullText": "BlackRock Shares Tumble Over 7% After Firm Limits Withdrawals From Private Credit Fund\nhttps://t.co/YXnUZusp3K https://t.co/yIRB9h2S6s",
+    "createdAt": "Fri Mar 06 21:30:07 +0000 2026",
+    "createdAtFormatted": "2026/3/7 05:30:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwZk0oaUAE9E9w.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030025736028057911",
+    "fullText": "Student Loans In Limbo As Court Again Rejects Bid To Kill Repayment Plan For 7 Million Borrowers https://t.co/2l8qNdZLbs (📸: Chip Somodevilla via Getty Images)) https://t.co/hBWQwLvqRD",
+    "createdAt": "Fri Mar 06 21:00:26 +0000 2026",
+    "createdAtFormatted": "2026/3/7 05:00:26",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwZkjxXgAAbs6f.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030025649444819124",
+    "fullText": "Gas Prices Surged This Week Amid Iran War—These States Are Being Squeezed Tightest\nhttps://t.co/a4AR1xkkd2 https://t.co/Vq4sJrK85j",
+    "createdAt": "Fri Mar 06 21:00:05 +0000 2026",
+    "createdAtFormatted": "2026/3/7 05:00:05",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Nature",
+      "name": "nature",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+      "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+      "followersCount": 2594003,
+      "friendsCount": 3228,
+      "location": "Worldwide"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Nature/status/2030024272098246681",
+    "fullText": "The success of a student’s educational video made me rethink the ways that teaching can create moments of wonder that technology can’t replace, says lecturer Jiun Youn.\n\nhttps://t.co/XuO8yL19Ow",
+    "createdAt": "Fri Mar 06 20:54:37 +0000 2026",
+    "createdAtFormatted": "2026/3/7 04:54:37",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Nature",
+      "name": "nature",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+      "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+      "followersCount": 2594003,
+      "friendsCount": 3228,
+      "location": "Worldwide"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Nature/status/2030022391796060519",
+    "fullText": "To mark International Women’s Day on 8 March, Mangala Srinivas reminds junior colleagues that career success won’t protect you from gender-based bias.\n\nhttps://t.co/3EeS1N2khU",
+    "createdAt": "Fri Mar 06 20:47:08 +0000 2026",
+    "createdAtFormatted": "2026/3/7 04:47:08",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwVXxNaUAEIBlN.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030021032858505448",
+    "fullText": "American travelers will soon face higher airfares, United Airlines CEO Scott Kirby said, as jet fuel prices spike in the wake of U.S. airstrikes on Iran.\nRead more: https://t.co/oX8bDDOts7\nPhoto: Kevin Carter via Getty Images https://t.co/PtZDmT53gC",
+    "createdAt": "Fri Mar 06 20:41:44 +0000 2026",
+    "createdAtFormatted": "2026/3/7 04:41:44",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwStP9aoAAtfEW.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030018122284159479",
+    "fullText": "New York City billionaire John Catsimatidis, a Trump ally and owner of regional oil refining and gas station powerhouse United Refining Company, called this week’s fuel price hikes amid the war on Iran a “temporary fluctuation.” Here's what else he had to say in an interview with https://t.co/BNHQCOPp0P",
+    "createdAt": "Fri Mar 06 20:30:10 +0000 2026",
+    "createdAtFormatted": "2026/3/7 04:30:10",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCwL2GHXgAAxpDN.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030010557869240702",
+    "fullText": "Kennedy Center Loses Another Of Its Directors After Trump Takeover\nhttps://t.co/DbUfe7gCHd https://t.co/toaLjJ8ld3",
+    "createdAt": "Fri Mar 06 20:00:07 +0000 2026",
+    "createdAtFormatted": "2026/3/7 04:00:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236090031,
       "friendsCount": 1292,
       "location": ""
     },
@@ -115,11 +1127,29 @@
   },
   {
     "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53017498,
+      "friendsCount": 842,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2029999952626139167",
+    "fullText": "Breaking News: The executive director of the National Symphony Orchestra is stepping down, the latest blow to the Kennedy Center as it struggles in the wake of President Trump’s effort to put his imprint on it. https://t.co/UWiVrQ2mLu",
+    "createdAt": "Fri Mar 06 19:17:58 +0000 2026",
+    "createdAtFormatted": "2026/3/7 03:17:58",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236090031,
       "friendsCount": 1292,
       "location": ""
     },
@@ -143,11 +1173,69 @@
   },
   {
     "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCv-GuxbYAA6NNH.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2029995450099466556",
+    "fullText": "Anthropic’s Claude reigns atop the iOS App Store, where it dethroned ChatGPT earlier this week.\nhttps://t.co/6jsNB3Qa7W https://t.co/myCdsymW1V",
+    "createdAt": "Fri Mar 06 19:00:05 +0000 2026",
+    "createdAtFormatted": "2026/3/7 03:00:05",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2029993930205634772",
+    "fullText": "What Anthropic’s Latest Apology Says About Its Future With The Pentagon https://t.co/tX1T0DlkQu",
+    "createdAt": "Fri Mar 06 18:54:03 +0000 2026",
+    "createdAtFormatted": "2026/3/7 02:54:03",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303519,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HCv4YxlWEAAFIIN.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2029989162904936747",
+    "fullText": "Billionaire Gas Station Owner Calls Iran War Price Hikes Temporary: ‘Suffer For One Month’\nhttps://t.co/3kcBjErfrP https://t.co/NH5DBWZLF0",
+    "createdAt": "Fri Mar 06 18:35:06 +0000 2026",
+    "createdAtFormatted": "2026/3/7 02:35:06",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -173,7 +1261,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -201,7 +1289,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -229,7 +1317,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -249,7 +1337,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -264,7 +1352,7 @@
       "tweetUrl": "",
       "userName": "Bethany Stevens",
       "screenName": "NASASpox",
-      "profileImageUrl": "https://pbs.twimg.com/profile_images/1907898314286047232/d4g3_qMT_normal.jpg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2030158374625759233/3fWyLDjS_normal.jpg",
       "images": [
         "https://pbs.twimg.com/media/HCrx27lXEAE9-Sm.jpg"
       ],
@@ -277,7 +1365,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -305,7 +1393,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -333,7 +1421,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -361,7 +1449,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -387,7 +1475,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -415,7 +1503,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -441,7 +1529,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },
@@ -467,7 +1555,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236056679,
+      "followersCount": 236089569,
       "friendsCount": 1292,
       "location": ""
     },

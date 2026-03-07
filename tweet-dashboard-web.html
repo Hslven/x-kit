@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Summary &amp; Insights</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#2b6cee",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+<!-- Header Navigation -->
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/10 px-4 py-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-slate-900 dark:text-slate-100">arrow_back_ios</span>
+<h1 class="text-xl font-bold tracking-tight">AI Insights</h1>
+</div>
+<button class="flex items-center justify-center size-10 rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">auto_awesome</span>
+</button>
+</header>
+<main class="flex-1 overflow-y-auto pb-24">
+<!-- Date Range Selection Section -->
+<section class="p-4">
+<div class="bg-primary/5 border border-primary/20 rounded-xl p-4">
+<div class="flex items-center justify-between mb-4">
+<button class="material-symbols-outlined text-primary">chevron_left</button>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">calendar_today</span>
+<p class="text-sm font-bold uppercase tracking-wider">October 2023</p>
+</div>
+<button class="material-symbols-outlined text-primary">chevron_right</button>
+</div>
+<div class="grid grid-cols-7 text-center gap-1">
+<span class="text-[10px] font-bold text-slate-500 uppercase">S</span>
+<span class="text-[10px] font-bold text-slate-500 uppercase">M</span>
+<span class="text-[10px] font-bold text-slate-500 uppercase">T</span>
+<span class="text-[10px] font-bold text-slate-500 uppercase">W</span>
+<span class="text-[10px] font-bold text-slate-500 uppercase">T</span>
+<span class="text-[10px] font-bold text-slate-500 uppercase">F</span>
+<span class="text-[10px] font-bold text-slate-500 uppercase">S</span>
+<!-- Calendar Days Grid excerpt -->
+<div class="h-8 flex items-center justify-center text-xs opacity-30">27</div>
+<div class="h-8 flex items-center justify-center text-xs opacity-30">28</div>
+<div class="h-8 flex items-center justify-center text-xs opacity-30">29</div>
+<div class="h-8 flex items-center justify-center text-xs opacity-30">30</div>
+<div class="h-8 flex items-center justify-center text-xs bg-primary/20 rounded-full border border-primary/40">1</div>
+<div class="h-8 flex items-center justify-center text-xs bg-primary text-white rounded-full">2</div>
+<div class="h-8 flex items-center justify-center text-xs bg-primary/20 rounded-full border border-primary/40">3</div>
+</div>
+</div>
+</section>
+<!-- Trending Topics Tags -->
+<section class="px-4 py-2">
+<h3 class="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3 px-1">Trending Narratives</h3>
+<div class="flex flex-wrap gap-2">
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/30">
+<span class="text-xs font-medium text-primary">#AIRevolution</span>
+<span class="material-symbols-outlined text-[14px] text-primary">trending_up</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">
+<span class="text-xs font-medium text-slate-300">#TechTrends</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">
+<span class="text-xs font-medium text-slate-300">#FutureOfWork</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 border border-primary/30">
+<span class="text-xs font-medium text-primary">#LLM</span>
+<span class="material-symbols-outlined text-[14px] text-primary">bolt</span>
+</div>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800 border border-slate-700">
+<span class="text-xs font-medium text-slate-300">#OpenSource</span>
+</div>
+</div>
+</section>
+<!-- AI Insights Card -->
+<section class="p-4">
+<div class="relative overflow-hidden bg-gradient-to-br from-primary/20 to-transparent border border-primary/20 rounded-2xl p-6">
+<!-- Abstract background glow -->
+<div class="absolute -top-12 -right-12 size-32 bg-primary/30 blur-3xl rounded-full"></div>
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary">psychology</span>
+<h2 class="text-lg font-bold">Smart Summary</h2>
+</div>
+<!-- Insight Bullets -->
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="flex-shrink-0 mt-1">
+<span class="material-symbols-outlined text-primary text-xl">sentiment_satisfied</span>
+</div>
+<div>
+<h4 class="text-sm font-bold text-slate-100">Market Sentiment</h4>
+<p class="text-sm text-slate-400 mt-1 leading-relaxed">Positive sentiment (78%) driven by recent breakthroughs in localized LLMs and edge computing performance.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="flex-shrink-0 mt-1">
+<span class="material-symbols-outlined text-primary text-xl">hub</span>
+</div>
+<div>
+<h4 class="text-sm font-bold text-slate-100">Key Conversations</h4>
+<p class="text-sm text-slate-400 mt-1 leading-relaxed">Major discussions center around NVIDIA's hardware roadmaps and their impact on venture capital cycles.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="flex-shrink-0 mt-1">
+<span class="material-symbols-outlined text-primary text-xl">warning</span>
+</div>
+<div>
+<h4 class="text-sm font-bold text-slate-100">Potential Risks</h4>
+<p class="text-sm text-slate-400 mt-1 leading-relaxed">Rising concerns regarding AI regulation in the EU are causing localized dips in engagement among developers.</p>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-primary/10 flex items-center justify-between">
+<span class="text-[10px] text-slate-500 uppercase tracking-tighter">Updated 2m ago</span>
+<button class="text-xs font-bold text-primary flex items-center gap-1">
+                        Full Report <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Metric Quick View -->
+<section class="px-4 pb-4">
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-slate-900/50 border border-slate-800 p-4 rounded-xl">
+<p class="text-[10px] font-bold text-slate-500 uppercase">Volume</p>
+<div class="flex items-end justify-between mt-1">
+<h3 class="text-xl font-bold">124.5k</h3>
+<span class="text-xs text-green-500 flex items-center font-medium">
+<span class="material-symbols-outlined text-sm">arrow_drop_up</span> 12%
+                        </span>
+</div>
+</div>
+<div class="bg-slate-900/50 border border-slate-800 p-4 rounded-xl">
+<p class="text-[10px] font-bold text-slate-500 uppercase">Virality Score</p>
+<div class="flex items-end justify-between mt-1">
+<h3 class="text-xl font-bold">8.4</h3>
+<span class="text-xs text-primary flex items-center font-medium">
+<span class="material-symbols-outlined text-sm">bolt</span> High
+                        </span>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 right-0 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-lg border-t border-slate-200 dark:border-slate-800 px-6 py-3 pb-8">
+<div class="flex justify-between items-center max-w-md mx-auto">
+<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-[10px] font-medium">Feed</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
+<span class="material-symbols-outlined">notifications</span>
+<span class="text-[10px] font-medium">Alerts</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">auto_awesome</span>
+<span class="text-[10px] font-bold">Insights</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="text-[10px] font-medium">Metrics</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-[10px] font-medium">Config</span>
+</a>
+</div>
+</nav>
+</body></html>

@@ -1,0 +1,123 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {
+    "affiliates_count": 2
+  },
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "677"
+  },
+  "id": "VXNlcjo5MTQ3ODYyNA==",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": true,
+    "createdAt": "Sat Nov 21 02:09:57 +0000 2009",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+    "entities": {
+      "description": {
+        "urls": [
+          {
+            "display_url": "forbes.com/newsletter/for…",
+            "expanded_url": "https://www.forbes.com/newsletter/forbes-daily/?utm_source=TWITTER",
+            "indices": [
+              94,
+              117
+            ],
+            "url": "https://t.co/v3UAa9BzAT"
+          }
+        ]
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "forbes.com",
+            "expanded_url": "http://forbes.com",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/6qjZ8PCpvM"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 9986,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 20303518,
+    "following": false,
+    "friendsCount": 4611,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 62585,
+    "location": "New York, NY",
+    "mediaCount": 374707,
+    "muting": false,
+    "name": "Forbes",
+    "normalFollowersCount": 20303518,
+    "notifications": false,
+    "pinnedTweetIdsStr": [],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/91478624/1696813485",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "Forbes",
+    "statusesCount": 671409,
+    "translatorType": "regular",
+    "url": "https://t.co/6qjZ8PCpvM",
+    "verified": false,
+    "verifiedType": "Business",
+    "wantRetweets": false,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "professional": {
+    "category": [
+      {
+        "iconName": "IconBriefcaseStroke",
+        "id": 580,
+        "name": "Media & News Company"
+      }
+    ],
+    "professionalType": "Business",
+    "restId": "1571892547685056513"
+  },
+  "profileImageShape": "Square",
+  "restId": "91478624",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 69,
+            "ref": {
+              "url": "https://help.twitter.com/en/rules-and-policies/profile-labels",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 79
+          }
+        ],
+        "text": "This account is verified because it's an official organization on X. Learn more"
+      },
+      "verifiedSinceMsec": "1282097791592"
+    }
+  }
+}
