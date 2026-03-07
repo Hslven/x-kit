@@ -1,0 +1,87 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "75"
+  },
+  "id": "VXNlcjo0MTI4MzM4ODA=",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": false,
+    "createdAt": "Tue Nov 15 05:28:57 +0000 2011",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "Official X account for Michael Burry, MD, called \"Cassandra\" by Warren Buffett. Now on Substack with the full story.",
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 570,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 1733085,
+    "following": false,
+    "friendsCount": 27,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 10038,
+    "location": "lỗ nhớ",
+    "mediaCount": 394,
+    "muting": false,
+    "name": "Cassandra Unchained",
+    "normalFollowersCount": 1733085,
+    "notifications": false,
+    "pinnedTweetIdsStr": [
+      "2028978877221986764"
+    ],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/412833880/1772210511",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/2006801568948191232/0vJBWEyL_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "michaeljburry",
+    "statusesCount": 714,
+    "translatorType": "none",
+    "verified": false,
+    "wantRetweets": false,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "412833880",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": true,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1617292212161"
+    }
+  }
+}

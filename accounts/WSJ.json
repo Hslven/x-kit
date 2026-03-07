@@ -1,0 +1,130 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {
+    "affiliates_count": 0
+  },
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "33"
+  },
+  "id": "VXNlcjozMTA4MzUx",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": true,
+    "createdAt": "Sun Apr 01 06:22:13 +0000 2007",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "Sign up for our newsletters and alerts: https://t.co/QevH0DLQi8 | Got a tip? https://t.co/iXIigdPjEZ | For WSJ customer support: https://t.co/DZgH9n53qg",
+    "entities": {
+      "description": {
+        "urls": [
+          {
+            "display_url": "wsj.com/newsletters",
+            "expanded_url": "http://wsj.com/newsletters",
+            "indices": [
+              40,
+              63
+            ],
+            "url": "https://t.co/QevH0DLQi8"
+          },
+          {
+            "display_url": "wsj.com/tips",
+            "expanded_url": "http://wsj.com/tips",
+            "indices": [
+              77,
+              100
+            ],
+            "url": "https://t.co/iXIigdPjEZ"
+          },
+          {
+            "display_url": "customercenter.wsj.com",
+            "expanded_url": "http://customercenter.wsj.com",
+            "indices": [
+              129,
+              152
+            ],
+            "url": "https://t.co/DZgH9n53qg"
+          }
+        ]
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "wsj.com",
+            "expanded_url": "http://wsj.com",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/9rMrYLFvJ1"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 1063,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 20875761,
+    "following": false,
+    "friendsCount": 1060,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 126694,
+    "location": "New York, NY",
+    "mediaCount": 55121,
+    "muting": false,
+    "name": "The Wall Street Journal",
+    "normalFollowersCount": 20875761,
+    "notifications": false,
+    "pinnedTweetIdsStr": [],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/3108351/1722961044",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "WSJ",
+    "statusesCount": 492919,
+    "translatorType": "regular",
+    "url": "https://t.co/9rMrYLFvJ1",
+    "verified": false,
+    "verifiedType": "Business",
+    "wantRetweets": false,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Square",
+  "restId": "3108351",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 69,
+            "ref": {
+              "url": "https://help.twitter.com/en/rules-and-policies/profile-labels",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 79
+          }
+        ],
+        "text": "This account is verified because it's an official organization on X. Learn more"
+      },
+      "verifiedSinceMsec": "1312390843519"
+    }
+  }
+}

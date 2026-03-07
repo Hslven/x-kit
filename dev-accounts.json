@@ -2,43 +2,148 @@
   {
     "username": "elonmusk",
     "twitter_url": "https://x.com/elonmusk",
-    "description": "Elon Musk",
+    "description": "埃隆·马斯克 (特斯拉、SpaceX CEO)",
     "tags": ["科技", "商业"],
     "id": "44196397"
   },
   {
     "username": "nytimes",
     "twitter_url": "https://x.com/nytimes",
-    "description": "The New York Times",
+    "description": "纽约时报",
     "tags": ["新闻"],
     "id": "52896925"
   },
   {
     "username": "forbes",
     "twitter_url": "https://x.com/forbes",
-    "description": "Forbes",
-    "tags": ["商业"],
+    "description": "福布斯 (商业杂志)",
+    "tags": ["商业", "金融"],
     "id": "47478539"
   },
   {
     "username": "realDonaldTrump",
     "twitter_url": "https://x.com/realDonaldTrump",
-    "description": "Donald J. Trump",
+    "description": "唐纳德·特朗普 (美国前总统)",
     "tags": ["政治"],
     "id": "25073877"
   },
   {
     "username": "Nature",
     "twitter_url": "https://x.com/Nature",
-    "description": "Nature 期刊",
+    "description": "Nature 期刊 (科学)",
     "tags": ["科学"],
     "id": "30521674"
   },
   {
     "username": "ScienceMag",
     "twitter_url": "https://x.com/ScienceMag",
-    "description": "Science 期刊",
+    "description": "Science 期刊 (科学)",
     "tags": ["科学"],
     "id": "20731319"
+  },
+  {
+    "username": "washingtonpost",
+    "twitter_url": "https://x.com/washingtonpost",
+    "description": "华盛顿邮报",
+    "tags": ["新闻"],
+    "id": "2467791"
+  },
+  {
+    "username": "CNN",
+    "twitter_url": "https://x.com/CNN",
+    "description": "CNN 新闻",
+    "tags": ["新闻"],
+    "id": "759251"
+  },
+  {
+    "username": "BBC",
+    "twitter_url": "https://x.com/BBC",
+    "description": "BBC 新闻",
+    "tags": ["新闻"],
+    "id": "612473"
+  },
+  {
+    "username": "WSJ",
+    "twitter_url": "https://x.com/WSJ",
+    "description": "华尔街日报",
+    "tags": ["新闻", "金融"],
+    "id": "31083500"
+  },
+  {
+    "username": "business",
+    "twitter_url": "https://x.com/business",
+    "description": "彭博商业",
+    "tags": ["金融", "商业"],
+    "id": "34713362"
+  },
+  {
+    "username": "BNBloomberg",
+    "twitter_url": "https://x.com/BNBloomberg",
+    "description": "彭博 (Bloomberg)",
+    "tags": ["金融"],
+    "id": "16796059"
+  },
+  {
+    "username": "warrenbuffett",
+    "twitter_url": "https://x.com/warrenbuffett",
+    "description": "沃伦·巴菲特 (伯克希尔哈撒韦)",
+    "tags": ["金融", "投资"],
+    "id": "1539783730"
+  },
+  {
+    "username": "RayDalio",
+    "twitter_url": "https://x.com/RayDalio",
+    "description": "雷·达里奥 (桥水基金)",
+    "tags": ["金融", "投资"],
+    "id": "173417367"
+  },
+  {
+    "username": "CathyWoodARK",
+    "twitter_url": "https://x.com/CathyWoodARK",
+    "description": "凯西·伍德 (ARK投资)",
+    "tags": ["金融", "投资"],
+    "id": "3298915872"
+  },
+  {
+    "username": "BillAckman",
+    "twitter_url": "https://x.com/BillAckman",
+    "description": "比尔·阿克曼 (潘兴广场资本)",
+    "tags": ["金融", "投资"],
+    "id": "22545587"
+  },
+  {
+    "username": "michaeljburry",
+    "twitter_url": "https://x.com/michaeljburry",
+    "description": "迈克尔·伯里 (大空头)",
+    "tags": ["金融", "投资"],
+    "id": "1198016702676480000"
+  },
+  {
+    "username": "awealthofcs",
+    "twitter_url": "https://x.com/awealthofcs",
+    "description": "Common Sense Investor (投资博主)",
+    "tags": ["金融", "投资"],
+    "id": "944738384"
+  },
+  {
+    "username": "truthsocial",
+    "twitter_url": "https://x.com/truthsocial",
+    "description": "Truth Social (特朗普社交平台)",
+    "tags": ["政治"],
+    "id": "1599443264232243200"
+  },
+  {
+    "username": "AP",
+    "twitter_url": "https://x.com/AP",
+    "description": "美联社",
+    "tags": ["新闻"],
+    "id": "51241574"
+  },
+  {
+    "username": "Reuters",
+    "twitter_url": "https://x.com/Reuters",
+    "description": "路透社",
+    "tags": ["新闻"],
+    "id": "16525406"
   }
 ]

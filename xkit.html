@@ -264,7 +264,7 @@
 
       // 调用后端 API
       try {
-        document.getElementById("aiSummary").textContent = "🤖 AI 正在分析推文...，请等待约半分钟";
+        document.getElementById("aiSummary").textContent = "🤖 AI 正在分析今日推文...，请等待约半分钟";
 
         const response = await fetch(`${API_BASE_URL}/diet/app/user-relation/ai-summary`, {
           method: "POST",

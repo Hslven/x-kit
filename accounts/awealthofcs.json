@@ -1,0 +1,111 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {},
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "2"
+  },
+  "id": "VXNlcjo5NzUzMDI4NA==",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": true,
+    "canMediaTag": true,
+    "createdAt": "Thu Dec 17 21:34:18 +0000 2009",
+    "defaultProfile": true,
+    "defaultProfileImage": false,
+    "description": "Trying to bring some common sense to the world of finance.\n\nPre-order my NEW BOOK: https://t.co/R9CBu4PHuc",
+    "entities": {
+      "description": {
+        "urls": [
+          {
+            "display_url": "amzn.to/4bEiQs2",
+            "expanded_url": "https://amzn.to/4bEiQs2",
+            "indices": [
+              83,
+              106
+            ],
+            "url": "https://t.co/R9CBu4PHuc"
+          }
+        ]
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "awealthofcommonsense.com",
+            "expanded_url": "http://www.awealthofcommonsense.com",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/oyiexXbhwf"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 77424,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 314460,
+    "following": false,
+    "friendsCount": 738,
+    "hasCustomTimelines": false,
+    "isTranslator": false,
+    "listedCount": 5350,
+    "location": "Grand Rapids, MI",
+    "mediaCount": 6030,
+    "muting": false,
+    "name": "Ben Carlson",
+    "normalFollowersCount": 314460,
+    "notifications": false,
+    "pinnedTweetIdsStr": [
+      "2026835243320111561"
+    ],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/97530284/1422673312",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1355736088409726978/gp2HirZc_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "awealthofcs",
+    "statusesCount": 44321,
+    "translatorType": "none",
+    "url": "https://t.co/oyiexXbhwf",
+    "verified": false,
+    "wantRetweets": false,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Circle",
+  "restId": "97530284",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 26,
+            "ref": {
+              "url": "https://help.twitter.com/managing-your-account/about-twitter-verified-accounts",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 36
+          }
+        ],
+        "text": "This account is verified. Learn more"
+      },
+      "verifiedSinceMsec": "1559845450670"
+    }
+  }
+}

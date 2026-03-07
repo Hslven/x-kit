@@ -1,0 +1,112 @@
+{
+  "typename": "User",
+  "affiliatesHighlightedLabel": {},
+  "businessAccount": {
+    "affiliates_count": 4
+  },
+  "creatorSubscriptionsCount": 0,
+  "hasGraduatedAccess": true,
+  "highlightsInfo": {
+    "canHighlightTweets": true,
+    "highlightedTweets": "1"
+  },
+  "id": "VXNlcjo3NTkyNTE=",
+  "isBlueVerified": true,
+  "isProfileTranslatable": false,
+  "legacy": {
+    "blockedBy": false,
+    "blocking": false,
+    "canDm": false,
+    "canMediaTag": false,
+    "createdAt": "Fri Feb 09 00:35:02 +0000 2007",
+    "defaultProfile": false,
+    "defaultProfileImage": false,
+    "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+    "entities": {
+      "description": {
+        "urls": [
+          {
+            "display_url": "cnn.smart.link/mi381rv0w",
+            "expanded_url": "https://cnn.smart.link/mi381rv0w",
+            "indices": [
+              124,
+              147
+            ],
+            "url": "https://t.co/7PQD7o6fLw"
+          }
+        ]
+      },
+      "url": {
+        "urls": [
+          {
+            "display_url": "cnn.com",
+            "expanded_url": "http://www.cnn.com",
+            "indices": [
+              0,
+              23
+            ],
+            "url": "https://t.co/imGp4Ieixi"
+          }
+        ]
+      }
+    },
+    "fastFollowersCount": 0,
+    "favouritesCount": 1316,
+    "followRequestSent": false,
+    "followedBy": false,
+    "followersCount": 61366130,
+    "following": false,
+    "friendsCount": 1046,
+    "hasCustomTimelines": true,
+    "isTranslator": false,
+    "listedCount": 153948,
+    "location": "",
+    "mediaCount": 191196,
+    "muting": false,
+    "name": "CNN",
+    "normalFollowersCount": 61366130,
+    "notifications": false,
+    "pinnedTweetIdsStr": [],
+    "possiblySensitive": false,
+    "profileBannerUrl": "https://pbs.twimg.com/profile_banners/759251/1689257013",
+    "profileImageUrlHttps": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+    "profileInterstitialType": "",
+    "_protected": false,
+    "screenName": "CNN",
+    "statusesCount": 426361,
+    "translatorType": "regular",
+    "url": "https://t.co/imGp4Ieixi",
+    "verified": false,
+    "verifiedType": "Business",
+    "wantRetweets": false,
+    "withheldInCountries": []
+  },
+  "legacyExtendedProfile": {},
+  "premiumGiftingEligible": false,
+  "profileImageShape": "Square",
+  "restId": "759251",
+  "superFollowEligible": false,
+  "superFollowedBy": false,
+  "superFollowing": false,
+  "tipjarSettings": {},
+  "userSeedTweetCount": 0,
+  "verificationInfo": {
+    "isIdentityVerified": false,
+    "reason": {
+      "description": {
+        "entities": [
+          {
+            "fromIndex": 69,
+            "ref": {
+              "url": "https://help.twitter.com/en/rules-and-policies/profile-labels",
+              "urlType": "ExternalUrl"
+            },
+            "toIndex": 79
+          }
+        ],
+        "text": "This account is verified because it's an official organization on X. Learn more"
+      },
+      "verifiedSinceMsec": "1350510775006"
+    }
+  }
+}
