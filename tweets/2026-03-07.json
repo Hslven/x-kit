@@ -1,11 +1,99 @@
 [
   {
     "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236107455,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030320346709082388",
+    "fullText": "Another 𝕏 peak usage record this week",
+    "createdAt": "Sat Mar 07 16:31:06 +0000 2026",
+    "createdAtFormatted": "2026/3/8 00:31:06",
+    "quotedStatus": {
+      "fullText": "March 1, 2026. 𝕏 breaks its own record.\n\n513 billion user-seconds. In one day.\n\nPrevious high? 417 billion. Gone.\n\nWhen the world moves, it moves on 𝕏. https://t.co/Ovz0bU1Ixt",
+      "tweetUrl": "https://twitter.com/elonmusk/status/2027981570594775101",
+      "userName": "Mario Nawfal",
+      "screenName": "MarioNawfal",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1938244629071015936/UwtzYY-R_normal.jpg",
+      "images": [],
+      "videos": [
+        "https://video.twimg.com/amplify_video/2030276626957647873/vid/avc1/1920x1080/vOXdXmxIZi3Cvhmc.mp4?tag=21"
+      ]
+    }
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC0lWera8AARhSg.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030320083734831114",
+    "fullText": "Why Some Of The Largest Book Publishers Are Hiring AI Engineers\n\nPublishing giants like Penguin Random House and Macmillan are eager to use AI internally—but not for writing or editing. Their authors still might revolt. https://t.co/fiUl6JA1BW (Photo: PA Images via Getty Images) https://t.co/B8Uhfv9OwB",
+    "createdAt": "Sat Mar 07 16:30:04 +0000 2026",
+    "createdAtFormatted": "2026/3/8 00:30:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303885,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC0hP4kbMAENHul.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030315566196760925",
+    "fullText": "Student Loans In Limbo As Court Again Rejects Bid To Kill Repayment Plan For 7 Million Borrowers\n\nMillions of borrowers with federal student loans remain in limbo this week after a federal court again rejected attempts to immediately terminate a popular repayment program. But the https://t.co/uW2p3FCFZd",
+    "createdAt": "Sat Mar 07 16:12:07 +0000 2026",
+    "createdAtFormatted": "2026/3/8 00:12:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303885,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC0ef5ra8AAgPjo.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030312700321116521",
+    "fullText": "Inside A $15.5 Million California Country Estate\n\nSet across a hundred acres, Seven Oaks lives many lives. Part wine country retreat, part equestrian compound, part California wellness hideaway. \nTake a look inside: https://t.co/OyJv5EAKre (Photo: Jason Rick for Village https://t.co/hVgn0oeT0F",
+    "createdAt": "Sat Mar 07 16:00:43 +0000 2026",
+    "createdAtFormatted": "2026/3/8 00:00:43",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -25,7 +113,7 @@
       "name": "nature",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
       "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
-      "followersCount": 2594094,
+      "followersCount": 2594126,
       "friendsCount": 3228,
       "location": "Worldwide"
     },
@@ -43,7 +131,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -63,7 +151,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -83,7 +171,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -103,7 +191,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -123,7 +211,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -143,7 +231,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -166,7 +254,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -186,7 +274,7 @@
       "name": "nature",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
       "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
-      "followersCount": 2594094,
+      "followersCount": 2594126,
       "friendsCount": 3228,
       "location": "Worldwide"
     },
@@ -204,7 +292,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -224,7 +312,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -242,7 +330,7 @@
       "name": "nature",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
       "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
-      "followersCount": 2594094,
+      "followersCount": 2594126,
       "friendsCount": 3228,
       "location": "Worldwide"
     },
@@ -262,7 +350,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -282,7 +370,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -302,7 +390,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -330,7 +418,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -350,7 +438,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -378,7 +466,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -398,7 +486,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -426,7 +514,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -446,7 +534,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -466,7 +554,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -494,7 +582,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -514,7 +602,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -540,7 +628,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -568,7 +656,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -596,7 +684,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -624,7 +712,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -644,7 +732,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -672,7 +760,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -700,7 +788,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -726,7 +814,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -756,7 +844,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -784,7 +872,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -812,7 +900,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -830,7 +918,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -850,7 +938,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53018582,
+      "followersCount": 53018685,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -868,7 +956,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -886,7 +974,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -916,7 +1004,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -944,7 +1032,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -964,7 +1052,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -984,7 +1072,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53018582,
+      "followersCount": 53018685,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -1002,7 +1090,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53018582,
+      "followersCount": 53018685,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -1020,7 +1108,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -1040,7 +1128,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -1060,7 +1148,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236105494,
+      "followersCount": 236107455,
       "friendsCount": 1292,
       "location": ""
     },
@@ -1088,7 +1176,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -1108,7 +1196,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -1128,7 +1216,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20303753,
+      "followersCount": 20303885,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
