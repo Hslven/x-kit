@@ -235,9 +235,8 @@
       });
     }
 
-    // MiniMax API 配置
-    const MINIMAX_API_KEY = "sk-cp-NChgddmXHoDasiCB-UWV0SH13O60L6kCU3uVTaTAYt6t0JIeRlg_K9AX62mDdIUbhzpzuNsqSN5EZB2NAOl9W0SnXxs3ky0c8u2iBWRgLeaU1-xemtkXwB4";
-    const MINIMAX_API_URL = "https://api.minimaxi.com/anthropic/v1/messages";
+    // 后端 API 地址
+    const API_BASE_URL = "https://diet.zhuzhu.pro";
 
     async function generateAISummary(data) {
       const totalTweets = data.length;
@@ -247,72 +246,62 @@
       document.getElementById("totalTweets").textContent = totalTweets;
       document.getElementById("totalUsers").textContent = totalUsers;
 
-      // 提取推文文本
-      const tweetTexts = data.slice(0, 10).map((t, i) => {
-        const user = t.user?.screenName || "未知";
-        const text = t.fullText || "";
-        return `${i + 1}. @${user}: ${text}`;
-      }).join("\n\n");
-
-      // 调用 MiniMax API
+      // 调用后端 API
       try {
         document.getElementById("aiSummary").textContent = "🤖 AI 正在分析推文...";
 
-        const response = await fetch(MINIMAX_API_URL, {
+        const response = await fetch(`${API_BASE_URL}/diet/app/user-relation/ai-summary`, {
           method: "POST",
           headers: {
-            "Authorization": `Bearer ${MINIMAX_API_KEY}`,
-            "Content-Type": "application/json",
-            "anthropic-version": "2023-06-01"
+            "Content-Type": "application/json"
           },
           body: JSON.stringify({
-            model: "MiniMax-M2.5",
-            max_tokens: 1024,
-            system: `你是一个专业的社交媒体数据分析助手。
-请分析用户提供的推文数据，然后用中文总结：
-1. 主要话题和趋势
-2. 关键人物或账号
-3. 情感倾向（正面/中性/负面）
-4. 重要事件或新闻
-
-请用简洁的中文回答，最多150字。`,
-            messages: [
-              {role: "user", content: [{"type": "text", "text": `请分析以下推文数据：\n\n${tweetTexts}\n\n（共 ${totalTweets} 条推文，来自 ${totalUsers} 个账号）`}]}
-            ]
+            tweets: data.slice(0, 10)
           })
         });
 
         const result = await response.json();
+        const aiData = result.data; // 后端返回格式是 { code, msg, data: { success, summary, tags, analysis } }
 
-        if (result.content && result.content.length > 0) {
-          // 提取 text 类型的内容
-          const textContent = result.content.find(c => c.type === "text");
-          if (textContent) {
-            document.getElementById("aiSummary").textContent = textContent.text;
-          } else {
-            document.getElementById("aiSummary").textContent = "AI 分析完成";
-          }
+        // 更新总结
+        if (aiData && aiData.summary) {
+          document.getElementById("aiSummary").innerHTML = `
+            <div class="mb-3">${aiData.summary}</div>
+            <div class="text-xs mb-2">情绪倾向: <span class="font-bold ${aiData.sentiment === '乐观' ? 'text-green-500' : aiData.sentiment === '悲观' ? 'text-red-500' : 'text-yellow-500'}">${aiData.sentiment}</span></div>
+            ${aiData.analysis ? `
+              <div class="mt-3 pt-3 border-t border-primary/20 space-y-2 text-xs">
+                ${aiData.analysis.intrinsicValue ? `<div><span class="font-bold text-primary">内在价值：</span>${aiData.analysis.intrinsicValue}</div>` : ''}
+                ${aiData.analysis.expectedValue ? `<div><span class="font-bold text-green-500">预期价值：</span>${aiData.analysis.expectedValue}</div>` : ''}
+                ${aiData.analysis.currentValue ? `<div><span class="font-bold text-yellow-500">当前估值：</span>${aiData.analysis.currentValue}</div>` : ''}
+                ${aiData.analysis.riskFactors ? `<div><span class="font-bold text-red-500">风险因素：</span>${aiData.analysis.riskFactors}</div>` : ''}
+              </div>
+            ` : ''}
+          `;
         } else {
-          document.getElementById("aiSummary").textContent = "分析完成";
+          document.getElementById("aiSummary").textContent = "AI 分析完成";
         }
+
+        // 更新标签 - 使用AI返回的标签
+        const tagsContainer = document.getElementById("trendingTags");
+        const aiTags = aiData?.tags || [];
+        // 同时也从文本中提取关键词作为补充
+        const allText = data.map((t) => t.fullText || "").join(" ");
+        const keywords = ["AI", "Tech", "Crypto", "Bitcoin", "ETH", "Elon", "Trump", "Meme", "DeFi", "NFT", "Web3", "Meta", "Google", "Apple", "Microsoft", "OpenAI", "ChatGPT", "NVIDIA", "GPU", "SpaceX", "Tesla", "Neuralink"];
+        const foundKeywords = keywords.filter(k => allText.toLowerCase().includes(k.toLowerCase())).slice(0, 3);
+        const allTags = [...new Set([...aiTags, ...foundKeywords])].slice(0, 5);
+
+        // 添加情感标签
+        const sentimentColors = { '乐观': 'bg-green-500', '中性': 'bg-yellow-500', '悲观': 'bg-red-500' };
+        const sentimentLabel = result.sentiment ? `<span class="px-3 py-1 rounded-full ${sentimentColors[result.sentiment] || 'bg-slate-500'} text-white text-xs font-bold">${result.sentiment}</span>` : '';
+
+        tagsContainer.innerHTML = sentimentLabel + allTags.map(k =>
+          `<span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-primary/10 text-xs font-medium border border-primary/10">${k}</span>`
+        ).join("");
+
       } catch (error) {
         console.error("AI Summary Error:", error);
         document.getElementById("aiSummary").textContent = `今日共 ${totalTweets} 条推文，来自 ${totalUsers} 个账号。`;
       }
-
-      // 生成话题标签
-      const allText = data.map((t) => t.fullText || "").join(" ");
-      const keywords = [
-        "AI", "Tech", "Crypto", "Bitcoin", "ETH", "Elon", "Trump", "Meme", "DeFi",
-        "NFT", "Web3", "Meta", "Google", "Apple", "Microsoft", "OpenAI", "ChatGPT",
-        "NVIDIA", "GPU", "芯片", "推特", "X", "SpaceX", "Tesla", "Neuralink"
-      ];
-      const foundKeywords = keywords.filter(k => allText.toLowerCase().includes(k.toLowerCase())).slice(0, 5);
-
-      const tagsContainer = document.getElementById("trendingTags");
-      tagsContainer.innerHTML = foundKeywords.map(k =>
-        `<span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-primary/10 text-xs font-medium border border-primary/10">Trending: ${k}</span>`
-      ).join("");
     }
 
     function renderData() {
@@ -367,19 +356,53 @@
               </button>
             </div>
             <div class="p-4 space-y-4 flex-1">
-              ${tweets.slice(0, 3).map(tweet => `
+              ${tweets.slice(0, 3).map(tweet => {
+                // 处理图片和视频
+                const images = tweet.images || [];
+                const videos = tweet.videos || [];
+                const hasMedia = images.length > 0 || videos.length > 0;
+
+                // 处理引用推文
+                const quoted = tweet.quotedStatus;
+                const hasQuoted = quoted && quoted.fullText;
+
+                return `
                 <div class="space-y-2 pb-4 ${tweet !== tweets.slice(0, 3)[tweets.slice(0, 3).length - 1] ? 'border-b border-primary/5' : ''}">
                   <p class="text-sm leading-relaxed dark:text-slate-200">${escapeHtml(tweet.fullText || "")}</p>
+
+                  ${hasMedia ? `
+                  <div class="flex flex-wrap gap-2 mt-2">
+                    ${images.map(img => `<img src="${img}" class="max-w-[150px] max-h-[100px] rounded-lg object-cover" onerror="this.style.display='none'">`).join('')}
+                    ${videos.map(video => `<video src="${video}" controls playsinline preload="none" class="max-w-[200px] rounded-lg mt-2 bg-slate-800"></video>`).join('')}
+                  </div>
+                  ` : ''}
+
+                  ${hasQuoted ? `
+                  <div class="mt-3 p-3 rounded-lg bg-slate-200 dark:bg-slate-800 border-l-3 border-primary">
+                    <div class="flex items-center gap-2 mb-2">
+                      <img src="${quoted.profileImageUrl || ''}" class="w-5 h-5 rounded-full" onerror="this.style.display='none'">
+                      <span class="text-xs font-bold">@${escapeHtml(quoted.screenName || '')}</span>
+                    </div>
+                    <p class="text-xs text-slate-600 dark:text-slate-300">${escapeHtml(quoted.fullText || '')}</p>
+                    ${(quoted.images?.length > 0 || quoted.videos?.length > 0) ? `
+                      <div class="flex flex-wrap gap-1 mt-2">
+                        ${quoted.images?.map(img => `<img src="${img}" class="max-w-[80px] max-h-[60px] rounded object-cover" onerror="this.style.display='none'">`).join('')}
+                        ${quoted.videos?.map(video => `<video src="${video}" controls class="max-w-[100px] rounded mt-1"></video>`).join('')}
+                      </div>
+                    ` : ''}
+                  </div>
+                  ` : ''}
+
                   <div class="flex items-center justify-between text-[11px] text-slate-500 font-medium">
                     <span>${tweet.createdAtFormatted || ""}</span>
                     <a class="text-primary hover:underline flex items-center gap-1" href="${tweet.tweetUrl}" target="_blank">View Original <span class="material-symbols-outlined text-[12px]">open_in_new</span></a>
                   </div>
                 </div>
-              `).join("")}
+              `}).join("")}
               ${tweets.length > 3 ? `<p class="text-slate-500 text-xs">+${tweets.length - 3} 条更多</p>` : ""}
             </div>
             <div class="p-4 bg-primary/5 group-hover:bg-primary/10 transition-colors">
-              <button class="w-full py-2 text-xs font-bold text-primary uppercase tracking-widest hover:bg-primary/10 rounded-lg transition-all">View All Activity</button>
+              <button onclick="showUserDetail('${screenName}')" class="w-full py-2 text-xs font-bold text-primary uppercase tracking-widest hover:bg-primary/10 rounded-lg transition-all">View All Activity</button>
             </div>
           </div>
         `;
@@ -405,6 +428,158 @@
     // Event listeners
     document.getElementById("userSelect").addEventListener("change", renderData);
     document.getElementById("dateInput").addEventListener("change", loadData);
+
+    // 用户详情模态框
+    function showUserDetail(screenName) {
+      const tweets = currentData.filter(t => (t.user?.screenName || '未知用户') === screenName);
+      const user = tweets[0]?.user || {};
+
+      const modal = document.createElement('div');
+      modal.id = 'userDetailModal';
+      modal.className = 'fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4';
+      modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+      const avatar = user?.profileImageUrl || '';
+      const name = user?.name || screenName;
+      const followersCount = user?.followersCount || 0;
+
+      modal.innerHTML = `
+        <div class="bg-white dark:bg-background-dark rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
+          <div class="p-4 border-b border-primary/10 flex items-center justify-between bg-primary/5">
+            <div class="flex items-center gap-3">
+              <img src="${avatar}" class="w-12 h-12 rounded-full object-cover" onerror="this.style.display='none'">
+              <div>
+                <h3 class="font-bold text-lg">${escapeHtml(name)}</h3>
+                <p class="text-xs text-slate-500">@${escapeHtml(screenName)} • ${formatNumber(followersCount)} 粉丝</p>
+              </div>
+            </div>
+            <button onclick="this.closest('#userDetailModal').remove()" class="p-2 hover:bg-primary/20 rounded-lg">
+              <span class="material-symbols-outlined">close</span>
+            </button>
+          </div>
+          <div class="flex-1 overflow-y-auto p-4 space-y-4">
+            ${tweets.map(tweet => {
+              const images = tweet.images || [];
+              const videos = tweet.videos || [];
+              const quoted = tweet.quotedStatus;
+              return `
+                <div class="p-4 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
+                  <p class="text-sm leading-relaxed dark:text-slate-200">${escapeHtml(tweet.fullText || '')}</p>
+                  ${images.length > 0 ? `<div class="flex flex-wrap gap-2 mt-2">${images.map(img => `<img src="${img}" class="max-w-[120px] max-h-[80px] rounded object-cover" onerror="this.style.display='none'">`).join('')}</div>` : ''}
+                  ${videos.length > 0 ? `<div class="flex flex-wrap gap-2 mt-2">${videos.map(v => `<video src="${v}" controls playsinline class="max-w-[150px] rounded mt-1"></video>`).join('')}</div>` : ''}
+                  ${quoted?.fullText ? `
+                    <div class="mt-3 p-2 rounded bg-slate-200 dark:bg-slate-700 border-l-2 border-primary">
+                      <p class="text-xs">@${escapeHtml(quoted.screenName || '')}: ${escapeHtml(quoted.fullText || '')}</p>
+                    </div>
+                  ` : ''}
+                  <div class="flex items-center justify-between mt-2 text-xs text-slate-500">
+                    <span>${tweet.createdAtFormatted || ''}</span>
+                    <a href="${tweet.tweetUrl}" target="_blank" class="text-primary hover:underline">查看原文</a>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+    }
+
+    // Analytics 功能
+    async function showAnalytics() {
+      const data = currentData;
+      if (!data || data.length === 0) {
+        alert('暂无数据');
+        return;
+      }
+
+      // 统计用户发布数量
+      const userCounts = {};
+      data.forEach(t => {
+        const sn = t.user?.screenName || '未知';
+        userCounts[sn] = (userCounts[sn] || 0) + 1;
+      });
+
+      // 统计热门话题
+      const keywords = ['AI', 'Tech', 'Crypto', 'Bitcoin', 'ETH', 'Elon', 'Trump', 'Meme', 'DeFi', 'NFT', 'Web3', 'Meta', 'Google', 'Apple', 'Microsoft', 'OpenAI', 'ChatGPT', 'NVIDIA', 'GPU', 'SpaceX', 'Tesla', 'Neuralink'];
+      const allText = data.map(t => t.fullText || '').join(' ').toLowerCase();
+      const keywordCounts = {};
+      keywords.forEach(k => {
+        const count = (allText.match(new RegExp(k.toLowerCase(), 'g')) || []).length;
+        if (count > 0) keywordCounts[k] = count;
+      });
+
+      const topUsers = Object.entries(userCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
+      const topKeywords = Object.entries(keywordCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+
+      const modal = document.createElement('div');
+      modal.className = 'fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4';
+      modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+
+      modal.innerHTML = `
+        <div class="bg-white dark:bg-background-dark rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
+          <div class="p-4 border-b border-primary/10 flex items-center justify-between bg-gradient-to-r from-primary/20 to-purple-500/20">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-primary text-2xl">analytics</span>
+              <h3 class="font-bold text-xl">数据分析</h3>
+            </div>
+            <button onclick="this.closest('.fixed').remove()" class="p-2 hover:bg-primary/20 rounded-lg">
+              <span class="material-symbols-outlined">close</span>
+            </button>
+          </div>
+          <div class="flex-1 overflow-y-auto p-4 space-y-6">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="p-4 rounded-xl bg-primary/10 border border-primary/20">
+                <div class="text-3xl font-bold text-primary">${data.length}</div>
+                <div class="text-sm text-slate-500">总推文数</div>
+              </div>
+              <div class="p-4 rounded-xl bg-primary/10 border border-primary/20">
+                <div class="text-3xl font-bold text-primary">${Object.keys(userCounts).length}</div>
+                <div class="text-sm text-slate-500">用户数</div>
+              </div>
+            </div>
+
+            <div>
+              <h4 class="font-bold mb-3 flex items-center gap-2">
+                <span class="material-symbols-outlined text-primary">person</span>
+                Top 用户发布排行
+              </h4>
+              <div class="space-y-2">
+                ${topUsers.map(([user, count], i) => `
+                  <div class="flex items-center gap-3 p-2 rounded-lg bg-slate-100 dark:bg-slate-800">
+                    <span class="w-6 h-6 rounded-full bg-primary/20 text-primary flex items-center justify-center text-xs font-bold">${i + 1}</span>
+                    <span class="flex-1">@${user}</span>
+                    <span class="text-primary font-bold">${count} 条</span>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+
+            <div>
+              <h4 class="font-bold mb-3 flex items-center gap-2">
+                <span class="material-symbols-outlined text-primary">tag</span>
+                热门话题
+              </h4>
+              <div class="flex flex-wrap gap-2">
+                ${topKeywords.map(([keyword, count]) => `
+                  <span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-700 text-sm">
+                    ${keyword} <span class="text-primary font-bold">${count}</span>
+                  </span>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(modal);
+    }
+
+    // 绑定 Analytics 按钮
+    document.querySelectorAll('button').forEach(btn => {
+      if (btn.textContent.includes('Analytics')) {
+        btn.onclick = showAnalytics;
+      }
+    });
   </script>
 </body>
 </html>
