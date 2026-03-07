@@ -238,7 +238,11 @@
     // 后端 API 地址
     const API_BASE_URL = "https://diet.zhuzhu.pro";
 
-    async function generateAISummary(data) {
+    // 缓存 key
+    const CACHE_KEY_COUNT = 'ai_summary_count';
+    const CACHE_KEY_DATA = 'ai_summary_data';
+
+    async function generateAISummary(data, forceUpdate = false) {
       const totalTweets = data.length;
       const users = new Set(data.map((t) => t.user?.screenName).filter(Boolean));
       const totalUsers = users.size;
@@ -246,9 +250,21 @@
       document.getElementById("totalTweets").textContent = totalTweets;
       document.getElementById("totalUsers").textContent = totalUsers;
 
+      // 检查缓存
+      const cachedCount = localStorage.getItem(CACHE_KEY_COUNT);
+      const cachedData = localStorage.getItem(CACHE_KEY_DATA);
+
+      // 如果数据条数没变且有缓存，且不是强制更新
+      if (!forceUpdate && cachedCount === String(totalTweets) && cachedData) {
+        console.log('📦 使用缓存的 AI 总结');
+        const aiData = JSON.parse(cachedData);
+        displayAISummary(aiData, totalTweets, totalUsers);
+        return;
+      }
+
       // 调用后端 API
       try {
-        document.getElementById("aiSummary").textContent = "🤖 AI 正在分析推文...";
+        document.getElementById("aiSummary").textContent = "🤖 AI 正在分析推文...，请等待约半分钟";
 
         const response = await fetch(`${API_BASE_URL}/diet/app/user-relation/ai-summary`, {
           method: "POST",
@@ -263,45 +279,51 @@
         const result = await response.json();
         const aiData = result.data; // 后端返回格式是 { code, msg, data: { success, summary, tags, analysis } }
 
-        // 更新总结
-        if (aiData && aiData.summary) {
-          document.getElementById("aiSummary").innerHTML = `
-            <div class="mb-3">${aiData.summary}</div>
-            <div class="text-xs mb-2">情绪倾向: <span class="font-bold ${aiData.sentiment === '乐观' ? 'text-green-500' : aiData.sentiment === '悲观' ? 'text-red-500' : 'text-yellow-500'}">${aiData.sentiment}</span></div>
-            ${aiData.analysis ? `
-              <div class="mt-3 pt-3 border-t border-primary/20 space-y-2 text-xs">
-                ${aiData.analysis.intrinsicValue ? `<div><span class="font-bold text-primary">内在价值：</span>${aiData.analysis.intrinsicValue}</div>` : ''}
-                ${aiData.analysis.expectedValue ? `<div><span class="font-bold text-green-500">预期价值：</span>${aiData.analysis.expectedValue}</div>` : ''}
-                ${aiData.analysis.currentValue ? `<div><span class="font-bold text-yellow-500">当前估值：</span>${aiData.analysis.currentValue}</div>` : ''}
-                ${aiData.analysis.riskFactors ? `<div><span class="font-bold text-red-500">风险因素：</span>${aiData.analysis.riskFactors}</div>` : ''}
-              </div>
-            ` : ''}
-          `;
-        } else {
-          document.getElementById("aiSummary").textContent = "AI 分析完成";
+        if (aiData && aiData.success) {
+          // 缓存结果
+          localStorage.setItem(CACHE_KEY_COUNT, String(totalTweets));
+          localStorage.setItem(CACHE_KEY_DATA, JSON.stringify(aiData));
+          console.log('💾 已缓存 AI 总结');
         }
 
-        // 更新标签 - 使用AI返回的标签
-        const tagsContainer = document.getElementById("trendingTags");
-        const aiTags = aiData?.tags || [];
-        // 同时也从文本中提取关键词作为补充
-        const allText = data.map((t) => t.fullText || "").join(" ");
-        const keywords = ["AI", "Tech", "Crypto", "Bitcoin", "ETH", "Elon", "Trump", "Meme", "DeFi", "NFT", "Web3", "Meta", "Google", "Apple", "Microsoft", "OpenAI", "ChatGPT", "NVIDIA", "GPU", "SpaceX", "Tesla", "Neuralink"];
-        const foundKeywords = keywords.filter(k => allText.toLowerCase().includes(k.toLowerCase())).slice(0, 3);
-        const allTags = [...new Set([...aiTags, ...foundKeywords])].slice(0, 5);
-
-        // 添加情感标签
-        const sentimentColors = { '乐观': 'bg-green-500', '中性': 'bg-yellow-500', '悲观': 'bg-red-500' };
-        const sentimentLabel = result.sentiment ? `<span class="px-3 py-1 rounded-full ${sentimentColors[result.sentiment] || 'bg-slate-500'} text-white text-xs font-bold">${result.sentiment}</span>` : '';
-
-        tagsContainer.innerHTML = sentimentLabel + allTags.map(k =>
-          `<span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-primary/10 text-xs font-medium border border-primary/10">${k}</span>`
-        ).join("");
+        displayAISummary(aiData, totalTweets, totalUsers);
 
       } catch (error) {
         console.error("AI Summary Error:", error);
         document.getElementById("aiSummary").textContent = `今日共 ${totalTweets} 条推文，来自 ${totalUsers} 个账号。`;
       }
+    }
+
+    function displayAISummary(aiData, totalTweets, totalUsers) {
+      // 更新总结
+      if (aiData && aiData.summary) {
+        document.getElementById("aiSummary").innerHTML = `
+          <div class="mb-3">${aiData.summary}</div>
+          <div class="text-xs mb-2">情绪倾向: <span class="font-bold ${aiData.sentiment === '乐观' ? 'text-green-500' : aiData.sentiment === '悲观' ? 'text-red-500' : 'text-yellow-500'}">${aiData.sentiment}</span></div>
+          ${aiData.analysis ? `
+            <div class="mt-3 pt-3 border-t border-primary/20 space-y-2 text-xs">
+              ${aiData.analysis.intrinsicValue ? `<div><span class="font-bold text-primary">内在价值：</span>${aiData.analysis.intrinsicValue}</div>` : ''}
+              ${aiData.analysis.expectedValue ? `<div><span class="font-bold text-green-500">预期价值：</span>${aiData.analysis.expectedValue}</div>` : ''}
+              ${aiData.analysis.currentValue ? `<div><span class="font-bold text-yellow-500">当前估值：</span>${aiData.analysis.currentValue}</div>` : ''}
+              ${aiData.analysis.riskFactors ? `<div><span class="font-bold text-red-500">风险因素：</span>${aiData.analysis.riskFactors}</div>` : ''}
+            </div>
+          ` : ''}
+        `;
+      } else {
+        document.getElementById("aiSummary").textContent = "AI 分析完成";
+      }
+
+      // 更新标签
+      const tagsContainer = document.getElementById("trendingTags");
+      const aiTags = aiData?.tags || [];
+
+      // 添加情感标签
+      const sentimentColors = { '乐观': 'bg-green-500', '中性': 'bg-yellow-500', '悲观': 'bg-red-500' };
+      const sentimentLabel = aiData?.sentiment ? `<span class="px-3 py-1 rounded-full ${sentimentColors[aiData.sentiment] || 'bg-slate-500'} text-white text-xs font-bold">${aiData.sentiment}</span>` : '';
+
+      tagsContainer.innerHTML = sentimentLabel + aiTags.map(k =>
+        `<span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-primary/10 text-xs font-medium border border-primary/10">${k}</span>`
+      ).join("");
     }
 
     function renderData() {
