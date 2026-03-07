@@ -1,364 +1,476 @@
 <!doctype html>
 <html class="dark" lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>X Monitor Dashboard</title>
-  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-  <script id="tailwind-config">
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            primary: "#1ea0f1",
-            "background-light": "#f5f7f8",
-            "background-dark": "#101b22",
-          },
-          fontFamily: {
-            display: ["Inter"],
-          },
-          borderRadius: {
-            DEFAULT: "0.5rem",
-            lg: "1rem",
-            xl: "1.5rem",
-            full: "9999px",
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X Monitor Dashboard</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1ea0f1",
+              "background-light": "#f5f7f8",
+              "background-dark": "#101b22",
+            },
+            fontFamily: {
+              display: ["Inter"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "1rem",
+              xl: "1.5rem",
+              full: "9999px",
+            },
           },
         },
-      },
-    };
-  </script>
-  <style>
-    body {
-      font-family: "Inter", sans-serif;
-    }
-    .pulse-green {
-      box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
-      animation: pulse 2s infinite;
-    }
-    @keyframes pulse {
-      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
-      70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(34, 197, 94, 0); }
-      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
-    }
-    .loading-spinner {
-      border: 3px solid rgba(255, 255, 255, 0.1);
-      border-top-color: #1ea0f1;
-      border-radius: 50%;
-      animation: spin 1s linear infinite;
-    }
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-  </style>
-</head>
-<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
-  <div class="flex flex-col min-h-screen">
-    <!-- Header -->
-    <header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/20 px-4 py-3 md:px-10">
-      <div class="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-        <div class="flex items-center gap-6 w-full md:w-auto">
-          <div class="flex items-center gap-2">
-            <div class="bg-primary p-1.5 rounded-lg flex items-center justify-center">
-              <span class="material-symbols-outlined text-white text-xl">monitoring</span>
-            </div>
-            <h1 class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100">X Monitor</h1>
-          </div>
-          <div class="hidden lg:flex items-center bg-primary/10 dark:bg-primary/5 rounded-xl px-2 py-1">
-            <button class="px-3 py-1.5 rounded-lg bg-primary text-white text-sm font-semibold">Dashboard</button>
-            <button class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 text-sm font-semibold hover:bg-primary/20">Analytics</button>
-          </div>
-        </div>
-
-        <!-- Search & Filters -->
-        <div class="flex flex-1 items-center justify-center max-w-xl w-full">
-          <div class="relative w-full group">
-            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-primary transition-colors">search</span>
-            <select id="userSelect" class="w-full bg-primary/5 border border-primary/20 rounded-xl pl-10 pr-4 py-2 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-slate-500">
-              <option value="">所有用户</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="flex items-center gap-3 w-full md:w-auto justify-end">
-          <input type="date" id="dateInput" class="flex items-center gap-2 bg-primary/10 hover:bg-primary/20 dark:bg-primary/10 dark:hover:bg-primary/20 text-primary px-3 py-2 rounded-xl transition-colors text-sm font-medium" />
-          <button class="p-2 rounded-xl bg-slate-200 dark:bg-primary/10 text-slate-700 dark:text-slate-200 hover:bg-primary/20">
-            <span class="material-symbols-outlined">calendar_today</span>
-          </button>
-          <div class="h-8 w-[1px] bg-primary/20 mx-1"></div>
-          <div class="flex items-center gap-2">
-            <span class="size-2.5 rounded-full bg-green-500 pulse-green"></span>
-            <span class="text-sm font-medium text-slate-500">Live</span>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main class="max-w-[1400px] mx-auto w-full px-4 md:px-10 py-6 space-y-8">
-      <!-- AI Summary Section -->
-      <section class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary/20 via-background-dark to-background-dark border border-primary/30 p-6 shadow-xl">
-        <div class="absolute top-0 right-0 p-8 opacity-10">
-          <span class="material-symbols-outlined text-9xl text-primary">psychology</span>
-        </div>
-        <div class="relative z-10 flex flex-col md:flex-row gap-6 items-start">
-          <div class="bg-primary/20 p-3 rounded-2xl border border-primary/40 text-primary">
-            <span class="material-symbols-outlined text-3xl">auto_awesome</span>
-          </div>
-          <div class="flex-1 space-y-4">
-            <div class="flex items-center gap-3">
-              <h2 class="text-xl font-bold text-slate-900 dark:text-white">AI Smart Summary</h2>
-              <span class="px-2 py-0.5 rounded-full bg-primary/20 text-primary text-[10px] font-bold uppercase tracking-wider border border-primary/30">Intelligence Live</span>
-            </div>
-            <p id="aiSummary" class="text-slate-700 dark:text-slate-300 leading-relaxed text-lg max-w-4xl">
-              加载中今日推文数据...
-            </p>
-            <div class="flex flex-wrap gap-2 pt-2" id="trendingTags"></div>
-          </div>
-          <div class="flex items-center gap-4 shrink-0">
-            <div class="text-center">
-              <div id="totalTweets" class="text-3xl font-bold text-primary">0</div>
-              <div class="text-xs text-slate-500">推文数</div>
-            </div>
-            <div class="h-12 w-[1px] bg-primary/20"></div>
-            <div class="text-center">
-              <div id="totalUsers" class="text-3xl font-bold text-primary">0</div>
-              <div class="text-xs text-slate-500">用户数</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Loading -->
-      <div id="loading" class="flex flex-col items-center justify-center py-20">
-        <div class="loading-spinner w-10 h-10 mb-4"></div>
-        <p class="text-slate-500">加载中...</p>
-      </div>
-
-      <!-- Error -->
-      <div id="error" class="hidden p-4 rounded-xl bg-red-500/10 border border-red-500/30">
-        <p id="errorMsg" class="text-red-500 text-sm"></p>
-      </div>
-
-      <!-- Empty -->
-      <div id="empty" class="hidden text-center py-20">
-        <span class="material-symbols-outlined text-6xl text-slate-400 mb-4">inbox</span>
-        <p class="text-slate-500">该日期没有推文数据</p>
-      </div>
-
-      <!-- Main Content: User Grid -->
-      <div id="tweetsContainer" class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 hidden"></div>
-    </main>
-  </div>
-
-  <script>
-    const baseUrl = "https://raw.githubusercontent.com/Hslven/x-kit/main/tweets";
-    let currentData = [];
-
-    // Initialize
-    document.getElementById("dateInput").valueAsDate = new Date();
-    loadToday();
-
-    function loadToday() {
-      const today = new Date().toISOString().split("T")[0];
-      document.getElementById("dateInput").value = today;
-      loadData();
-    }
-
-    async function loadData() {
-      const date = document.getElementById("dateInput").value;
-      if (!date) return;
-
-      showLoading();
-
-      try {
-        const response = await fetch(`${baseUrl}/${date}.json`);
-        if (!response.ok) {
-          throw new Error("未找到该日期的数据");
-        }
-        const data = await response.json();
-        currentData = data;
-        updateUserSelect(data);
-        generateAISummary(data);
-        renderData();
-      } catch (error) {
-        showError(error.message);
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
       }
-    }
-
-    function showLoading() {
-      document.getElementById("loading").classList.remove("hidden");
-      document.getElementById("error").classList.add("hidden");
-      document.getElementById("empty").classList.add("hidden");
-      document.getElementById("tweetsContainer").classList.add("hidden");
-    }
-
-    function showError(msg) {
-      document.getElementById("loading").classList.add("hidden");
-      document.getElementById("error").classList.remove("hidden");
-      document.getElementById("empty").classList.add("hidden");
-      document.getElementById("tweetsContainer").classList.add("hidden");
-      document.getElementById("errorMsg").textContent = msg;
-    }
-
-    function showEmpty() {
-      document.getElementById("loading").classList.add("hidden");
-      document.getElementById("error").classList.add("hidden");
-      document.getElementById("empty").classList.remove("hidden");
-      document.getElementById("tweetsContainer").classList.add("hidden");
-    }
-
-    function showTweets() {
-      document.getElementById("loading").classList.add("hidden");
-      document.getElementById("error").classList.add("hidden");
-      document.getElementById("empty").classList.add("hidden");
-      document.getElementById("tweetsContainer").classList.remove("hidden");
-    }
-
-    function updateUserSelect(data) {
-      const select = document.getElementById("userSelect");
-      const users = new Map();
-      data.forEach((tweet) => {
-        const screenName = tweet.user?.screenName || "未知用户";
-        if (!users.has(screenName)) {
-          users.set(screenName, tweet.user);
+      .pulse-green {
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(0.95);
+          box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
         }
-      });
+        70% {
+          transform: scale(1);
+          box-shadow: 0 0 0 6px rgba(34, 197, 94, 0);
+        }
+        100% {
+          transform: scale(0.95);
+          box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+        }
+      }
+      .loading-spinner {
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        border-top-color: #1ea0f1;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen"
+  >
+    <div class="flex flex-col min-h-screen">
+      <!-- Header -->
+      <header
+        class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-primary/20 px-4 py-3 md:px-10"
+      >
+        <div
+          class="max-w-[1400px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4"
+        >
+          <div class="flex items-center gap-6 w-full md:w-auto">
+            <div class="flex items-center gap-2">
+              <div
+                class="bg-primary p-1.5 rounded-lg flex items-center justify-center"
+              >
+                <span class="material-symbols-outlined text-white text-xl"
+                  >monitoring</span
+                >
+              </div>
+              <h1
+                class="text-xl font-bold tracking-tight text-slate-900 dark:text-slate-100"
+              >
+                X Monitor
+              </h1>
+            </div>
+            <div
+              class="hidden lg:flex items-center bg-primary/10 dark:bg-primary/5 rounded-xl px-2 py-1"
+            >
+              <button
+                class="px-3 py-1.5 rounded-lg bg-primary text-white text-sm font-semibold"
+              >
+                Dashboard
+              </button>
+              <button
+                class="px-3 py-1.5 rounded-lg text-slate-600 dark:text-slate-400 text-sm font-semibold hover:bg-primary/20"
+              >
+                Analytics
+              </button>
+            </div>
+          </div>
 
-      select.innerHTML = '<option value="">所有用户</option>';
-      users.forEach((user, screenName) => {
-        const option = document.createElement("option");
-        option.value = screenName;
-        option.textContent = `${user?.name || screenName} (@${screenName})`;
-        select.appendChild(option);
-      });
-    }
+          <!-- Search & Filters -->
+          <div class="flex flex-1 items-center justify-center max-w-xl w-full">
+            <div class="relative w-full group">
+              <span
+                class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-primary transition-colors"
+                >search</span
+              >
+              <select
+                id="userSelect"
+                class="w-full bg-primary/5 border border-primary/20 rounded-xl pl-10 pr-4 py-2 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all placeholder:text-slate-500"
+              >
+                <option value="">所有用户</option>
+              </select>
+            </div>
+          </div>
 
-    // 后端 API 地址
-    const API_BASE_URL = "https://diet.zhuzhu.pro";
+          <div class="flex items-center gap-3 w-full md:w-auto justify-end">
+            <input
+              type="date"
+              id="dateInput"
+              class="flex items-center gap-2 bg-primary/10 hover:bg-primary/20 dark:bg-primary/10 dark:hover:bg-primary/20 text-primary px-3 py-2 rounded-xl transition-colors text-sm font-medium"
+            />
+            <button
+              class="p-2 rounded-xl bg-slate-200 dark:bg-primary/10 text-slate-700 dark:text-slate-200 hover:bg-primary/20"
+            >
+              <span class="material-symbols-outlined">calendar_today</span>
+            </button>
+            <div class="h-8 w-[1px] bg-primary/20 mx-1"></div>
+            <div class="flex items-center gap-2">
+              <span
+                class="size-2.5 rounded-full bg-green-500 pulse-green"
+              ></span>
+              <span class="text-sm font-medium text-slate-500">Live</span>
+            </div>
+          </div>
+        </div>
+      </header>
 
-    // 缓存 key
-    const CACHE_KEY_COUNT = 'ai_summary_count';
-    const CACHE_KEY_DATA = 'ai_summary_data';
+      <main class="max-w-[1400px] mx-auto w-full px-4 md:px-10 py-6 space-y-8">
+        <!-- AI Summary Section -->
+        <section
+          class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary/20 via-background-dark to-background-dark border border-primary/30 p-6 shadow-xl"
+        >
+          <div class="absolute top-0 right-0 p-8 opacity-10">
+            <span class="material-symbols-outlined text-9xl text-primary"
+              >psychology</span
+            >
+          </div>
+          <div
+            class="relative z-10 flex flex-col md:flex-row gap-6 items-start"
+          >
+            <div
+              class="bg-primary/20 p-3 rounded-2xl border border-primary/40 text-primary"
+            >
+              <span class="material-symbols-outlined text-3xl"
+                >auto_awesome</span
+              >
+            </div>
+            <div class="flex-1 space-y-4">
+              <div class="flex items-center gap-3">
+                <h2 class="text-xl font-bold text-slate-900 dark:text-white">
+                  AI Smart Summary
+                </h2>
+                <span
+                  class="px-2 py-0.5 rounded-full bg-primary/20 text-primary text-[10px] font-bold uppercase tracking-wider border border-primary/30"
+                  >Intelligence Live</span
+                >
+              </div>
+              <p
+                id="aiSummary"
+                class="text-slate-700 dark:text-slate-300 leading-relaxed text-lg max-w-4xl"
+              >
+                加载中今日推文数据...
+              </p>
+              <div class="flex flex-wrap gap-2 pt-2" id="trendingTags"></div>
+            </div>
+            <div class="flex items-center gap-4 shrink-0">
+              <div class="text-center">
+                <div id="totalTweets" class="text-3xl font-bold text-primary">
+                  0
+                </div>
+                <div class="text-xs text-slate-500">推文数</div>
+              </div>
+              <div class="h-12 w-[1px] bg-primary/20"></div>
+              <div class="text-center">
+                <div id="totalUsers" class="text-3xl font-bold text-primary">
+                  0
+                </div>
+                <div class="text-xs text-slate-500">用户数</div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-    async function generateAISummary(data, forceUpdate = false) {
-      const totalTweets = data.length;
-      const users = new Set(data.map((t) => t.user?.screenName).filter(Boolean));
-      const totalUsers = users.size;
+        <!-- Loading -->
+        <div
+          id="loading"
+          class="flex flex-col items-center justify-center py-20"
+        >
+          <div class="loading-spinner w-10 h-10 mb-4"></div>
+          <p class="text-slate-500">加载中...</p>
+        </div>
 
-      document.getElementById("totalTweets").textContent = totalTweets;
-      document.getElementById("totalUsers").textContent = totalUsers;
+        <!-- Error -->
+        <div
+          id="error"
+          class="hidden p-4 rounded-xl bg-red-500/10 border border-red-500/30"
+        >
+          <p id="errorMsg" class="text-red-500 text-sm"></p>
+        </div>
 
-      // 检查缓存
-      const cachedCount = localStorage.getItem(CACHE_KEY_COUNT);
-      const cachedData = localStorage.getItem(CACHE_KEY_DATA);
+        <!-- Empty -->
+        <div id="empty" class="hidden text-center py-20">
+          <span class="material-symbols-outlined text-6xl text-slate-400 mb-4"
+            >inbox</span
+          >
+          <p class="text-slate-500">该日期没有推文数据</p>
+        </div>
 
-      // 如果数据条数没变且有缓存，且不是强制更新
-      if (!forceUpdate && cachedCount === String(totalTweets) && cachedData) {
-        console.log('📦 使用缓存的 AI 总结');
-        const aiData = JSON.parse(cachedData);
-        displayAISummary(aiData, totalTweets, totalUsers);
-        return;
+        <!-- Main Content: User Grid -->
+        <div
+          id="tweetsContainer"
+          class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 hidden"
+        ></div>
+      </main>
+    </div>
+
+    <script>
+      const baseUrl =
+        "https://raw.githubusercontent.com/Hslven/x-kit/main/tweets";
+      let currentData = [];
+
+      // Initialize
+      document.getElementById("dateInput").valueAsDate = new Date();
+      loadToday();
+
+      function loadToday() {
+        const today = new Date().toISOString().split("T")[0];
+        document.getElementById("dateInput").value = today;
+        loadData();
       }
 
-      // 调用后端 API
-      try {
-        document.getElementById("aiSummary").textContent = "🤖 AI 正在分析今日推文...，请等待约半分钟";
+      async function loadData() {
+        const date = document.getElementById("dateInput").value;
+        if (!date) return;
 
-        const response = await fetch(`${API_BASE_URL}/diet/app/user-relation/ai-summary`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            tweets: data.slice(0, 10)
-          })
+        showLoading();
+
+        try {
+          const response = await fetch(`${baseUrl}/${date}.json`);
+          if (!response.ok) {
+            throw new Error("未找到该日期的数据");
+          }
+          const data = await response.json();
+          currentData = data;
+          updateUserSelect(data);
+          generateAISummary(data);
+          renderData();
+        } catch (error) {
+          showError(error.message);
+        }
+      }
+
+      function showLoading() {
+        document.getElementById("loading").classList.remove("hidden");
+        document.getElementById("error").classList.add("hidden");
+        document.getElementById("empty").classList.add("hidden");
+        document.getElementById("tweetsContainer").classList.add("hidden");
+      }
+
+      function showError(msg) {
+        document.getElementById("loading").classList.add("hidden");
+        document.getElementById("error").classList.remove("hidden");
+        document.getElementById("empty").classList.add("hidden");
+        document.getElementById("tweetsContainer").classList.add("hidden");
+        document.getElementById("errorMsg").textContent = msg;
+      }
+
+      function showEmpty() {
+        document.getElementById("loading").classList.add("hidden");
+        document.getElementById("error").classList.add("hidden");
+        document.getElementById("empty").classList.remove("hidden");
+        document.getElementById("tweetsContainer").classList.add("hidden");
+      }
+
+      function showTweets() {
+        document.getElementById("loading").classList.add("hidden");
+        document.getElementById("error").classList.add("hidden");
+        document.getElementById("empty").classList.add("hidden");
+        document.getElementById("tweetsContainer").classList.remove("hidden");
+      }
+
+      function updateUserSelect(data) {
+        const select = document.getElementById("userSelect");
+        const users = new Map();
+        data.forEach((tweet) => {
+          const screenName = tweet.user?.screenName || "未知用户";
+          if (!users.has(screenName)) {
+            users.set(screenName, tweet.user);
+          }
         });
 
-        const result = await response.json();
-        const aiData = result.data; // 后端返回格式是 { code, msg, data: { success, summary, tags, analysis } }
+        select.innerHTML = '<option value="">所有用户</option>';
+        users.forEach((user, screenName) => {
+          const option = document.createElement("option");
+          option.value = screenName;
+          option.textContent = `${user?.name || screenName} (@${screenName})`;
+          select.appendChild(option);
+        });
+      }
 
-        if (aiData && aiData.success) {
-          // 缓存结果
-          localStorage.setItem(CACHE_KEY_COUNT, String(totalTweets));
-          localStorage.setItem(CACHE_KEY_DATA, JSON.stringify(aiData));
-          console.log('💾 已缓存 AI 总结');
+      // 后端 API 地址
+      const API_BASE_URL = "https://diet.zhuzhu.pro";
+
+      // 缓存 key
+      const CACHE_KEY_COUNT = "ai_summary_count";
+      const CACHE_KEY_DATA = "ai_summary_data";
+
+      async function generateAISummary(data, forceUpdate = false) {
+        const totalTweets = data.length;
+        const users = new Set(
+          data.map((t) => t.user?.screenName).filter(Boolean),
+        );
+        const totalUsers = users.size;
+
+        document.getElementById("totalTweets").textContent = totalTweets;
+        document.getElementById("totalUsers").textContent = totalUsers;
+
+        // 检查缓存
+        const cachedCount = localStorage.getItem(CACHE_KEY_COUNT);
+        const cachedData = localStorage.getItem(CACHE_KEY_DATA);
+
+        // 如果数据条数没变且有缓存，且不是强制更新
+        if (!forceUpdate && cachedCount === String(totalTweets) && cachedData) {
+          console.log("📦 使用缓存的 AI 总结");
+          const aiData = JSON.parse(cachedData);
+          displayAISummary(aiData, totalTweets, totalUsers);
+          return;
         }
 
-        displayAISummary(aiData, totalTweets, totalUsers);
+        // 调用后端 API
+        try {
+          document.getElementById("aiSummary").textContent =
+            "🤖 AI 正在分析今日推文...，请等待约半分钟";
 
-      } catch (error) {
-        console.error("AI Summary Error:", error);
-        document.getElementById("aiSummary").textContent = `今日共 ${totalTweets} 条推文，来自 ${totalUsers} 个账号。`;
+          const response = await fetch(
+            `${API_BASE_URL}/diet/app/user-relation/ai-summary`,
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                tweets: data,
+              }),
+            },
+          );
+
+          const result = await response.json();
+          const aiData = result.data; // 后端返回格式是 { code, msg, data: { success, summary, tags, analysis } }
+
+          if (aiData && aiData.success) {
+            // 缓存结果
+            localStorage.setItem(CACHE_KEY_COUNT, String(totalTweets));
+            localStorage.setItem(CACHE_KEY_DATA, JSON.stringify(aiData));
+            console.log("💾 已缓存 AI 总结");
+          }
+
+          displayAISummary(aiData, totalTweets, totalUsers);
+        } catch (error) {
+          console.error("AI Summary Error:", error);
+          document.getElementById("aiSummary").textContent =
+            `今日共 ${totalTweets} 条推文，来自 ${totalUsers} 个账号。`;
+        }
       }
-    }
 
-    function displayAISummary(aiData, totalTweets, totalUsers) {
-      // 更新总结
-      if (aiData && aiData.summary) {
-        document.getElementById("aiSummary").innerHTML = `
+      function displayAISummary(aiData, totalTweets, totalUsers) {
+        // 更新总结
+        if (aiData && aiData.summary) {
+          document.getElementById("aiSummary").innerHTML = `
           <div class="mb-3">${aiData.summary}</div>
-          <div class="text-xs mb-2">情绪倾向: <span class="font-bold ${aiData.sentiment === '乐观' ? 'text-green-500' : aiData.sentiment === '悲观' ? 'text-red-500' : 'text-yellow-500'}">${aiData.sentiment}</span></div>
-          ${aiData.analysis ? `
+          <div class="text-xs mb-2">情绪倾向: <span class="font-bold ${aiData.sentiment === "乐观" ? "text-green-500" : aiData.sentiment === "悲观" ? "text-red-500" : "text-yellow-500"}">${aiData.sentiment}</span></div>
+          ${
+            aiData.analysis
+              ? `
             <div class="mt-3 pt-3 border-t border-primary/20 space-y-2 text-xs">
-              ${aiData.analysis.intrinsicValue ? `<div><span class="font-bold text-primary">内在价值：</span>${aiData.analysis.intrinsicValue}</div>` : ''}
-              ${aiData.analysis.expectedValue ? `<div><span class="font-bold text-green-500">预期价值：</span>${aiData.analysis.expectedValue}</div>` : ''}
-              ${aiData.analysis.currentValue ? `<div><span class="font-bold text-yellow-500">当前估值：</span>${aiData.analysis.currentValue}</div>` : ''}
-              ${aiData.analysis.riskFactors ? `<div><span class="font-bold text-red-500">风险因素：</span>${aiData.analysis.riskFactors}</div>` : ''}
+              ${aiData.analysis.intrinsicValue ? `<div><span class="font-bold text-primary">内在价值：</span>${aiData.analysis.intrinsicValue}</div>` : ""}
+              ${aiData.analysis.expectedValue ? `<div><span class="font-bold text-green-500">预期价值：</span>${aiData.analysis.expectedValue}</div>` : ""}
+              ${aiData.analysis.currentValue ? `<div><span class="font-bold text-yellow-500">当前估值：</span>${aiData.analysis.currentValue}</div>` : ""}
+              ${aiData.analysis.riskFactors ? `<div><span class="font-bold text-red-500">风险因素：</span>${aiData.analysis.riskFactors}</div>` : ""}
             </div>
-          ` : ''}
+          `
+              : ""
+          }
         `;
-      } else {
-        document.getElementById("aiSummary").textContent = "AI 分析完成";
-      }
-
-      // 更新标签
-      const tagsContainer = document.getElementById("trendingTags");
-      const aiTags = aiData?.tags || [];
-
-      // 添加情感标签
-      const sentimentColors = { '乐观': 'bg-green-500', '中性': 'bg-yellow-500', '悲观': 'bg-red-500' };
-      const sentimentLabel = aiData?.sentiment ? `<span class="px-3 py-1 rounded-full ${sentimentColors[aiData.sentiment] || 'bg-slate-500'} text-white text-xs font-bold">${aiData.sentiment}</span>` : '';
-
-      tagsContainer.innerHTML = sentimentLabel + aiTags.map(k =>
-        `<span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-primary/10 text-xs font-medium border border-primary/10">${k}</span>`
-      ).join("");
-    }
-
-    function renderData() {
-      const container = document.getElementById("tweetsContainer");
-      const selectedUser = document.getElementById("userSelect").value;
-
-      let data = currentData;
-      if (selectedUser) {
-        data = currentData.filter(t => (t.user?.screenName || "未知用户") === selectedUser);
-      }
-
-      if (!data || data.length === 0) {
-        showEmpty();
-        return;
-      }
-
-      showTweets();
-
-      // Group by user
-      const userTweets = {};
-      data.forEach(tweet => {
-        const screenName = tweet.user?.screenName || "未知用户";
-        if (!userTweets[screenName]) {
-          userTweets[screenName] = { user: tweet.user, tweets: [] };
+        } else {
+          document.getElementById("aiSummary").textContent = "AI 分析完成";
         }
-        userTweets[screenName].tweets.push(tweet);
-      });
 
-      let html = "";
-      Object.entries(userTweets).forEach(([screenName, { user, tweets }]) => {
-        const avatar = user?.profileImageUrl || "";
-        const name = user?.name || screenName;
-        const followersCount = user?.followersCount || 0;
+        // 更新标签
+        const tagsContainer = document.getElementById("trendingTags");
+        const aiTags = aiData?.tags || [];
 
-        html += `
+        // 添加情感标签
+        const sentimentColors = {
+          乐观: "bg-green-500",
+          中性: "bg-yellow-500",
+          悲观: "bg-red-500",
+        };
+        const sentimentLabel = aiData?.sentiment
+          ? `<span class="px-3 py-1 rounded-full ${sentimentColors[aiData.sentiment] || "bg-slate-500"} text-white text-xs font-bold">${aiData.sentiment}</span>`
+          : "";
+
+        tagsContainer.innerHTML =
+          sentimentLabel +
+          aiTags
+            .map(
+              (k) =>
+                `<span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-primary/10 text-xs font-medium border border-primary/10">${k}</span>`,
+            )
+            .join("");
+      }
+
+      function renderData() {
+        const container = document.getElementById("tweetsContainer");
+        const selectedUser = document.getElementById("userSelect").value;
+
+        let data = currentData;
+        if (selectedUser) {
+          data = currentData.filter(
+            (t) => (t.user?.screenName || "未知用户") === selectedUser,
+          );
+        }
+
+        if (!data || data.length === 0) {
+          showEmpty();
+          return;
+        }
+
+        showTweets();
+
+        // Group by user
+        const userTweets = {};
+        data.forEach((tweet) => {
+          const screenName = tweet.user?.screenName || "未知用户";
+          if (!userTweets[screenName]) {
+            userTweets[screenName] = { user: tweet.user, tweets: [] };
+          }
+          userTweets[screenName].tweets.push(tweet);
+        });
+
+        let html = "";
+        Object.entries(userTweets).forEach(([screenName, { user, tweets }]) => {
+          const avatar = user?.profileImageUrl || "";
+          const name = user?.name || screenName;
+          const followersCount = user?.followersCount || 0;
+
+          html += `
           <div class="flex flex-col bg-slate-100 dark:bg-background-dark border border-primary/10 rounded-2xl overflow-hidden hover:border-primary/40 transition-all group">
             <div class="p-5 border-b border-primary/10 flex items-center justify-between bg-primary/5">
               <div class="flex items-center gap-3">
@@ -378,49 +490,65 @@
               </button>
             </div>
             <div class="p-4 space-y-4 flex-1">
-              ${tweets.slice(0, 3).map(tweet => {
-                // 处理图片和视频
-                const images = tweet.images || [];
-                const videos = tweet.videos || [];
-                const hasMedia = images.length > 0 || videos.length > 0;
+              ${tweets
+                .slice(0, 3)
+                .map((tweet) => {
+                  // 处理图片和视频
+                  const images = tweet.images || [];
+                  const videos = tweet.videos || [];
+                  const hasMedia = images.length > 0 || videos.length > 0;
 
-                // 处理引用推文
-                const quoted = tweet.quotedStatus;
-                const hasQuoted = quoted && quoted.fullText;
+                  // 处理引用推文
+                  const quoted = tweet.quotedStatus;
+                  const hasQuoted = quoted && quoted.fullText;
 
-                return `
-                <div class="space-y-2 pb-4 ${tweet !== tweets.slice(0, 3)[tweets.slice(0, 3).length - 1] ? 'border-b border-primary/5' : ''}">
+                  return `
+                <div class="space-y-2 pb-4 ${tweet !== tweets.slice(0, 3)[tweets.slice(0, 3).length - 1] ? "border-b border-primary/5" : ""}">
                   <p class="text-sm leading-relaxed dark:text-slate-200">${escapeHtml(tweet.fullText || "")}</p>
 
-                  ${hasMedia ? `
+                  ${
+                    hasMedia
+                      ? `
                   <div class="flex flex-wrap gap-2 mt-2">
-                    ${images.map(img => `<img src="${img}" class="max-w-[150px] max-h-[100px] rounded-lg object-cover" onerror="this.style.display='none'">`).join('')}
-                    ${videos.map(video => `<video src="${video}" controls playsinline preload="none" class="max-w-[200px] rounded-lg mt-2 bg-slate-800"></video>`).join('')}
+                    ${images.map((img) => `<img src="${img}" class="max-w-[150px] max-h-[100px] rounded-lg object-cover" onerror="this.style.display='none'">`).join("")}
+                    ${videos.map((video) => `<video src="${video}" controls playsinline preload="none" class="max-w-[200px] rounded-lg mt-2 bg-slate-800"></video>`).join("")}
                   </div>
-                  ` : ''}
+                  `
+                      : ""
+                  }
 
-                  ${hasQuoted ? `
+                  ${
+                    hasQuoted
+                      ? `
                   <div class="mt-3 p-3 rounded-lg bg-slate-200 dark:bg-slate-800 border-l-3 border-primary">
                     <div class="flex items-center gap-2 mb-2">
-                      <img src="${quoted.profileImageUrl || ''}" class="w-5 h-5 rounded-full" onerror="this.style.display='none'">
-                      <span class="text-xs font-bold">@${escapeHtml(quoted.screenName || '')}</span>
+                      <img src="${quoted.profileImageUrl || ""}" class="w-5 h-5 rounded-full" onerror="this.style.display='none'">
+                      <span class="text-xs font-bold">@${escapeHtml(quoted.screenName || "")}</span>
                     </div>
-                    <p class="text-xs text-slate-600 dark:text-slate-300">${escapeHtml(quoted.fullText || '')}</p>
-                    ${(quoted.images?.length > 0 || quoted.videos?.length > 0) ? `
+                    <p class="text-xs text-slate-600 dark:text-slate-300">${escapeHtml(quoted.fullText || "")}</p>
+                    ${
+                      quoted.images?.length > 0 || quoted.videos?.length > 0
+                        ? `
                       <div class="flex flex-wrap gap-1 mt-2">
-                        ${quoted.images?.map(img => `<img src="${img}" class="max-w-[80px] max-h-[60px] rounded object-cover" onerror="this.style.display='none'">`).join('')}
-                        ${quoted.videos?.map(video => `<video src="${video}" controls class="max-w-[100px] rounded mt-1"></video>`).join('')}
+                        ${quoted.images?.map((img) => `<img src="${img}" class="max-w-[80px] max-h-[60px] rounded object-cover" onerror="this.style.display='none'">`).join("")}
+                        ${quoted.videos?.map((video) => `<video src="${video}" controls class="max-w-[100px] rounded mt-1"></video>`).join("")}
                       </div>
-                    ` : ''}
+                    `
+                        : ""
+                    }
                   </div>
-                  ` : ''}
+                  `
+                      : ""
+                  }
 
                   <div class="flex items-center justify-between text-[11px] text-slate-500 font-medium">
                     <span>${tweet.createdAtFormatted || ""}</span>
                     <a class="text-primary hover:underline flex items-center gap-1" href="${tweet.tweetUrl}" target="_blank">View Original <span class="material-symbols-outlined text-[12px]">open_in_new</span></a>
                   </div>
                 </div>
-              `}).join("")}
+              `;
+                })
+                .join("")}
               ${tweets.length > 3 ? `<p class="text-slate-500 text-xs">+${tweets.length - 3} 条更多</p>` : ""}
             </div>
             <div class="p-4 bg-primary/5 group-hover:bg-primary/10 transition-colors">
@@ -428,44 +556,51 @@
             </div>
           </div>
         `;
-      });
+        });
 
-      container.innerHTML = html;
-    }
+        container.innerHTML = html;
+      }
 
-    function escapeHtml(text) {
-      if (!text) return "";
-      const div = document.createElement("div");
-      div.textContent = text;
-      return div.innerHTML;
-    }
+      function escapeHtml(text) {
+        if (!text) return "";
+        const div = document.createElement("div");
+        div.textContent = text;
+        return div.innerHTML;
+      }
 
-    function formatNumber(num) {
-      if (!num) return "0";
-      if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
-      if (num >= 1000) return (num / 1000).toFixed(1) + "K";
-      return num.toString();
-    }
+      function formatNumber(num) {
+        if (!num) return "0";
+        if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
+        if (num >= 1000) return (num / 1000).toFixed(1) + "K";
+        return num.toString();
+      }
 
-    // Event listeners
-    document.getElementById("userSelect").addEventListener("change", renderData);
-    document.getElementById("dateInput").addEventListener("change", loadData);
+      // Event listeners
+      document
+        .getElementById("userSelect")
+        .addEventListener("change", renderData);
+      document.getElementById("dateInput").addEventListener("change", loadData);
 
-    // 用户详情模态框
-    function showUserDetail(screenName) {
-      const tweets = currentData.filter(t => (t.user?.screenName || '未知用户') === screenName);
-      const user = tweets[0]?.user || {};
+      // 用户详情模态框
+      function showUserDetail(screenName) {
+        const tweets = currentData.filter(
+          (t) => (t.user?.screenName || "未知用户") === screenName,
+        );
+        const user = tweets[0]?.user || {};
 
-      const modal = document.createElement('div');
-      modal.id = 'userDetailModal';
-      modal.className = 'fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4';
-      modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+        const modal = document.createElement("div");
+        modal.id = "userDetailModal";
+        modal.className =
+          "fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4";
+        modal.onclick = (e) => {
+          if (e.target === modal) modal.remove();
+        };
 
-      const avatar = user?.profileImageUrl || '';
-      const name = user?.name || screenName;
-      const followersCount = user?.followersCount || 0;
+        const avatar = user?.profileImageUrl || "";
+        const name = user?.name || screenName;
+        const followersCount = user?.followersCount || 0;
 
-      modal.innerHTML = `
+        modal.innerHTML = `
         <div class="bg-white dark:bg-background-dark rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
           <div class="p-4 border-b border-primary/10 flex items-center justify-between bg-primary/5">
             <div class="flex items-center gap-3">
@@ -480,65 +615,105 @@
             </button>
           </div>
           <div class="flex-1 overflow-y-auto p-4 space-y-4">
-            ${tweets.map(tweet => {
-              const images = tweet.images || [];
-              const videos = tweet.videos || [];
-              const quoted = tweet.quotedStatus;
-              return `
+            ${tweets
+              .map((tweet) => {
+                const images = tweet.images || [];
+                const videos = tweet.videos || [];
+                const quoted = tweet.quotedStatus;
+                return `
                 <div class="p-4 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700">
-                  <p class="text-sm leading-relaxed dark:text-slate-200">${escapeHtml(tweet.fullText || '')}</p>
-                  ${images.length > 0 ? `<div class="flex flex-wrap gap-2 mt-2">${images.map(img => `<img src="${img}" class="max-w-[120px] max-h-[80px] rounded object-cover" onerror="this.style.display='none'">`).join('')}</div>` : ''}
-                  ${videos.length > 0 ? `<div class="flex flex-wrap gap-2 mt-2">${videos.map(v => `<video src="${v}" controls playsinline class="max-w-[150px] rounded mt-1"></video>`).join('')}</div>` : ''}
-                  ${quoted?.fullText ? `
+                  <p class="text-sm leading-relaxed dark:text-slate-200">${escapeHtml(tweet.fullText || "")}</p>
+                  ${images.length > 0 ? `<div class="flex flex-wrap gap-2 mt-2">${images.map((img) => `<img src="${img}" class="max-w-[120px] max-h-[80px] rounded object-cover" onerror="this.style.display='none'">`).join("")}</div>` : ""}
+                  ${videos.length > 0 ? `<div class="flex flex-wrap gap-2 mt-2">${videos.map((v) => `<video src="${v}" controls playsinline class="max-w-[150px] rounded mt-1"></video>`).join("")}</div>` : ""}
+                  ${
+                    quoted?.fullText
+                      ? `
                     <div class="mt-3 p-2 rounded bg-slate-200 dark:bg-slate-700 border-l-2 border-primary">
-                      <p class="text-xs">@${escapeHtml(quoted.screenName || '')}: ${escapeHtml(quoted.fullText || '')}</p>
+                      <p class="text-xs">@${escapeHtml(quoted.screenName || "")}: ${escapeHtml(quoted.fullText || "")}</p>
                     </div>
-                  ` : ''}
+                  `
+                      : ""
+                  }
                   <div class="flex items-center justify-between mt-2 text-xs text-slate-500">
-                    <span>${tweet.createdAtFormatted || ''}</span>
+                    <span>${tweet.createdAtFormatted || ""}</span>
                     <a href="${tweet.tweetUrl}" target="_blank" class="text-primary hover:underline">查看原文</a>
                   </div>
                 </div>
               `;
-            }).join('')}
+              })
+              .join("")}
           </div>
         </div>
       `;
-      document.body.appendChild(modal);
-    }
-
-    // Analytics 功能
-    async function showAnalytics() {
-      const data = currentData;
-      if (!data || data.length === 0) {
-        alert('暂无数据');
-        return;
+        document.body.appendChild(modal);
       }
 
-      // 统计用户发布数量
-      const userCounts = {};
-      data.forEach(t => {
-        const sn = t.user?.screenName || '未知';
-        userCounts[sn] = (userCounts[sn] || 0) + 1;
-      });
+      // Analytics 功能
+      async function showAnalytics() {
+        const data = currentData;
+        if (!data || data.length === 0) {
+          alert("暂无数据");
+          return;
+        }
 
-      // 统计热门话题
-      const keywords = ['AI', 'Tech', 'Crypto', 'Bitcoin', 'ETH', 'Elon', 'Trump', 'Meme', 'DeFi', 'NFT', 'Web3', 'Meta', 'Google', 'Apple', 'Microsoft', 'OpenAI', 'ChatGPT', 'NVIDIA', 'GPU', 'SpaceX', 'Tesla', 'Neuralink'];
-      const allText = data.map(t => t.fullText || '').join(' ').toLowerCase();
-      const keywordCounts = {};
-      keywords.forEach(k => {
-        const count = (allText.match(new RegExp(k.toLowerCase(), 'g')) || []).length;
-        if (count > 0) keywordCounts[k] = count;
-      });
+        // 统计用户发布数量
+        const userCounts = {};
+        data.forEach((t) => {
+          const sn = t.user?.screenName || "未知";
+          userCounts[sn] = (userCounts[sn] || 0) + 1;
+        });
 
-      const topUsers = Object.entries(userCounts).sort((a, b) => b[1] - a[1]).slice(0, 5);
-      const topKeywords = Object.entries(keywordCounts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+        // 统计热门话题
+        const keywords = [
+          "AI",
+          "Tech",
+          "Crypto",
+          "Bitcoin",
+          "ETH",
+          "Elon",
+          "Trump",
+          "Meme",
+          "DeFi",
+          "NFT",
+          "Web3",
+          "Meta",
+          "Google",
+          "Apple",
+          "Microsoft",
+          "OpenAI",
+          "ChatGPT",
+          "NVIDIA",
+          "GPU",
+          "SpaceX",
+          "Tesla",
+          "Neuralink",
+        ];
+        const allText = data
+          .map((t) => t.fullText || "")
+          .join(" ")
+          .toLowerCase();
+        const keywordCounts = {};
+        keywords.forEach((k) => {
+          const count = (allText.match(new RegExp(k.toLowerCase(), "g")) || [])
+            .length;
+          if (count > 0) keywordCounts[k] = count;
+        });
 
-      const modal = document.createElement('div');
-      modal.className = 'fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4';
-      modal.onclick = (e) => { if (e.target === modal) modal.remove(); };
+        const topUsers = Object.entries(userCounts)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 5);
+        const topKeywords = Object.entries(keywordCounts)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 10);
 
-      modal.innerHTML = `
+        const modal = document.createElement("div");
+        modal.className =
+          "fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4";
+        modal.onclick = (e) => {
+          if (e.target === modal) modal.remove();
+        };
+
+        modal.innerHTML = `
         <div class="bg-white dark:bg-background-dark rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-hidden flex flex-col">
           <div class="p-4 border-b border-primary/10 flex items-center justify-between bg-gradient-to-r from-primary/20 to-purple-500/20">
             <div class="flex items-center gap-2">
@@ -567,13 +742,17 @@
                 Top 用户发布排行
               </h4>
               <div class="space-y-2">
-                ${topUsers.map(([user, count], i) => `
+                ${topUsers
+                  .map(
+                    ([user, count], i) => `
                   <div class="flex items-center gap-3 p-2 rounded-lg bg-slate-100 dark:bg-slate-800">
                     <span class="w-6 h-6 rounded-full bg-primary/20 text-primary flex items-center justify-center text-xs font-bold">${i + 1}</span>
                     <span class="flex-1">@${user}</span>
                     <span class="text-primary font-bold">${count} 条</span>
                   </div>
-                `).join('')}
+                `,
+                  )
+                  .join("")}
               </div>
             </div>
 
@@ -583,25 +762,29 @@
                 热门话题
               </h4>
               <div class="flex flex-wrap gap-2">
-                ${topKeywords.map(([keyword, count]) => `
+                ${topKeywords
+                  .map(
+                    ([keyword, count]) => `
                   <span class="px-3 py-1 rounded-full bg-slate-200 dark:bg-slate-700 text-sm">
                     ${keyword} <span class="text-primary font-bold">${count}</span>
                   </span>
-                `).join('')}
+                `,
+                  )
+                  .join("")}
               </div>
             </div>
           </div>
         </div>
       `;
-      document.body.appendChild(modal);
-    }
-
-    // 绑定 Analytics 按钮
-    document.querySelectorAll('button').forEach(btn => {
-      if (btn.textContent.includes('Analytics')) {
-        btn.onclick = showAnalytics;
+        document.body.appendChild(modal);
       }
-    });
-  </script>
-</body>
+
+      // 绑定 Analytics 按钮
+      document.querySelectorAll("button").forEach((btn) => {
+        if (btn.textContent.includes("Analytics")) {
+          btn.onclick = showAnalytics;
+        }
+      });
+    </script>
+  </body>
 </html>
