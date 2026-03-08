@@ -1,11 +1,158 @@
 [
   {
     "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9824767,
+      "friendsCount": 108,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2030532747668713750",
+    "fullText": "Ahead of the Bank of England's March 19 interest-rate decision, questions remain over how far they are willing to tolerate an energy-price shock that is threatening to blow inflation off course https://t.co/mCvnNu3LEk",
+    "createdAt": "Sun Mar 08 06:35:07 +0000 2026",
+    "createdAtFormatted": "2026/3/8 14:35:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9824767,
+      "friendsCount": 108,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2030531662698742106",
+    "fullText": "Female fund managers in China oversaw a total of 6.8 trillion yuan ($984 billion) in assets as of March 6, Cailian reports https://t.co/SPWjKMslJ0",
+    "createdAt": "Sun Mar 08 06:30:48 +0000 2026",
+    "createdAtFormatted": "2026/3/8 14:30:48",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030526818315325932",
+    "fullText": "😂",
+    "createdAt": "Sun Mar 08 06:11:33 +0000 2026",
+    "createdAtFormatted": "2026/3/8 14:11:33",
+    "quotedStatus": {
+      "fullText": "Socialism is the theory that if you abolish profit, bread will somehow bake itself out of moral superiority.",
+      "tweetUrl": "",
+      "userName": "Εcon Bro",
+      "screenName": "EconBreau",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1986835058691383296/WSaizcSD_normal.jpg",
+      "images": [],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19332106,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2030523960752779381",
+    "fullText": "An intense and deadly tornado tore through south central Michigan on Friday afternoon. The tornado was particularly striking because it passed over several frozen lakes and it did so in an area that may not have been expecting it. https://t.co/aoF66oPAue",
+    "createdAt": "Sun Mar 08 06:00:12 +0000 2026",
+    "createdAtFormatted": "2026/3/8 14:00:12",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20304324,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC3evUxaIAAPThU.jpg",
+      "https://pbs.twimg.com/media/HC3evUvbMAA5ZtO.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2030523947884933530",
+    "fullText": "These brothers paired up to defy gravity. \n\nWilbur and Orville Wright created the first airplane capable of sustained flight and invented the three-axis control system that aircraft still use today.\n\nThey're invention connected the world in a new way, allowing them to fly onto https://t.co/UvFYOmfDyw",
+    "createdAt": "Sun Mar 08 06:00:09 +0000 2026",
+    "createdAtFormatted": "2026/3/8 14:00:09",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236144231,
+      "friendsCount": 1292,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2030523146474758364",
+    "fullText": "😂",
+    "createdAt": "Sun Mar 08 05:56:58 +0000 2026",
+    "createdAtFormatted": "2026/3/8 13:56:58",
+    "quotedStatus": {
+      "fullText": "Blue cities be like: https://t.co/reIArlBKJa",
+      "tweetUrl": "https://twitter.com/elonmusk/status/2030490493767852338",
+      "userName": "Skscartoon",
+      "screenName": "skscartoon",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1960517073978974211/atpJ9Nr4_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HC3BKsQaIAExUyb.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15615705,
+      "friendsCount": 6187,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2030522707721236883",
+    "fullText": "Mercedes’ George Russell wins a thrilling season-opening Formula 1 Australian Grand Prix, with teammate Kimi Antonelli following him home for the team’s 61st one-two result and first since 2024’s Las Vegas Grand Prix.  https://t.co/ro7FUYbLwx",
+    "createdAt": "Sun Mar 08 05:55:13 +0000 2026",
+    "createdAtFormatted": "2026/3/8 13:55:13",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -33,7 +180,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -59,7 +206,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -87,7 +234,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -115,7 +262,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -143,7 +290,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -169,7 +316,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -197,7 +344,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -211,11 +358,29 @@
   },
   {
     "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19332106,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2030508854153298365",
+    "fullText": "President Trump’s administration spent the past year dismissing Europeans as pathetic and irrelevant. Now, as he wages a war alongside Israel to force regime change in Iran, he wants Europe to cheer him on. https://t.co/goThDAr0S9",
+    "createdAt": "Sun Mar 08 05:00:10 +0000 2026",
+    "createdAtFormatted": "2026/3/8 13:00:10",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -231,11 +396,49 @@
   },
   {
     "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2030508561902563617",
+    "fullText": "People who have razor-sharp minds in their 80s and 90s — known as “SuperAgers” — produce twice the number of young neurons as cognitively healthy adults and 2.5 times as many as people with Alzheimer’s disease, a new study found. https://t.co/yNPD16bS3b",
+    "createdAt": "Sun Mar 08 04:59:00 +0000 2026",
+    "createdAtFormatted": "2026/3/8 12:59:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC3NM9TX0AA4RBn.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2030504650315596208",
+    "fullText": "The US embassy in Oslo was hit by an explosion early Sunday, according to Norwegian police who said the blast caused minor damage but no injuries https://t.co/wDB9cybhyd https://t.co/ig9lZpyJKc",
+    "createdAt": "Sun Mar 08 04:43:28 +0000 2026",
+    "createdAtFormatted": "2026/3/8 12:43:28",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -251,11 +454,31 @@
   },
   {
     "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2030496483582124032/vid/avc1/720x1280/YdCghJ45iljlG_4J.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/CNN/status/2030496609398645104",
+    "fullText": "Video geolocated by CNN shows a large fire burning near a petrol storage facility in northeastern Tehran on Saturday. The Israeli military said it struck fuel storage sites in the city that evening. Follow live updates: https://t.co/dGpmK4mLor https://t.co/yHspVnEEFR",
+    "createdAt": "Sun Mar 08 04:11:31 +0000 2026",
+    "createdAtFormatted": "2026/3/8 12:11:31",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -271,11 +494,31 @@
   },
   {
     "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19332106,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC3DSpgWoAAqYrw.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2030493752859471971",
+    "fullText": "A crew of movers blocked a suspect in an Amber Alert case from escaping until police arrived.\n\n“It was a great feeling just knowing we possibly stopped some of the worst things that could happen to a kid,” one of the movers said. https://t.co/UwhMXglj4A https://t.co/XTYTmsfSvd",
+    "createdAt": "Sun Mar 08 04:00:10 +0000 2026",
+    "createdAtFormatted": "2026/3/8 12:00:10",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -297,11 +540,47 @@
   },
   {
     "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9824767,
+      "friendsCount": 108,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2030490406304026690",
+    "fullText": "The headquarters of Kuwait’s Public Institution for Social Security was on fire after an overnight Iranian attack on the Gulf state that also targeted the country’s main airport for the second time since the conflict began https://t.co/44ScggNMFk",
+    "createdAt": "Sun Mar 08 03:46:52 +0000 2026",
+    "createdAtFormatted": "2026/3/8 11:46:52",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9824767,
+      "friendsCount": 108,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2030489865851175310",
+    "fullText": "China’s top diplomat called for an immediate end to hostilities in the Middle East, criticizing US actions while signaling that the turmoil won’t derail steadying ties with Washington https://t.co/TMES9B2BFo",
+    "createdAt": "Sun Mar 08 03:44:43 +0000 2026",
+    "createdAtFormatted": "2026/3/8 11:44:43",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "nytimes",
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53022624,
+      "followersCount": 53022744,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -319,7 +598,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -335,11 +614,54 @@
   },
   {
     "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2030484597050331136/vid/avc1/720x1280/aM_Q35Wcq2LvNq8n.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/CNN/status/2030484828525641988",
+    "fullText": "Friends, family and leaders gathered for the Homegoing Celebration of Life for the late Rev. Jesse Jackson at PUSH Coalition Headquarters in Chicago to honor his life and legacy.\n\nRead more: https://t.co/USW1KtygHh https://t.co/PVfaMrgaWX",
+    "createdAt": "Sun Mar 08 03:24:42 +0000 2026",
+    "createdAtFormatted": "2026/3/8 11:24:42",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19332106,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC21jboWcAAttgr.jpg",
+      "https://pbs.twimg.com/media/HC21kobW0AEs0mV.jpg",
+      "https://pbs.twimg.com/media/HC21l2fXUAEIbf_.jpg",
+      "https://pbs.twimg.com/media/HC21nEsXkAAP5Pt.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2030478710860583330",
+    "fullText": "Even in the cold and dark of winter, nature can boost our sense of hope.\n\nPost readers submitted photos from around the country that inspired us. See the full gallery: https://t.co/pXklWvDyXJ https://t.co/H0MfGIxRcO",
+    "createdAt": "Sun Mar 08 03:00:23 +0000 2026",
+    "createdAtFormatted": "2026/3/8 11:00:23",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -357,7 +679,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -373,11 +695,67 @@
   },
   {
     "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9824767,
+      "friendsCount": 108,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2030469598785548739",
+    "fullText": "An explosion took place on Sunday near the US embassy in Oslo, Agence-France Presse reported, citing a statement from Norwegian police who said there were no reports of casualties https://t.co/3DF9PvAEGH",
+    "createdAt": "Sun Mar 08 02:24:11 +0000 2026",
+    "createdAtFormatted": "2026/3/8 10:24:11",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2030465531304640512/vid/avc1/720x1280/HyCRuk3Q-b6zlnwt.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/CNN/status/2030465720581075250",
+    "fullText": "CNN's Matthew Chance reports from Beirut where he and his team are navigating an increasingly unpredictable environment as Lebanon is dragged into the Iran war.\n\nFollow live updates: https://t.co/b4SJbUP1EV https://t.co/vOHYl8UNAd",
+    "createdAt": "Sun Mar 08 02:08:46 +0000 2026",
+    "createdAtFormatted": "2026/3/8 10:08:46",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2030464018079514763",
+    "fullText": "Two people were arrested after two “suspicious” devices, which are still being analyzed, were ignited outside the New York City mayor’s mansion as tensions escalated between two opposing protest groups, police said. https://t.co/qne2tM8c8Z",
+    "createdAt": "Sun Mar 08 02:02:00 +0000 2026",
+    "createdAtFormatted": "2026/3/8 10:02:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -393,11 +771,29 @@
   },
   {
     "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19332106,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2030463551622574378",
+    "fullText": "Column: I fell for Buzz and Woody, but it took the cooperative effort of a pack of animated woodland creatures to pull me back to Pixar movies. https://t.co/r7gX7l9mVW",
+    "createdAt": "Sun Mar 08 02:00:09 +0000 2026",
+    "createdAtFormatted": "2026/3/8 10:00:09",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -419,11 +815,39 @@
   },
   {
     "user": {
+      "screenName": "BillAckman",
+      "name": "Bill Ackman",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1619837521059348481/9UeNLFmD_normal.jpg",
+      "description": "CEO Pershing Square, Co-trustee @PershingSqFdn",
+      "followersCount": 2006522,
+      "friendsCount": 1107,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/BillAckman/status/2030457255716392987",
+    "fullText": "Thank you @NYPDnews",
+    "createdAt": "Sun Mar 08 01:35:08 +0000 2026",
+    "createdAtFormatted": "2026/3/8 09:35:08",
+    "quotedStatus": {
+      "fullText": "I always speak about the police running towards danger when everyone else runs away — that happened today.\n\nOfficers ran towards a man carrying an ignited suspicious device. They put the safety of others above their own.\n\nToday, as always, I thank them for their noble service. https://t.co/r2NzlzKfnP",
+      "tweetUrl": "",
+      "userName": "Jessica S. Tisch",
+      "screenName": "NYPDPC",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1867693984455262208/JG7h2acq_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HC2Q1FQWMAAzUmV.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -439,11 +863,55 @@
   },
   {
     "user": {
+      "screenName": "BillAckman",
+      "name": "Bill Ackman",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1619837521059348481/9UeNLFmD_normal.jpg",
+      "description": "CEO Pershing Square, Co-trustee @PershingSqFdn",
+      "followersCount": 2006522,
+      "friendsCount": 1107,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/BillAckman/status/2030452408476713255",
+    "fullText": "On @PeteHegseth",
+    "createdAt": "Sun Mar 08 01:15:52 +0000 2026",
+    "createdAtFormatted": "2026/3/8 09:15:52",
+    "quotedStatus": {
+      "fullText": "They called him unqualified. They said he didn’t have the experience. He wasn’t a high enough rank. They said Trump only picked him because he was on FOX. They were wrong. ALL of them. \n\nThat man, Pete Hegseth. They failed to tell you he had Ivy League school education. They fail",
+      "tweetUrl": "",
+      "userName": "TonemanLives 🇺🇸🇮🇹",
+      "screenName": "TonemanLives",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1962635794830520320/9dtrfeIX_normal.jpg",
+      "images": [],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2030450176641434074",
+    "fullText": "In Trump’s America, the question of what art is shown in national galleries and museums is a potent one, and the artist Catherine Opie believes she knows when she’s not welcome. https://t.co/YEko3Ac5fb",
+    "createdAt": "Sun Mar 08 01:07:00 +0000 2026",
+    "createdAtFormatted": "2026/3/8 09:07:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -459,11 +927,29 @@
   },
   {
     "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19332106,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2030448450853085687",
+    "fullText": "As the Iran conflict leads to rising gas prices, these tips can help you save money and maintain some budget predictability. https://t.co/8cbdr5nhqL",
+    "createdAt": "Sun Mar 08 01:00:09 +0000 2026",
+    "createdAtFormatted": "2026/3/8 09:00:09",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "elonmusk",
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -491,7 +977,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -517,7 +1003,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -537,7 +1023,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236144382,
+      "followersCount": 236144231,
       "friendsCount": 1292,
       "location": ""
     },
@@ -553,11 +1039,59 @@
   },
   {
     "user": {
+      "screenName": "BillAckman",
+      "name": "Bill Ackman",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1619837521059348481/9UeNLFmD_normal.jpg",
+      "description": "CEO Pershing Square, Co-trustee @PershingSqFdn",
+      "followersCount": 2006522,
+      "friendsCount": 1107,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/BillAckman/status/2030443785096761364",
+    "fullText": "The depths of evil",
+    "createdAt": "Sun Mar 08 00:41:36 +0000 2026",
+    "createdAtFormatted": "2026/3/8 08:41:36",
+    "quotedStatus": {
+      "fullText": "For those mourning the ghoul.\nThe fall of the regime in Iran was predetermined on the day when a father was publicly hanged in front of his daughter for a post on social media.\nIn his final moments, the father kept smiling while looking into his daughter’s eyes, so that her https://t.co/5G2UjEBcHS",
+      "tweetUrl": "",
+      "userName": "Olena Rohoza",
+      "screenName": "OlenaRohoza",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1966773682585427969/GfBmiqfp_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HC0n9iKbAAAHOjA.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2030441118018465792/vid/avc1/720x1280/xYMO3fBmLxYxF77q.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/CNN/status/2030441285991924139",
+    "fullText": "Protesters in Tel Aviv give voice to Israel's anti-war minority. Not everyone supports the attacks on Iran, they say, predicting their movement will grow as the war continues.\n\nFollow live updates: https://t.co/1aSKC7rrJ3 https://t.co/SZJxwKBl6D",
+    "createdAt": "Sun Mar 08 00:31:41 +0000 2026",
+    "createdAtFormatted": "2026/3/8 08:31:41",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "Forbes",
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20304320,
+      "followersCount": 20304324,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -567,6 +1101,82 @@
     "fullText": "Constantly saying “yes” at work? In order to be memorable and irreplaceable, you have to prioritize. \n\nHere are five boundary-setting phrases high performers use at work. https://t.co/ODX5b8VQaJ",
     "createdAt": "Sun Mar 08 00:30:01 +0000 2026",
     "createdAtFormatted": "2026/3/8 08:30:01",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9824767,
+      "friendsCount": 108,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2030439407640015223",
+    "fullText": "Australia said it is assessing a request from Gulf nations for defensive military support to protect them against Iranian drone and missile attacks https://t.co/syzT98WoX6",
+    "createdAt": "Sun Mar 08 00:24:13 +0000 2026",
+    "createdAtFormatted": "2026/3/8 08:24:13",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9824767,
+      "friendsCount": 108,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2030438048471601325",
+    "fullText": "Authorities arrested six people connected to unrest during an anti-Muslim protest outside the residence of New York City Mayor Zohran Mamdani. Two of the individuals arrested were accused of handling and igniting improvised explosives. https://t.co/4ylBJyXSAo",
+    "createdAt": "Sun Mar 08 00:18:49 +0000 2026",
+    "createdAtFormatted": "2026/3/8 08:18:49",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61374825,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC2MktLXIAAFU_z.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2030433589939126310",
+    "fullText": "Severe storms brought damaging tornadoes to parts of the central US Thursday and Friday, shredding buildings into piles of debris and killing at least eight people. https://t.co/npBaQnVKi3 https://t.co/nvQBFxdKNp",
+    "createdAt": "Sun Mar 08 00:01:06 +0000 2026",
+    "createdAtFormatted": "2026/3/8 08:01:06",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19332106,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HC2MYdJWUAAkqZu.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2030433379447865824",
+    "fullText": "Traders on Kalshi assumed they had won a fortune by correctly betting on the death of Iranian leader Ayatollah Ali Khamenei, but Kalshi froze the payout.\n\nThe outrage has intensified scrutiny into the explosive rise of prediction markets. https://t.co/qPSlpVu45O https://t.co/i0Kvz01mbM",
+    "createdAt": "Sun Mar 08 00:00:15 +0000 2026",
+    "createdAtFormatted": "2026/3/8 08:00:15",
     "quotedStatus": null
   },
   {
