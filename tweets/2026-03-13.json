@@ -1,11 +1,589 @@
 [
   {
     "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15640700,
+      "friendsCount": 6184,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2032540928087310529",
+    "fullText": "BREAKING: The U.S. military is sending roughly 2,500 Marines and at least one extra warship to the Middle East, an AP source says. https://t.co/6mrimPnBVm",
+    "createdAt": "Fri Mar 13 19:34:54 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:34:54",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61439930,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUIscCWMAA9Gho.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2032540387202527471",
+    "fullText": "Federal judge quashes Justice Department subpoenas of Fed Chair Jerome Powell. https://t.co/IWexqIeg0j https://t.co/vGxzHOFXC2",
+    "createdAt": "Fri Mar 13 19:32:45 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:32:45",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9847674,
+      "friendsCount": 109,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2032540365605969966",
+    "fullText": "A massive warehouse on Salt Lake City’s west side has been purchased by DHS, adding to a growing portfolio of industrial buildings the federal government is acquiring to expand immigration detention capacity. https://t.co/jwyW2gSpuJ",
+    "createdAt": "Fri Mar 13 19:32:40 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:32:40",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9847674,
+      "friendsCount": 109,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2032539793549049856/vid/avc1/1080x1920/1PO06I43J8PJTOk8.mp4?tag=21"
+    ],
+    "tweetUrl": "https://x.com/business/status/2032540015071314068",
+    "fullText": "Alongside the leaders of Canada and Norway, German Chancellor Friedrich Merz criticized the US decision to temporarily loosen sanctions against Russia to ease pressure on energy prices https://t.co/qvSGYJw6ml https://t.co/rAeJwG55FR",
+    "createdAt": "Fri Mar 13 19:31:17 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:31:17",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9847674,
+      "friendsCount": 109,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2032539738603684340",
+    "fullText": "After World War II, Japan renounced war and dismantled its military. It’s now debating whether those limits still fit a more dangerous world. https://t.co/lO7FONACmi",
+    "createdAt": "Fri Mar 13 19:30:11 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:30:11",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9847674,
+      "friendsCount": 109,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2032538219246501985",
+    "fullText": "Uber's co-founder Travis Kalanick has launched a new venture that will focus on creating “gainfully employed robots” for the food, mining and transport industries. https://t.co/a757nASde1",
+    "createdAt": "Fri Mar 13 19:24:08 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:24:08",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Nature",
+      "name": "nature",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+      "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+      "followersCount": 2596534,
+      "friendsCount": 3227,
+      "location": "Worldwide"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Nature/status/2032537261040943190",
+    "fullText": "The shortage of random access memory chips, which has caused prices to soar, has pushed some scientists to revisit how they do their work.\n\nhttps://t.co/Ixb3KxVv55",
+    "createdAt": "Fri Mar 13 19:20:20 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:20:20",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9847674,
+      "friendsCount": 109,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2032536221277135118",
+    "fullText": "Michael Rapino was slated to spend March 5 taking the stand in the high-profile trial over the potential breakup of his $40 billion company. Instead, the Live Nation chief was in Washington, signing a secret agreement to resolve the case. https://t.co/ptTGP4GpxS",
+    "createdAt": "Fri Mar 13 19:16:12 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:16:12",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19335280,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2032536206739750960",
+    "fullText": "Breaking news: Defense Secretary Pete Hegseth said the U.S. military opened a comprehensive investigation into the deadly strike on an elementary school in Iran, in what appeared to be a tacit acknowledgment of the U.S.’ responsibility for the attack. https://t.co/k4BL9iRza4",
+    "createdAt": "Fri Mar 13 19:16:09 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:16:09",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9847674,
+      "friendsCount": 109,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2032535383691464841",
+    "fullText": "Brent crude settled above $100 a barrel for the second straight session, ending the day at the highest level in more than three years as the conflict in the Middle East drags on. https://t.co/xAC1p5TK66",
+    "createdAt": "Fri Mar 13 19:12:52 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:12:52",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15640700,
+      "friendsCount": 6184,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2032534849907491215",
+    "fullText": "BREAKING: Justice Department charges man accused of selling gun to Old Dominion University shooter with prior terrorism conviction. https://t.co/EXJJPuEOCz",
+    "createdAt": "Fri Mar 13 19:10:45 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:10:45",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUCmURagAAmF5H.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032533672444965012",
+    "fullText": "Here’s How Much Donald Trump Is Worth\nhttps://t.co/DhJtSPcZ9M #ForbesBillionaires (Photo: Martin Schoeller/August) https://t.co/QZ8gXDmR2D",
+    "createdAt": "Fri Mar 13 19:06:04 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:06:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "nytimes",
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53051584,
+      "followersCount": 53051872,
+      "friendsCount": 842,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2032533663708037488",
+    "fullText": "The man who rammed his truck into a Michigan synagogue on Thursday had four family members who were killed in an airstrike in Lebanon the week before, a Lebanese official and a Michigan imam said. https://t.co/0QLTUldgHc",
+    "createdAt": "Fri Mar 13 19:06:02 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:06:02",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
+      "followersCount": 9847674,
+      "friendsCount": 109,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2032533060902666414",
+    "fullText": "An alleged cocaine boss with a $2 million bounty on his head was captured by Bolivian forces as the Andean nation renews cooperation with the US after decades of hostility. https://t.co/pLa0QDVwBi",
+    "createdAt": "Fri Mar 13 19:03:39 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:03:39",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUCCrXasAEjsBt.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032533058612773228",
+    "fullText": "#ForbesBillionaires: The Top 200\nhttps://t.co/xt129HIDOj (Photo: Harun Ozalp/Anadolu/Getty Images) https://t.co/N7RaLrSA9q",
+    "createdAt": "Fri Mar 13 19:03:38 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:03:38",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUB18vaMAEbP1B.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032532841305923656",
+    "fullText": "Meet The 45 AI Newcomers To Forbes’ 2026 Billionaires List\nhttps://t.co/RVBSCel3Aj #ForbesBillionaires (Illustration by Neil Jamieson for Forbes) https://t.co/LObPEKjbJr",
+    "createdAt": "Fri Mar 13 19:02:46 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:02:46",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236465042,
+      "friendsCount": 1294,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2032532569087185392",
+    "fullText": "Common sense. \n\nA simple test for immigrants is: would you enjoy working them. If so, they would be an asset to America.",
+    "createdAt": "Fri Mar 13 19:01:41 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:01:41",
+    "quotedStatus": {
+      "fullText": "@Asmongold No one thinks that all legal immigrants are the same.\n\nOn balance, legal immigrants are good for America, but there certainly are exceptions.\n\nMy view:\n\nWe should take in more people who love America, will assimilate, and will be net contributors to our society.\n\nAnd we should",
+      "tweetUrl": "",
+      "userName": "Micah",
+      "screenName": "micah_erfan",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2003528031487287296/7SKJ9gC-_normal.jpg",
+      "images": [],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUBlFUaMAIJqvg.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032532550749700446",
+    "fullText": "The Richest Women In The World 2026\nhttps://t.co/YLBE7Ow6ok #ForbesBillionaires (Illustration by Neil Jamieson for Forbes) https://t.co/EQASh4iu9h",
+    "createdAt": "Fri Mar 13 19:01:37 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:01:37",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUBRp1awAA3Uw3.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032532375692095629",
+    "fullText": "There are more Gen-Z billionaires than ever before. \n\nMeet the 35 under-30 billionaires on the 2026 #ForbesBillionaires list, listed from oldest to youngest: https://t.co/nGMKCwJJip (Illustration: Neil Jamieson for Forbes) https://t.co/TXXYadHZE7",
+    "createdAt": "Fri Mar 13 19:00:55 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:00:55",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUBOb1b0AALphW.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032532341034483968",
+    "fullText": "The World’s Celebrity Billionaires\nhttps://t.co/KLCr7m3k0I #ForbesBillionaires (Illustration by Neil Jamieson for Forbes) https://t.co/830wO0J2L2",
+    "createdAt": "Fri Mar 13 19:00:47 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:00:47",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19335280,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2032532222863921460",
+    "fullText": "To her, chatbots are a marvel. To her husband, they are a menace. So what happens to a relationship when one partner depends on a chatbot, and the other is an AI skeptic? Experts weigh in. https://t.co/7zDKT00C6d",
+    "createdAt": "Fri Mar 13 19:00:19 +0000 2026",
+    "createdAtFormatted": "2026/3/14 03:00:19",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUBBluaMAQ07GA.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032531941833191907",
+    "fullText": "Binance Founder CZ Is Now Richer Than Bill Gates\nhttps://t.co/DjuKM8ftj3 #ForbesBillionaires (Photo: Krisztian Bocsi/Bloomberg) https://t.co/qyVWgERMSJ",
+    "createdAt": "Fri Mar 13 18:59:12 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:59:12",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUA0ogaMAAjo-A.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032531718880768040",
+    "fullText": "The World’s Youngest Billionaires\nhttps://t.co/nGMKCwJJip #ForbesBillionaires (Illustration by Neil Jamieson for Forbes) https://t.co/yAXGLIf4a3",
+    "createdAt": "Fri Mar 13 18:58:19 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:58:19",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUAncgaMAM9Na5.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032531492799381624",
+    "fullText": "The $100 Billion Club: These 20 People Have 12-Figure Fortunes https://t.co/LWyWXGzBfC #ForbesBillionaires (Illustration by Neil Jamieson for Forbes) https://t.co/FF3KDOcxie",
+    "createdAt": "Fri Mar 13 18:57:25 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:57:25",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236465042,
+      "friendsCount": 1294,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2032531469667807361",
+    "fullText": "How to use @Grok Imagine",
+    "createdAt": "Fri Mar 13 18:57:19 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:57:19",
+    "quotedStatus": {
+      "fullText": "Consistency is key.\n\nNow you can create videos with consistent characters and objects using Grok Imagine on both the app and the web.\n\nHere are 2 quick video tutorials ↓ https://t.co/3cCqRZQwDH",
+      "tweetUrl": "",
+      "userName": "Dogan Ural",
+      "screenName": "doganuraldesign",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_normal.jpg",
+      "images": [],
+      "videos": [
+        "https://video.twimg.com/amplify_video/2032508172674674691/vid/avc1/1080x1080/wlUlUQ2LCBu0dEjW.mp4?tag=21"
+      ]
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+      "description": "",
+      "followersCount": 236465042,
+      "friendsCount": 1294,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2032531238893006969",
+    "fullText": "Sounds promising",
+    "createdAt": "Fri Mar 13 18:56:24 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:56:24",
+    "quotedStatus": {
+      "fullText": "🚨Important Status Update Regarding the SAVE America Act 🚨 \n\nWe’re making serious progress \n\n@LeaderJohnThune and his team have been working closely with us https://t.co/2Nzt1HaZLO",
+      "tweetUrl": "",
+      "userName": "Mike Lee",
+      "screenName": "BasedMikeLee",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1888964527821139968/A047e0lQ_normal.jpg",
+      "images": [],
+      "videos": [
+        "https://video.twimg.com/amplify_video/2032527436966146048/vid/avc1/2160x3840/1KJ0_hUKdGtd5uSj.mp4?tag=21"
+      ]
+    }
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUAXyLaMAEXQIy.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032531223537659978",
+    "fullText": "#ForbesBillionaires: Facts And Figures\nhttps://t.co/dm6cNJvo79 (Illustration by Neil Jamieson for Forbes) https://t.co/XMSmDoLF0Q",
+    "createdAt": "Fri Mar 13 18:56:20 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:56:20",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HDUAI9caMAM2RXz.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2032530968180085106",
+    "fullText": "The 10 Richest Indian Billionaires 2026\n#ForbesBillionaires\nhttps://t.co/waSKpKGNUS (Illustration by Neil Jamieson for Forbes) https://t.co/GywvLr93oJ",
+    "createdAt": "Fri Mar 13 18:55:20 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:55:20",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20307793,
+      "friendsCount": 4611,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2031800206111449088/vid/avc1/606x1080/7AizgSDQ6QqbYssX.mp4?tag=21"
+    ],
+    "tweetUrl": "https://x.com/Forbes/status/2032530381568672013",
+    "fullText": "The AI market bubble is still inflating, and so are the net worths of the billionaires who have invested.\nMeet the AI newcomers whose fresh fortunes landed them on the #ForbesBillionaires list: https://t.co/RVBSCekvKL https://t.co/7kTosnxUYg",
+    "createdAt": "Fri Mar 13 18:53:00 +0000 2026",
+    "createdAtFormatted": "2026/3/14 02:53:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53051872,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -23,7 +601,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -43,7 +621,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236465320,
+      "followersCount": 236465042,
       "friendsCount": 1294,
       "location": ""
     },
@@ -71,7 +649,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236465320,
+      "followersCount": 236465042,
       "friendsCount": 1294,
       "location": ""
     },
@@ -99,7 +677,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -135,7 +713,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -155,7 +733,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -173,7 +751,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236465320,
+      "followersCount": 236465042,
       "friendsCount": 1294,
       "location": ""
     },
@@ -201,7 +779,7 @@
       "name": "The Associated Press",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
       "description": "Advancing the power of facts, globally 🌎",
-      "followersCount": 15640504,
+      "followersCount": 15640700,
       "friendsCount": 6184,
       "location": "Global"
     },
@@ -219,7 +797,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -239,7 +817,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -257,7 +835,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -277,7 +855,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335252,
+      "followersCount": 19335280,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -295,7 +873,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -313,7 +891,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -331,7 +909,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -349,7 +927,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -369,7 +947,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53051584,
+      "followersCount": 53051872,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -387,7 +965,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61439144,
+      "followersCount": 61439930,
       "friendsCount": 1046,
       "location": ""
     },
@@ -407,7 +985,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -427,7 +1005,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -445,7 +1023,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -463,7 +1041,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -481,7 +1059,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -501,7 +1079,7 @@
       "name": "nature",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
       "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
-      "followersCount": 2596525,
+      "followersCount": 2596534,
       "friendsCount": 3227,
       "location": "Worldwide"
     },
@@ -519,7 +1097,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -537,7 +1115,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -557,7 +1135,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -575,7 +1153,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -593,7 +1171,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335252,
+      "followersCount": 19335280,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -611,7 +1189,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -631,7 +1209,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -649,7 +1227,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -669,7 +1247,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -687,7 +1265,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -705,7 +1283,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335252,
+      "followersCount": 19335280,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -725,7 +1303,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53051584,
+      "followersCount": 53051872,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -743,7 +1321,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -761,7 +1339,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -781,7 +1359,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335252,
+      "followersCount": 19335280,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -799,7 +1377,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -817,7 +1395,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -835,7 +1413,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -853,7 +1431,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53051584,
+      "followersCount": 53051872,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -871,7 +1449,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -889,7 +1467,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -907,7 +1485,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -925,7 +1503,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -943,7 +1521,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -961,7 +1539,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -979,7 +1557,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -997,7 +1575,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -1015,7 +1593,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Singapore newsletter: https://t.co/RtyaUOdLdF Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9847496,
+      "followersCount": 9847674,
       "friendsCount": 109,
       "location": "New York and the World"
     },
@@ -1033,7 +1611,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307737,
+      "followersCount": 20307793,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -1403,7 +1981,7 @@
       "name": "Cassandra Unchained",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2031597257045237760/B92wQ6Os_normal.jpg",
       "description": "Official X account for Michael Burry, MD, called \"Cassandra\" by Warren Buffett. Now on Substack with the full story.",
-      "followersCount": 1739627,
+      "followersCount": 1739634,
       "friendsCount": 28,
       "location": "lỗ nhớ"
     },
