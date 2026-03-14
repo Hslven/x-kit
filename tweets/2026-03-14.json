@@ -1,11 +1,67 @@
 [
   {
     "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53053306,
+      "friendsCount": 842,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2032645420694876272",
+    "fullText": "Breaking News: Investors in a deal to create a U.S.-controlled TikTok are set to pay a $10 billion transaction fee to the Trump administration. https://t.co/eA4m7zJj8x",
+    "createdAt": "Sat Mar 14 02:30:07 +0000 2026",
+    "createdAtFormatted": "2026/3/14 10:30:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19335329,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2032645410796253325",
+    "fullText": "An analysis of satellite data maps damage across Iran from the U.S. and Israeli war.\n\nThe capitol of Tehran and the southern-central city of Shiraz were hit hard, as well as the strategic port city of Bandar Abbas. https://t.co/6lUtY0csux",
+    "createdAt": "Sat Mar 14 02:30:05 +0000 2026",
+    "createdAtFormatted": "2026/3/14 10:30:05",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61445184,
+      "friendsCount": 1046,
+      "location": ""
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2032640360749420544/vid/avc1/720x1280/nSPKLXBNOgBjueyk.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/CNN/status/2032640864304922783",
+    "fullText": "For guests, Jeffrey Epstein's island was a Caribbean dream; for victims, a nightmare with no escape. CNN's Kyung Lah reports on what files released by the Department of Justice reveal. https://t.co/tokLdO5O5X https://t.co/QUT97aEIF0",
+    "createdAt": "Sat Mar 14 02:12:01 +0000 2026",
+    "createdAtFormatted": "2026/3/14 10:12:01",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "BillAckman",
       "name": "Bill Ackman",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1619837521059348481/9UeNLFmD_normal.jpg",
       "description": "CEO Pershing Square, Co-trustee @PershingSqFdn",
-      "followersCount": 2017335,
+      "followersCount": 2017321,
       "friendsCount": 1109,
       "location": "New York, NY"
     },
@@ -31,7 +87,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -51,7 +107,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335326,
+      "followersCount": 19335329,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -69,7 +125,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61444717,
+      "followersCount": 61445184,
       "friendsCount": 1046,
       "location": ""
     },
@@ -107,7 +163,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61444717,
+      "followersCount": 61445184,
       "friendsCount": 1046,
       "location": ""
     },
@@ -163,7 +219,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335326,
+      "followersCount": 19335329,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -181,7 +237,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335326,
+      "followersCount": 19335329,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -217,7 +273,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -237,7 +293,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335326,
+      "followersCount": 19335329,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -255,7 +311,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53053166,
+      "followersCount": 53053306,
       "friendsCount": 842,
       "location": "New York City"
     },
@@ -291,7 +347,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61444717,
+      "followersCount": 61445184,
       "friendsCount": 1046,
       "location": ""
     },
@@ -327,7 +383,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -383,7 +439,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -439,7 +495,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -459,7 +515,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335326,
+      "followersCount": 19335329,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -477,7 +533,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
       "description": "",
-      "followersCount": 236486265,
+      "followersCount": 236488111,
       "friendsCount": 1295,
       "location": ""
     },
@@ -523,7 +579,7 @@
       "name": "The Associated Press",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
       "description": "Advancing the power of facts, globally 🌎",
-      "followersCount": 15641873,
+      "followersCount": 15641989,
       "friendsCount": 6184,
       "location": "Global"
     },
@@ -541,7 +597,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61444717,
+      "followersCount": 61445184,
       "friendsCount": 1046,
       "location": ""
     },
@@ -561,7 +617,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -581,7 +637,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335326,
+      "followersCount": 19335329,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -707,7 +763,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -727,7 +783,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61444717,
+      "followersCount": 61445184,
       "friendsCount": 1046,
       "location": ""
     },
@@ -783,7 +839,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -821,7 +877,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19335326,
+      "followersCount": 19335329,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -841,7 +897,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
@@ -859,7 +915,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20307992,
+      "followersCount": 20308044,
       "friendsCount": 4611,
       "location": "New York, NY"
     },
