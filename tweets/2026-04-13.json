@@ -1,11 +1,85 @@
 [
   {
     "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
+      "description": "https://t.co/dDtDyVssfm",
+      "followersCount": 237846144,
+      "friendsCount": 1312,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2043487337624322500",
+    "fullText": "Yeah",
+    "createdAt": "Mon Apr 13 00:32:02 +0000 2026",
+    "createdAtFormatted": "2026/4/13 08:32:02",
+    "quotedStatus": {
+      "fullText": "Want some truth?\n\nThere are ~195 sovereign countries in the World and all 195 have had slavery.\n\nBut…\n\nOut of those 195 countries the United States is the only one that fought a full scale Civil War to end it.",
+      "tweetUrl": "",
+      "userName": "C3",
+      "screenName": "C_3C_3",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/945294827742224385/2g_sshAu_normal.jpg",
+      "images": [],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
+      "description": "https://t.co/dDtDyVssfm",
+      "followersCount": 237846144,
+      "friendsCount": 1312,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2043487224931737821",
+    "fullText": "Starlink is a gamechanger",
+    "createdAt": "Mon Apr 13 00:31:35 +0000 2026",
+    "createdAtFormatted": "2026/4/13 08:31:35",
+    "quotedStatus": {
+      "fullText": "NEWS: UK carrier Virgin Atlantic has brought forward its plans to equip its aircraft with @Starlink Wi-Fi. The original plan was to install Starlink in Q3 of this year, but the revised plan will see the airline's first aircraft with Starlink in May (next month).\n\nVA says the https://t.co/COtCclPDel",
+      "tweetUrl": "",
+      "userName": "Sawyer Merritt",
+      "screenName": "SawyerMerritt",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1837744842715082752/xH9vYixL_normal.jpg",
+      "images": [
+        "https://pbs.twimg.com/media/HFvnXkWa0AA3znN.jpg"
+      ],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20326220,
+      "friendsCount": 4604,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HFvsciubAAAmMaE.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2043486839835963582",
+    "fullText": "Before the polo ponies and global runways, Ralph Lauren was sharing a two-bedroom Bronx apartment with his immigrant parents and three siblings.\n\nHis journey from the Bronx to the pinnacle of American luxury defines the #Forbes250 list of greatest living self-made Americans.\nRead https://t.co/wzLvpLxtq6",
+    "createdAt": "Mon Apr 13 00:30:03 +0000 2026",
+    "createdAtFormatted": "2026/4/13 08:30:03",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "business",
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -23,7 +97,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -41,7 +115,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -59,7 +133,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -77,7 +151,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -95,7 +169,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -113,7 +187,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19342202,
+      "followersCount": 19342040,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -131,7 +205,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -151,7 +225,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53184920,
+      "followersCount": 53184992,
       "friendsCount": 844,
       "location": "New York City"
     },
@@ -169,7 +243,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53184920,
+      "followersCount": 53184992,
       "friendsCount": 844,
       "location": "New York City"
     },
@@ -187,7 +261,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -205,7 +279,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -223,7 +297,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -241,7 +315,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -259,7 +333,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -277,7 +351,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -295,7 +369,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -313,7 +387,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19342202,
+      "followersCount": 19342040,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -331,7 +405,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -351,7 +425,7 @@
       "name": "The Associated Press",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
       "description": "Advancing the power of facts, globally 🌎",
-      "followersCount": 15756947,
+      "followersCount": 15757061,
       "friendsCount": 6179,
       "location": "Global"
     },
@@ -369,7 +443,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61747900,
+      "followersCount": 61748289,
       "friendsCount": 1047,
       "location": ""
     },
@@ -389,7 +463,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53184920,
+      "followersCount": 53184992,
       "friendsCount": 844,
       "location": "New York City"
     },
@@ -407,7 +481,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -425,7 +499,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -451,7 +525,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -469,7 +543,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -487,7 +561,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -508,7 +582,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -526,7 +600,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -546,7 +620,7 @@
       "name": "Bill Ackman",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1619837521059348481/9UeNLFmD_normal.jpg",
       "description": "CEO Pershing Square, Co-trustee @PershingSqFdn",
-      "followersCount": 2093750,
+      "followersCount": 2093767,
       "friendsCount": 1124,
       "location": "New York, NY"
     },
@@ -574,7 +648,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -592,7 +666,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -610,7 +684,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -628,7 +702,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -648,7 +722,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19342202,
+      "followersCount": 19342040,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -666,7 +740,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -684,7 +758,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -704,7 +778,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -722,7 +796,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19342202,
+      "followersCount": 19342040,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -740,7 +814,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -758,7 +832,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -776,7 +850,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -794,7 +868,7 @@
       "name": "The Associated Press",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
       "description": "Advancing the power of facts, globally 🌎",
-      "followersCount": 15756947,
+      "followersCount": 15757061,
       "friendsCount": 6179,
       "location": "Global"
     },
@@ -812,7 +886,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -830,7 +904,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19342202,
+      "followersCount": 19342040,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -848,7 +922,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -866,7 +940,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -884,7 +958,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -912,7 +986,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -940,7 +1014,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -958,7 +1032,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -978,7 +1052,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1004,7 +1078,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1030,7 +1104,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1060,7 +1134,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -1078,7 +1152,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1104,7 +1178,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1130,7 +1204,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1150,7 +1224,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -1168,7 +1242,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -1186,7 +1260,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61747900,
+      "followersCount": 61748289,
       "friendsCount": 1047,
       "location": ""
     },
@@ -1206,7 +1280,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -1226,7 +1300,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -1244,7 +1318,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1272,7 +1346,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1298,7 +1372,7 @@
       "name": "The New York Times",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
       "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
-      "followersCount": 53184920,
+      "followersCount": 53184992,
       "friendsCount": 844,
       "location": "New York City"
     },
@@ -1316,7 +1390,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1344,7 +1418,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -1362,7 +1436,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19342202,
+      "followersCount": 19342040,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -1380,7 +1454,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20326201,
+      "followersCount": 20326220,
       "friendsCount": 4604,
       "location": "New York, NY"
     },
@@ -1400,7 +1474,7 @@
       "name": "Elon Musk",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
       "description": "https://t.co/dDtDyVssfm",
-      "followersCount": 237847227,
+      "followersCount": 237846144,
       "friendsCount": 1312,
       "location": ""
     },
@@ -1426,7 +1500,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news. Watch Live: https://t.co/nHEpHOzHqv Newsletters: https://t.co/nWaCxHSKuU Podcasts: https://t.co/096e9xMbPz",
-      "followersCount": 9962488,
+      "followersCount": 9962430,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -1446,7 +1520,7 @@
       "name": "The Associated Press",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
       "description": "Advancing the power of facts, globally 🌎",
-      "followersCount": 15756947,
+      "followersCount": 15757061,
       "friendsCount": 6179,
       "location": "Global"
     },
@@ -1492,6 +1566,24 @@
     "fullText": "Rep. Eric Swalwell is facing growing pressure to vacate his congressional seat and calls to drop out of the California gubernatorial race over reports that a former staffer accused him of sexual assault and multiple others alleged sexual misconduct. https://t.co/TLqBZE8m5M",
     "createdAt": "Sun Apr 12 19:30:04 +0000 2026",
     "createdAtFormatted": "2026/4/13 03:30:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "MottandBow",
+      "name": "Mott & Bow",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/897810295300739073/dc99V7YT_normal.jpg",
+      "description": "Elevated Basics. Grounded Price.",
+      "followersCount": 19192,
+      "friendsCount": 249,
+      "location": "NYC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/MottandBow/status/2043196265437991106",
+    "fullText": "Move freely through every adventure with our dynamic stretch denim. Engineered for all-day comfort whether you're exploring ancient ruins, catching flights, or grabbing dinner in the city. One pair that transitions effortlessly from morning hikes to evening drinks.",
+    "createdAt": "Sun Apr 12 05:15:25 +0000 2026",
+    "createdAtFormatted": "2026/4/12 13:15:25",
     "quotedStatus": null
   }
 ]
