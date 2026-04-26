@@ -1,11 +1,947 @@
 [
   {
     "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGzm6gxbAAEOrhs.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048265876470980615",
+    "fullText": "Collective, a one-stop financial platform for the self-employed, announced today that it is acquiring Open Ledger, an embedded accounting platform, as it builds out its AI-powered operating system for solopreneurs. \n\nCollective provides business formation, payroll and tax https://t.co/Nfk6YJhvW7",
+    "createdAt": "Sun Apr 26 05:00:14 +0000 2026",
+    "createdAtFormatted": "2026/4/26 13:00:14",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGzgC9TagAAfmHe.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048258279529419125",
+    "fullText": "Data shows that flights to major destinations from Mexico and South America to Europe and North Africa have fallen by up to 35% year over year.\nRead about the destinations here: https://t.co/JhAxZD95CD\nPhoto: Getty Images https://t.co/9FHHKaOYFW",
+    "createdAt": "Sun Apr 26 04:30:03 +0000 2026",
+    "createdAtFormatted": "2026/4/26 12:30:03",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGzblzOXYAAnfS_.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048253393987108941",
+    "fullText": "“This is an isolated incident,” D.C. interim police chief Jeffery Carroll said after gunfire rang out during the White House Correspondents' dinner on Saturday night. \n\nThe suspect, who was a guest at the hotel, was “armed with a shotgun,” a handgun and knives when he ran through https://t.co/5xzwkwZaW7",
+    "createdAt": "Sun Apr 26 04:10:38 +0000 2026",
+    "createdAtFormatted": "2026/4/26 12:10:38",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "business",
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10020357,
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048253136498807263",
+    "fullText": "“Lie on the ground!” The annual White House media gala with Donald Trump plunged into chaos when shots rang out. https://t.co/m8EV8WkNHl",
+    "createdAt": "Sun Apr 26 04:09:37 +0000 2026",
+    "createdAtFormatted": "2026/4/26 12:09:37",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048251447163109543",
+    "fullText": "The White House correspondents’ dinner shooting suspect will appear in court Monday and ‘many’ charges are expected, U.S. Attorney for the District of Columbia Jeanine Pirro said.\n \nInterim D.C. police chief Jeffery Carroll said that law enforcement believes the suspect was a",
+    "createdAt": "Sun Apr 26 04:02:54 +0000 2026",
+    "createdAtFormatted": "2026/4/26 12:02:54",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGzZLosa4AAacJZ.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048250758773228027",
+    "fullText": "How The Presidency Made Mar-A-Lago Trump’s Most Valuable Property By Far https://t.co/xWQMnT3ARD (Photo: Al Drago via Getty Images) https://t.co/6QYvb18X3N",
+    "createdAt": "Sun Apr 26 04:00:10 +0000 2026",
+    "createdAtFormatted": "2026/4/26 12:00:10",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048250749935595596",
+    "fullText": "AI can help with financial advice, but to get useful answers, people often overshare sensitive data. In the wrong hands, that info could lead to fraud or identity theft.\n\nHere are five categories of financial details you shouldn’t share with chatbots: https://t.co/88FshhZjV0",
+    "createdAt": "Sun Apr 26 04:00:08 +0000 2026",
+    "createdAtFormatted": "2026/4/26 12:00:08",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048249860978061796",
+    "fullText": "China said it will take necessary measures after the European Union added Chinese entities to its latest Russia sanctions package, warning that all consequences would be borne by the EU https://t.co/xrooYhSrPt",
+    "createdAt": "Sun Apr 26 03:56:36 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:56:36",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048249299952173509",
+    "fullText": "The annual White House Correspondents’ Dinner was plunged into chaos after shots were heard at the event, with Secret Service agents hustling President Trump from the main stage as dinner guests hid under tables https://t.co/SI7MbLEE2z",
+    "createdAt": "Sun Apr 26 03:54:22 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:54:22",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048248218295660588",
+    "fullText": "A man carrying a shotgun, a handgun and multiple knives charged a Secret Service checkpoint at the Washington Hilton Saturday night, wounding a federal officer https://t.co/jjpfH27lPg",
+    "createdAt": "Sun Apr 26 03:50:04 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:50:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048247316293763323",
+    "fullText": "DC Mayor Bowser says a sole gunman rushed the Secret Service checkpoint in correspondents' dinner shooting incident and that \"we have no reason to believe at this time that anyone else was involved.\" https://t.co/uvz3IPkYoy",
+    "createdAt": "Sun Apr 26 03:46:29 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:46:29",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048246536895635461",
+    "fullText": "Interim D.C. police chief Jeffery Carroll said the suspect was armed with a shotgun, a handgun and multiple knives as he rushed through a Secret Service checkpoint. The suspect was not shot but was transported to a hospital for evaluation, Carroll said.\n\nhttps://t.co/YFFTSEPv0Q",
+    "createdAt": "Sun Apr 26 03:43:23 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:43:23",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2048245202599493632/vid/avc1/1280x720/Jcgr_ZHYDjS7mwfU.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/business/status/2048245498436358637",
+    "fullText": "President Donald Trump makes a statement after being evacuated from the White House Correspondents’ Association dinner event in Washington Saturday after shots were fired near the venue https://t.co/rcU9nQJW9A https://t.co/nkwREaGV8g",
+    "createdAt": "Sun Apr 26 03:39:16 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:39:16",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGzSUVDaUAAihuF.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048243185131135320",
+    "fullText": "Why The ‘Grandma-Core’ Dining Experience Is Taking Over Restaurants https://t.co/SKVBTLzONW https://t.co/KSrcY06W3j",
+    "createdAt": "Sun Apr 26 03:30:04 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:30:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048242543414911123",
+    "fullText": "BREAKING: Suspect in correspondents' dinner shooting has been charged with firearms and assault charges, U.S. attorney says. https://t.co/zvLiZhkAIb",
+    "createdAt": "Sun Apr 26 03:27:31 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:27:31",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048240475258114285",
+    "fullText": "President Donald Trump told reporters that he intends to be part of another White House Correspondents’ dinner in 30 days to make up for the cancellation from Saturday's shooting. \n\nFollow live updates: https://t.co/WhkjaKILzu",
+    "createdAt": "Sun Apr 26 03:19:18 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:19:18",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53302056,
+      "friendsCount": 844,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2048237449692721327",
+    "fullText": "The suspect in the shooting at the White House correspondents’ dinner is a 31-year-old from Torrance, California, two law enforcement officials said. https://t.co/VBhT7Ut86p",
+    "createdAt": "Sun Apr 26 03:07:17 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:07:17",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048237129289888029",
+    "fullText": "BREAKING: Donald Trump said a suspect who disrupted the White House press dinner was carrying multiple weapons but was subdued and in custody https://t.co/QVi9zfAMs3",
+    "createdAt": "Sun Apr 26 03:06:00 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:06:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048236371374915762",
+    "fullText": "BREAKING: Correspondents' dinner shooting suspect is a 31-year-old man from California, AP sources say. https://t.co/lh9frjnXls",
+    "createdAt": "Sun Apr 26 03:02:59 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:02:59",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048235633802354821",
+    "fullText": "Democrats have long felt bullish about reclaiming the House, but a shifting political landscape has also made their once long-shot hopes of winning control of the Senate more feasible.\n\nHere are 11 state races that will determine Senate control: https://t.co/T6ZGRRZwg4",
+    "createdAt": "Sun Apr 26 03:00:04 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:00:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048235621815341329",
+    "fullText": "How To Play The World’s Most Exclusive Private Golf Courses Without A Membership  https://t.co/CtDcphDn7R",
+    "createdAt": "Sun Apr 26 03:00:01 +0000 2026",
+    "createdAtFormatted": "2026/4/26 11:00:01",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/2035314704307081216/71U1ftM3_normal.jpg",
+      "description": "https://t.co/dDtDyVssfm",
+      "followersCount": 239178628,
+      "friendsCount": 1316,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2048234907965526306",
+    "fullText": "Indeed it will",
+    "createdAt": "Sun Apr 26 02:57:11 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:57:11",
+    "quotedStatus": {
+      "fullText": "This is the federal income tax play all over again.\n\nIt started in 1913 as a “class tax” on the rich, hitting less than 1% of the population with a 1% rate above $3,000. \n\nIt expanded during WWII into a mass tax on most workers through withholding, skyrocketing rates, base",
+      "tweetUrl": "https://twitter.com/chamath/status/2048135686541492599",
+      "userName": "Rothmus 🏴",
+      "screenName": "Rothmus",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1427434033290661891/hLTTZ5lt_normal.jpg",
+      "images": [],
+      "videos": []
+    }
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048234374823325787",
+    "fullText": "Donald Trump said a suspect who disrupted the White House Correspondents’ Association dinner Saturday was carrying multiple weapons but was subdued and in custody https://t.co/QIfEcVD1fd",
+    "createdAt": "Sun Apr 26 02:55:03 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:55:03",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53302056,
+      "friendsCount": 844,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2048233401065361517",
+    "fullText": "Breaking News: President Trump said the suspect in the shooting at the White House correspondents’ dinner had \"multiple weapons\" and that an officer had been shot but was in good condition. Follow live updates. https://t.co/fHzvh1mQhb",
+    "createdAt": "Sun Apr 26 02:51:11 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:51:11",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048231525653618933",
+    "fullText": "BREAKING: President Trump says shooting suspect at correspondents' dinner was armed with multiple weapons before being stopped by Secret Service. https://t.co/fYUX5MULtB",
+    "createdAt": "Sun Apr 26 02:43:44 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:43:44",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53302056,
+      "friendsCount": 844,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2048229278857269570",
+    "fullText": "President Trump is speaking at the White House after gunfire broke out in the hotel where the White House correspondents’ dinner was being held on Saturday night. Trump, who was unharmed, had been set to speak at the event. Watch live. https://t.co/CENuCvx7is",
+    "createdAt": "Sun Apr 26 02:34:48 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:34:48",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGzElcUbYAAvC0H.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048228088841118097",
+    "fullText": "From slavery and poverty to fame, fortune and influence—meet the 250 Greatest Historic Self-Made Americans. A new Forbes list honoring the nation’s 250th anniversary. \n\nExplore the #Forbes250 list: https://t.co/CgOQQq6b2y\nIllustration: Mr. Nelson Design https://t.co/5Cjb1YQSCQ",
+    "createdAt": "Sun Apr 26 02:30:05 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:30:05",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGzElJQagAAHNyp.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048228085712183347",
+    "fullText": "Survey Finds 62% Of U.S. Workers Are Struggling To Make Ends Meet. Here’s How To Future-Proof Your Income https://t.co/9PSjP7LCM8 (Photo: Getty Images) https://t.co/9qvFFqowwC",
+    "createdAt": "Sun Apr 26 02:30:04 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:30:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61861967,
+      "friendsCount": 1047,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2048227692722499678",
+    "fullText": "HAPPENING NOW: President Trump is speaking at the White House after shots were fired at the White House Correspondents' Association dinner in DC. Watch CNN and follow live updates. https://t.co/4OL7PJcbAe",
+    "createdAt": "Sun Apr 26 02:28:30 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:28:30",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048227276047749368",
+    "fullText": "The suspect is alive and has been transported to a hospital, according to one U.S. official and one law enforcement official.\n\nA Secret Service agent was injured and is in the hospital, a U.S. official said. https://t.co/YFFTSEPv0Q",
+    "createdAt": "Sun Apr 26 02:26:51 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:26:51",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048227101782753701",
+    "fullText": "An officer was shot in a bullet-resistant vest at the White House correspondents' dinner but is expected to be OK, a law enforcement official says. https://t.co/X60ONhalAS",
+    "createdAt": "Sun Apr 26 02:26:09 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:26:09",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048220907680735589",
+    "fullText": "President Donald Trump said the shooter has been \"apprehended\" as he and other guests were evacuated from inside the White House Correspondents’ Association dinner. Secret Service confirmed the shooting took place near the main magnetometer screening area.\nhttps://t.co/AMnIM0l1Z8",
+    "createdAt": "Sun Apr 26 02:01:33 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:01:33",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGy9tz1a8AAUQx5.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048220568571515252",
+    "fullText": "Ray Charles was a self-made prodigy who mastered composition in Braille and learned four instruments while at a school for the blind. After losing both parents by age 15, he moved to Seattle with just $600 to launch a career that would redefine American music.\n\nHe's honored on https://t.co/obbOoJAs75",
+    "createdAt": "Sun Apr 26 02:00:12 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:00:12",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048220547457151241",
+    "fullText": "Idaho lawmakers spent hours debating about a surge of rats in Boise, but despite pleas from local officials, proposals failed over government overreach concerns. \n\nIt’s the latest growing pain as the state faces rapid population growth. https://t.co/mTCvy14s4a",
+    "createdAt": "Sun Apr 26 02:00:07 +0000 2026",
+    "createdAtFormatted": "2026/4/26 10:00:07",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53302056,
+      "friendsCount": 844,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2048220112314921193",
+    "fullText": "Breaking News: President Trump appeared to be unharmed and a suspect was detained after gunfire broke out near the White House correspondents’ dinner. Trump said that he would soon hold a news conference at the White House. Follow live updates. https://t.co/wahBJqXsUB",
+    "createdAt": "Sun Apr 26 01:58:23 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:58:23",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048217071243177998",
+    "fullText": "BREAKING: President Trump will give a statement at the White House after a shooting incident at correspondents dinner. https://t.co/GgwtUxtbTE",
+    "createdAt": "Sun Apr 26 01:46:18 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:46:18",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2048216670376808448/vid/avc1/1280x720/PukQEeTnLm4X784V.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048216796562407927",
+    "fullText": "Service agents evacuated President Trump from his table at the White House Correspondents’ Association dinner. Cabinet secretaries also left the ballroom, according to witnesses.\n\nLive updates: https://t.co/22omcZ4dn6 https://t.co/fjoWMRHxHL",
+    "createdAt": "Sun Apr 26 01:45:12 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:45:12",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048215401549451276",
+    "fullText": "BREAKING: A person is in custody after a \"shooting incident\" near a security checkpoint at White House correspondents dinner, authorities say. https://t.co/eC74PMXbLC",
+    "createdAt": "Sun Apr 26 01:39:40 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:39:40",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGy22KiaUAAva1I.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048212976503865623",
+    "fullText": "Four years ago, Atlas looked like it was on the brink of collapse. Today, tech billionaires are lining up to pay $1,000 a year for its card. https://t.co/lHoZFg8nKK (📸: Atlas) https://t.co/bhw3qswKsM",
+    "createdAt": "Sun Apr 26 01:30:02 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:30:02",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2048210871185240064/vid/avc1/1280x720/Ub3FFs5WVf1EIXx7.mp4?tag=14"
+    ],
+    "tweetUrl": "https://x.com/business/status/2048210940135358847",
+    "fullText": "President Donald Trump and Vice President JD Vance were evacuated from the White House Correspondents’ Association dinner event in Washington Saturday following a security incident at the venue https://t.co/J3bc3g8ahx https://t.co/d0eMOTc2Nj",
+    "createdAt": "Sun Apr 26 01:21:56 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:21:56",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048208604243575251",
+    "fullText": "President Trump was evacuated and a person was taken into custody after shots were fired at the White House correspondents dinner https://t.co/WjvtIvjwMT",
+    "createdAt": "Sun Apr 26 01:12:39 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:12:39",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048207989484503182",
+    "fullText": "President Donald Trump and Vice President JD Vance were evacuated from the White House Correspondents’ Association dinner event in Washington Saturday following a security incident at the venue. Listen to that and the latest stories on Bloomberg News Now. https://t.co/nXUtIyCtSW",
+    "createdAt": "Sun Apr 26 01:10:13 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:10:13",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "nytimes",
+      "name": "The New York Times",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR_normal.png",
+      "description": "News tips? Share them here: https://t.co/ghL9OoYKMM",
+      "followersCount": 53302056,
+      "friendsCount": 844,
+      "location": "New York City"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/nytimes/status/2048207430966751372",
+    "fullText": "Breaking News: President Trump and members of his administration were rushed out of the White House Correspondents’ Association dinner amid reports of gunfire. Follow live updates. https://t.co/HCRuUKw5Fh",
+    "createdAt": "Sun Apr 26 01:08:00 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:08:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048207137814249705",
+    "fullText": "Breaking news: President Trump and other guests were evacuated from the White House Correspondents Association Dinner after loud noises were heard from inside the ballroom.\n\nFollow the latest updates: https://t.co/tMy9NyqXGz",
+    "createdAt": "Sun Apr 26 01:06:50 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:06:50",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2048207037855609060",
+    "fullText": "President Trump was evacuated and a person was taken into custody after shots were fired at the White House correspondents dinner https://t.co/noDD2VEd9d",
+    "createdAt": "Sun Apr 26 01:06:26 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:06:26",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048206731805696268",
+    "fullText": "BREAKING: Both President Trump and Vice President JD Vance are uninjured after an incident at the correspondents' annual dinner, AP source says. https://t.co/CChnqqXIJT",
+    "createdAt": "Sun Apr 26 01:05:13 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:05:13",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "CNN",
+      "name": "CNN",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
+      "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
+      "followersCount": 61861967,
+      "friendsCount": 1047,
+      "location": ""
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGywolPWIAAlK9K.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/CNN/status/2048206162646986791",
+    "fullText": "BREAKING: President Trump and top administration officials have been rushed out of the White House Correspondents' Dinner by Secret Service. A source says the president is safe. https://t.co/Zww7JHI2Wi https://t.co/Ly5BgNHStt",
+    "createdAt": "Sun Apr 26 01:02:57 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:02:57",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Forbes",
+      "name": "Forbes",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
+      "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
+      "followersCount": 20356047,
+      "friendsCount": 4605,
+      "location": "New York, NY"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HGyv_DEaMAAztZ7.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/Forbes/status/2048205459455438904",
+    "fullText": "#ForbesNewIvies: 20 Great Employer-Friendly Colleges Embracing AI https://t.co/VhjaQJrbFY \n\n(Photo: aimintang via Getty Images) https://t.co/IXi7prEbtR",
+    "createdAt": "Sun Apr 26 01:00:10 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:00:10",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19368052,
+      "friendsCount": 1641,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2048205434247409679",
+    "fullText": "In 2023, Florida lawmakers unanimously approved expanding KidCare to extend health insurance to more than 40,000 children. But the expanded coverage has stalled. https://t.co/N8B7WnqATB",
+    "createdAt": "Sun Apr 26 01:00:03 +0000 2026",
+    "createdAtFormatted": "2026/4/26 09:00:03",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "AP",
+      "name": "The Associated Press",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
+      "description": "Advancing the power of facts, globally 🌎",
+      "followersCount": 15831664,
+      "friendsCount": 6175,
+      "location": "Global"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/AP/status/2048202928528236970",
+    "fullText": "BREAKING: President Trump evacuated after a security incident at the White House correspondents dinner. https://t.co/6ZzorJulaV",
+    "createdAt": "Sun Apr 26 00:50:06 +0000 2026",
+    "createdAtFormatted": "2026/4/26 08:50:06",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10021326,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -23,7 +959,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -43,7 +979,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -63,7 +999,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19367026,
+      "followersCount": 19368052,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -81,7 +1017,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61858322,
+      "followersCount": 61861967,
       "friendsCount": 1047,
       "location": ""
     },
@@ -101,7 +1037,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -121,7 +1057,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -141,7 +1077,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19367026,
+      "followersCount": 19368052,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -161,7 +1097,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -181,7 +1117,7 @@
       "name": "The Associated Press",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
       "description": "Advancing the power of facts, globally 🌎",
-      "followersCount": 15829295,
+      "followersCount": 15831664,
       "friendsCount": 6175,
       "location": "Global"
     },
@@ -199,7 +1135,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10020357,
+      "followersCount": 10021326,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -217,7 +1153,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -237,7 +1173,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10020357,
+      "followersCount": 10021326,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -255,7 +1191,7 @@
       "name": "The Associated Press",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1736863672029310976/gzIskvxa_normal.jpg",
       "description": "Advancing the power of facts, globally 🌎",
-      "followersCount": 15829295,
+      "followersCount": 15831664,
       "friendsCount": 6175,
       "location": "Global"
     },
@@ -273,7 +1209,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19367026,
+      "followersCount": 19368052,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -293,7 +1229,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -313,7 +1249,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10020357,
+      "followersCount": 10021326,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -331,7 +1267,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10020357,
+      "followersCount": 10021326,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -349,7 +1285,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -367,7 +1303,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -385,7 +1321,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -405,7 +1341,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61858322,
+      "followersCount": 61861967,
       "friendsCount": 1047,
       "location": ""
     },
@@ -423,7 +1359,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19367026,
+      "followersCount": 19368052,
       "friendsCount": 1641,
       "location": "Washington, DC"
     },
@@ -441,7 +1377,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -459,7 +1395,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -477,7 +1413,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -497,7 +1433,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20355130,
+      "followersCount": 20356047,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -517,7 +1453,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10020357,
+      "followersCount": 10021326,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -535,7 +1471,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61858322,
+      "followersCount": 61861967,
       "friendsCount": 1047,
       "location": ""
     },
@@ -1498,6 +2434,24 @@
     "images": [],
     "videos": [],
     "tweetUrl": "https://x.com/Starlink/status/2027011032934494551",
+    "fullText": "Starlink’s high-speed internet is available in your area.\n\nExperience speeds up to 400+ Mbps to stream your favorite shows and sports, work from home, browse social media and more.",
+    "createdAt": "Thu Feb 26 13:21:04 +0000 2026",
+    "createdAtFormatted": "2026/2/26 21:21:04",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Starlink",
+      "name": "Starlink",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+      "description": "Fast, affordable internet available all around the world. Engineered by @SpaceX",
+      "followersCount": 1598277,
+      "friendsCount": 30,
+      "location": ""
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Starlink/status/2027011030925357218",
     "fullText": "Starlink’s high-speed internet is available in your area.\n\nExperience speeds up to 400+ Mbps to stream your favorite shows and sports, work from home, browse social media and more.",
     "createdAt": "Thu Feb 26 13:21:04 +0000 2026",
     "createdAtFormatted": "2026/2/26 21:21:04",
