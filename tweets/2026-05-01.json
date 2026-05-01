@@ -1,11 +1,142 @@
 [
   {
     "user": {
+      "screenName": "BillAckman",
+      "name": "Bill Ackman",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1619837521059348481/9UeNLFmD_normal.jpg",
+      "description": "CEO Pershing Square, Co-trustee @PershingSqFdn",
+      "followersCount": 2153000,
+      "friendsCount": 1132,
+      "location": "New York, NY"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/BillAckman/status/2050015006448582792",
+    "fullText": "Set a reminder for our upcoming Space! https://t.co/2lWN4iA95R",
+    "createdAt": "Fri May 01 00:50:39 +0000 2026",
+    "createdAtFormatted": "2026/5/1 08:50:39",
+    "quotedStatus": null
+  },
+  {
+    "user": {
       "screenName": "business",
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10040525,
+      "followersCount": 10040579,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2050014850969928182",
+    "fullText": "Long reliant on revenues to fuel growth, big tech firms including Meta, Amazon and Google are now borrowing heavily to develop AI systems https://t.co/LDk50soTBi",
+    "createdAt": "Fri May 01 00:50:02 +0000 2026",
+    "createdAtFormatted": "2026/5/1 08:50:02",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10040579,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2050014141549588505",
+    "fullText": "A top Wall Street regulator is considering changes to a weekly report covering the position of traders just as prediction market exchanges and offshore venues start to offer more contracts in the oldest corner of the derivatives market https://t.co/pQ1Fq0oR6j",
+    "createdAt": "Fri May 01 00:47:13 +0000 2026",
+    "createdAtFormatted": "2026/5/1 08:47:13",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19371498,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2050013585607135312",
+    "fullText": "U.S. lawmakers approved a 45-day reprieve for the controversial electronic-surveillance program known as Section 702.\n\nThe vote was the latest near-death experience for the Foreign Intelligence Service Act’s 702 program. https://t.co/uOIjb6LcwK",
+    "createdAt": "Fri May 01 00:45:00 +0000 2026",
+    "createdAtFormatted": "2026/5/1 08:45:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "Nature",
+      "name": "nature",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1808863282091991040/EzGcmXyr_normal.jpg",
+      "description": "Research, News, and Commentary from Nature, the international science journal\nFor daily science news, get Nature Briefing: https://t.co/wGmQlQ8a4D",
+      "followersCount": 2620761,
+      "friendsCount": 3222,
+      "location": "Worldwide"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/Nature/status/2050011820996391248",
+    "fullText": "Members of the US Congress have signaled that they will once again reject a proposal by the Trump administration to slash science spending. But the bill they advanced today still calls for substantial cuts to budgets at agencies such as the National Science Foundation.",
+    "createdAt": "Fri May 01 00:38:00 +0000 2026",
+    "createdAtFormatted": "2026/5/1 08:38:00",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10040579,
+      "friendsCount": 110,
+      "location": "New York and the World"
+    },
+    "images": [],
+    "videos": [],
+    "tweetUrl": "https://x.com/business/status/2050010461232369832",
+    "fullText": "South Korea’s exports extended their strong run in April, with robust semiconductor demand continuing to anchor growth, despite mounting risks from higher energy prices linked to the Iran turmoil https://t.co/PInYzeET80",
+    "createdAt": "Fri May 01 00:32:35 +0000 2026",
+    "createdAtFormatted": "2026/5/1 08:32:35",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "washingtonpost",
+      "name": "The Washington Post",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
+      "description": "Democracy Dies in Darkness",
+      "followersCount": 19371498,
+      "friendsCount": 1640,
+      "location": "Washington, DC"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HHMZFFVXwAATCv6.jpg",
+      "https://pbs.twimg.com/media/HHMZGSGXQAAH7EO.jpg",
+      "https://pbs.twimg.com/media/HHMZHiwXwAAjv7q.jpg",
+      "https://pbs.twimg.com/media/HHMZIuiWkAIpx-G.jpg"
+    ],
+    "videos": [],
+    "tweetUrl": "https://x.com/washingtonpost/status/2050009915029119102",
+    "fullText": "King Charles III and Queen Camilla attended a block party in Front Royal, Virginia, on one of the final stops of their state visit.\n\nBut for people of the 15,000-person town, the monarchs’ roughly hour-long stop was a once-in-a-lifetime experience. https://t.co/SvV6i2T6eX https://t.co/2ZMu6M54tO",
+    "createdAt": "Fri May 01 00:30:25 +0000 2026",
+    "createdAtFormatted": "2026/5/1 08:30:25",
+    "quotedStatus": null
+  },
+  {
+    "user": {
+      "screenName": "business",
+      "name": "Bloomberg",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
+      "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
+      "followersCount": 10040579,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -23,7 +154,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10040525,
+      "followersCount": 10040579,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -41,7 +172,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19371597,
+      "followersCount": 19371498,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
@@ -59,7 +190,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10040525,
+      "followersCount": 10040579,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -77,7 +208,7 @@
       "name": "Bloomberg",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1631723279676317709/-fjgaR2p_normal.jpg",
       "description": "The first word in business news | Watch Live: https://t.co/nHEpHOAfg3 | Newsletters: https://t.co/nWaCxHTiks | Podcasts: https://t.co/096e9xMJF7",
-      "followersCount": 10040525,
+      "followersCount": 10040579,
       "friendsCount": 110,
       "location": "New York and the World"
     },
@@ -95,7 +226,7 @@
       "name": "CNN",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1669780523911110656/K9gaaM1g_normal.jpg",
       "description": "It’s our job to #GoThere and tell the most difficult stories. For breaking news, follow @CNNBRK and download the CNN app ➡️ https://t.co/7PQD7o6fLw",
-      "followersCount": 61902910,
+      "followersCount": 61903020,
       "friendsCount": 1048,
       "location": ""
     },
@@ -115,7 +246,7 @@
       "name": "Forbes",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1711185897415180288/lgwajQTW_normal.jpg",
       "description": "Sign up now for Forbes' free daily newsletter for unmatched insights and exclusive reporting: https://t.co/v3UAa9BzAT",
-      "followersCount": 20366530,
+      "followersCount": 20366560,
       "friendsCount": 4605,
       "location": "New York, NY"
     },
@@ -135,7 +266,7 @@
       "name": "The Washington Post",
       "profileImageUrl": "https://pbs.twimg.com/profile_images/1060271522319925257/fJKwJ0r2_normal.jpg",
       "description": "Democracy Dies in Darkness",
-      "followersCount": 19371597,
+      "followersCount": 19371498,
       "friendsCount": 1640,
       "location": "Washington, DC"
     },
